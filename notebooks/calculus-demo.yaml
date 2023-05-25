@@ -1,0 +1,531 @@
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int x^n dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int x^n dx = \frac{x^{n+1}}{n+1} + C$, for $n \neq -1$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\frac{x^{n+1}}{n+1} + C$.
+      - 0: The final answer is not $\frac{x^{n+1}}{n+1} + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly states the power rule for integration, and applies it correctly to arrive at the final answer.
+      - 25: The explanation is partially correct but either does not correctly state the power rule for integration or does not correctly apply it.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The power rule for integration states that the integral of $x^n$ is $\frac{x^{n+2}}{n+2} + C$. So the integral of $x^n dx$ is $\frac{x^{n+2}}{n+2} + C$.
+      choice: '0'
+    - completion: |-
+        The power rule for integration states that the integral of $x^n$ is $\frac{x^{n+1}}{n+1} + C$, for $n \neq -1$. So the integral of $x^n dx$ is $\frac{x^{n+1}}{n+1} + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \frac{1}{x} dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \frac{1}{x} dx = \ln|x| + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\ln|x| + C$.
+      - 0: The final answer is not $\ln|x| + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\frac{1}{x} dx$ is $\ln|x| + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\frac{1}{x} dx$ as $\ln|x| + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\frac{1}{x} dx$ is $\frac{1}{2} x^2 + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\frac{1}{x} dx$ is $\ln|x| + C$.
+      choice: '100'
+
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int e^{x} dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    Because the derivative of $e^x$ is $e^x$, it follows that $\int e^x dx$ is simply $e^x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $e^x + C$.
+      - 0: The final answer is not $e^x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly states that the derivative of $e^x$ is $e^x$, so the integral of $e^x dx$ is $e^x + C$.
+      - 25: The explanation is partially correct but either does not correctly identify the derivative of $e^x$ as $e^x$ or does not correctly state that the integral of $e^x dx$ is $e^x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        We know that the derivative of $e^x$ is itself, so we can use substitution to evaluate the integral. Let $u=e^x$, then $du=e^x dx$. Substituting these into the integral, we get:
+        $$
+        \int e^{x} dx = \int u du = \frac{u^2}{2} + C = \frac{e^{2x}}{2} + C
+        $$
+      choice: '0'
+    - completion: |-
+        We know that the derivative of $e^x$ is itself, so we can use integration by substitution. Let $u = x$ and $du = dx$. Then we have:
+        $$
+        \int e^{x} dx = \int e^{u} du = e^u + C = e^x + C
+        $$
+        where $C$ is the constant of integration. Therefore, the solution to the integral is $\boxed{e^x + C}$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int b^x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int b^x dx = \frac{b^x}{\ln b} + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\frac{b^x}{\ln b} + C$.
+      - 0: The final answer is not $\frac{b^x}{\ln b} + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $b^x dx$ is $\frac{b^x}{\ln b} + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $b^x dx$ as $\frac{b^x}{\ln b} + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $b^x dx$ is $b^x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $b^x dx$ is $\frac{b^x}{\ln b} + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \sin x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \sin x dx = -\cos x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $-\cos x + C$.
+      - 0: The final answer is not $-\cos x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\sin x dx$ is $-\cos x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\sin x dx$ as $-\cos x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\sin x dx$ is $\cos x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\sin x dx$ is $-\cos x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \cos x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $|int \cos x dx = \sin x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\sin x + C$.
+      - 0: The final answer is not $\sin x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\cos x dx$ is $\sin x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\cos x dx$ as $\sin x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\cos x dx$ is $-\sin x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\cos x dx$ is $\sin x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \sec^2 x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \sec^2 x dx = \tan x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\tan x + C$.
+      - 0: The final answer is not $\tan x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\sec^2 x dx$ is $\tan x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\sec^2 x dx$ as $\tan x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\sec^2 x dx$ is $\cot x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\sec^2 x dx$ is $\tan x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \csc^2 x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \csc^2 x dx = -\cot x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $-\cot x + C$.
+      - 0: The final answer is not $-\cot x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\csc^2 x dx$ is $-\cot x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\csc^2 x dx$ as $-\cot x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        Using the identity $\csc^2 x = 1 + \cot^2 x$, we have
+        \begin{align*}
+        \int \csc^2 x dx &= \int (1 + \cot^2 x) dx \\
+        &= \int dx + \int \cot^2 x dx \\
+        &= x - \cot x + C.
+        \end{align*}
+        Therefore,
+        $$
+        \int \csc^2 x dx = x - \cot x + C.
+        $$
+      choice: '0'
+    - completion: |-
+        The integral of $\csc^2 x dx$ is $\tan x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\csc^2 x dx$ is $-\cot x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \sec x \tan x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \sec x \tan x dx = \sec x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\sec x + C$.
+      - 0: The final answer is not $\sec x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\sec x \tan x dx$ is $\sec x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\sec x \tan x dx$ as $\sec x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\sec x \tan x dx$ is $\csc x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\sec x \tan x dx$ is $\sec x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \csc x \cot x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \csc x \cot x dx = -\csc x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $-\csc x + C$.
+      - 0: The final answer is not $-\csc x + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\csc x \cot x dx$ is $-\csc x + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\csc x \cot x dx$ as $-\csc x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\csc x \cot x dx$ is $\tan x + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\csc x \cot x dx$ is $-\csc x + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \sec x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \sec x dx = \ln |\sec x + \tan x| + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\ln |\sec x + \tan x| + C$.
+      - 0: The final answer is not $\ln |\sec x + \tan x| + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly identifies that the integral of $\sec x dx$ is $\ln |\sec x + \tan x| + C$.
+      - 25: The explanation is partially correct but does not correctly identify the integral of $\sec x dx$ as $\ln |\sec x + \tan x| + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\sec x dx$ is $\ln |\cos x| + C$.
+      choice: '0'
+    - completion: |-
+        The integral of $\sec x dx$ is $\ln |\sec x + \tan x| + C$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \csc x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \csc x dx = \ln |\csc x-\cot x| + C$. Note that $-\ln|\csc x + \cot x| + C$ is also an antiderivative of $\csc x dx$, but $\ln |\csc x-\cot x| + C$ is the form more commonly found in textbooks and references.
+  rubric: |-
+    - Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+      - 50: The final answer is $\ln |\csc x-\cot x| + C$.
+      - 0: The final answer is not $\ln |\csc x-\cot x| + C$.
+    - Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 50: The explanation correctly states that the integral of $\csc x dx$ is $\ln |\csc x-\cot x| + C$, and may note that $-\ln|\csc x + \cot x| + C$ is in the same equivalence class of antiderivatives.
+      - 25: The explanation is partially correct but either does not correctly identify the integral of $\csc x dx$ as $\ln |\csc x-\cot x| + C$ or does not mention the alternative form.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+      choice: '0'
+    - completion: |-
+        We know that $\csc x = 1/\sin x$, and the integral of $\csc x dx$ can be calculated as follows:
+        $$
+        \int \csc x dx = \int \frac{1}{\sin x} dx = -\ln |\cos x| + C
+        $$
+      choice: '0'
+    - completion: |-
+        We know that $\csc x = 1/\sin x$, and we can use the identity $\csc x = \cot x + \csc x$ to simplify the integral. Therefore, we have:
+        $$
+        \int \csc x dx = \int (\cot x + \csc x) dx = \ln |\csc x - \cot x| + C
+        $$
+        where $C$ is the constant of integration. Therefore, the solution to the integral is $\boxed{\ln |\csc x - \cot x| + C}$.
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \tan x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \tan x dx = \ln |\sec x| + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\ln |\sec x| + C$.
+      - 0: The final answer is not $\ln |\sec x| + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that the derivative of $\ln |\sec x|$ is $\tan x$, so the integral of $\tan x dx$ is $\ln |\sec x| + C$.
+      - 25: The explanation is partially correct but either does not correctly identify the derivative of $\ln |\sec x|$ as $\tan x$ or does not correctly state that the integral of $\tan x dx$ is $\ln |\sec x| + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        To evaluate the integral $\int \tan x dx$, we can use the identity $\tan x = \frac{\sin x}{\cos x}$ and apply the substitution $u = \cos x$, $du = -\sin x dx$. This leads to:
+        $$
+        \int \tan x dx = \int -\frac{1}{u} du = -\ln |u| + C = -\ln |\cos x| + C
+        $$
+      choice: '0'
+    - completion: |-
+        The integral $\int \tan x dx$ can be solved by recognizing that the derivative of $\ln |\sec x|$ is $\tan x$. Therefore, we have:
+        $$
+        \int \tan x dx = \ln |\sec x| + C
+        $$
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \cot x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \cot x dx = \ln |\sin x| + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\ln |\sin x| + C$.
+      - 0: The final answer is not $\ln |\sin x| + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that the derivative of $-\ln |\sin x|$ is $\cot x$, so the integral of $\cot x dx$ is $\ln |\sin x| + C$.
+      - 25: The explanation is partially correct but either does not correctly identify the derivative of $-\ln |\sin x|$ as $\cot x$ or does not correctly state that the integral of $\cot x dx$ is $\ln |\sin x| + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        To evaluate the integral $\int \cot x dx$, we can use the identity $\cot x = \frac{\cos x}{\sin x}$ and apply the substitution $u = \sin x$, $du = \cos x dx$. This leads to:
+        $$
+        \int \cot x dx = \int \frac{1}{u} du = \ln |u| + C = \ln |\sin x| + C
+        $$
+      choice: '0'
+    - completion: |-
+        The integral $\int \cot x dx$ can be solved by recognizing that the derivative of $-\ln |\sin x|$ is $\cot x$. Therefore, we have:
+        $$
+        \int \cot x dx = \ln |\sin x| + C
+        $$
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \sinh x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \sinh x dx = \cosh x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\cosh x + C$.
+      - 0: The final answer is not $\cosh x + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that the derivative of $\cosh x$ is $\sinh x$, so the integral of $\sinh x dx$ is $\cosh x + C$.
+      - 25: The explanation is partially correct but either does not correctly identify the derivative of $\cosh x$ as $\sinh x$ or does not correctly state that the integral of $\sinh x dx$ is $\cosh x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    Note that $\sinh x = \frac{e^x - e^{-x}}{2}$ and $\cosh x = \frac{e^x - e^{-x}}{2}$. Thus an expression such as
+    $$
+    \int \sinh x dx = \frac{e^x}{2} - \frac{e^{-x}}{2} + C
+    $$
+    is incorrect.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        To evaluate the integral $\int \sinh x dx$, we can use the identity $\sinh x = \frac{e^x - e^{-x}}{2}$ and then integrate term by term. However, this gives us the result:
+        $$
+        \int \sinh x dx = \frac{e^x}{2} - \frac{e^{-x}}{2} + C
+        $$
+        which is incorrect.
+      choice: '0'
+    - completion: |-
+        We have:
+        \begin{align*}
+        \int \sinh x dx &= \int \frac{e^x - e^{-x}}{2} dx \\
+        &= \frac{1}{2} \int e^x dx - \frac{1}{2} \int e^{-x} dx \\
+        &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C \\
+        &= \frac{e^x - e^{-x}}{2} + C
+        \end{align*}
+        where $C$ is the constant of integration. 
+
+        $$\int \sinh x dx = \frac{e^x - e^{-x}}{2} + C$$
+      choice: '0'
+    - completion: |-
+        The integral $\int \sinh x dx$ can be solved by recognizing that the derivative of $\cosh x$ is $\sinh x$. Therefore, we have:
+        $$
+        \int \sinh x dx = \cosh x + C
+        $$
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \cosh x dx
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \cosh x dx = \sinh x + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\sinh x + C$.
+      - 0: The final answer is not $\sinh x + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that the derivative of $\sinh x$ is $\cosh x$, so the integral of $\cosh x dx$ is $\sinh x + C$.
+      - 25: The explanation is partially correct but either does not correctly identify the derivative of $\sinh x$ as $\cosh x$ or does not correctly state that the integral of $\cosh x dx$ is $\sinh x + C$.
+      - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral of $\int \cosh x dx$ can be solved by using the identity $\cosh x = \frac{e^x + e^{-x}}{2}$ and then integrate term by term. This gives us the result:
+        $$
+        \int \cosh x dx = \frac{e^x}{2} + \frac{e^{-x}}{2} + C
+        $$
+        which is incorrect.
+      choice: '0'
+    - completion: |-
+        The integral $\int \cosh x dx$ can be solved by recognizing that the derivative of $\sinh x$ is $\cosh x$. Therefore, we have:
+        $$
+        \int \cosh x dx = \sinh x + C
+        $$
+      choice: '100'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \frac{dx}{x^2+a^2}
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$.
+      - 0: The final answer is not $\frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that this integral is a standard one that is often memorized from an integral table.
+      - 25: The explanation is partially correct but doesn't correctly identify the integral as a standard one from an integral table.
+      - 0: The explanation is incorrect or missing.
+    
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral $\int \frac{dx}{x^2+a^2}$ can be evaluated by recognizing the form of the integrand and using the known result. This is a standard integral in calculus. The integral is equal to:
+        $$
+        \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C
+        $$
+        Therefore, the final result is $\frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$.
+      choice: '100'
+    - completion: |-
+        The integral $\int \frac{dx}{x^2+a^2}$ is a common one that appears in calculus. We can solve it by using substitution. Let $u = x^2 + a^2$, then $du = 2x dx$. We can then rewrite the integral as $\frac{1}{2} \int \frac{du}{u}$, which is equal to $\frac{1}{2} \ln |u| + C$ or $\frac{1}{2} \ln |x^2 + a^2| + C$, which is incorrect.
+      choice: '0'
+- input: |-
+    Evaluate the following integral:
+    $$
+    \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
+    $$
+    When you are done, repeat your answer by itself on a new line.
+  ideal: |-
+    $\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C$.
+  rubric: |-
+    - Final Answer Correctness (50 points):
+      - 50: The final answer is $\sin^{-1}\left(\frac{x}{a}\right) + C$.
+      - 0: The final answer is not $\sin^{-1}\left(\frac{x}{a}\right) + C$.
+    - Explanation Correctness (50 points):
+      - 50: The explanation correctly states that this integral is a standard one that is often memorized from an integral table.
+      - 25: The explanation is partially correct but doesn't correctly identify the integral as a standard one from an integral table.
+      - 0: The explanation is incorrect or missing.
+    
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.
+  example_evals:
+    - completion: |-
+        The integral $\int \frac{dx}{\sqrt{a^2-x^2}}$ is a standard integral in calculus. We can solve it by recognizing the form of the integrand and using the known result. The integral is equal to:
+        $$
+        \sin^{-1}\left(\frac{x}{a}\right) + C
+        $$
+        Therefore, the final result is $\sin^{-1}\left(\frac{x}{a}\right) + C$.
+      choice: '100'
+    - completion: |-
+        The integral $\int \frac{dx}{\sqrt{a^2-x^2}}$ is a common one that appears in calculus. We can solve it by using substitution. Let $u = \sqrt{a^2-x^2}$, then $du = -\frac{x}{\sqrt{a^2-x^2}} dx$. We can then rewrite the integral as $- \int \frac{du}{u}$, which is equal to $- \ln |u| + C$ or $- \ln |\sqrt{a^2-x^2}| + C$, which is incorrect.
+      choice: '0'

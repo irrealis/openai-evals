@@ -1,0 +1,94 @@
+I would like to contribute to the OpenAI evals project and am working on model-graded calculus evals.
+
+So far I have three files to setup the evals:
+
+`evals/registry/modelgraded/mathematics.yaml`. I don't know the name for this type of file, but it specifies a template for a model-graded eval for use with mathematics evals. Here are the contents:
+
+```yaml
+mathematics:
+  prompt: |-
+    You are comparing a submitted answer to an expert answer for a given mathematics problem:
+    ---
+    [Mathematics Problem]: {input}
+    ---
+    [Expert]: {ideal}
+    ---
+    [Submission]: {completion}
+    ---
+    Use the following rubric to score the submission. Round the score to the nearest integer in the range 0-100 inclusive.
+
+    [Rubric]: {rubric}
+  eval_type: cot_classify
+  choice_scores: {"100": 1.0, "99": 0.99, "98": 0.98, "97": 0.97, "96": 0.96, "95": 0.95, "94": 0.94, "93": 0.93, "92": 0.92, "91": 0.91, "90": 0.9, "89": 0.89, "88": 0.88, "87": 0.87, "86": 0.86, "85": 0.85, "84": 0.84, "83": 0.83, "82": 0.82, "81": 0.81, "80": 0.8, "79": 0.79, "78": 0.78, "77": 0.77, "76": 0.76, "75": 0.75, "74": 0.74, "73": 0.73, "72": 0.72, "71": 0.71, "70": 0.7, "69": 0.69, "68": 0.68, "67": 0.67, "66": 0.66, "65": 0.65, "64": 0.64, "63": 0.63, "62": 0.62, "61": 0.61, "60": 0.6, "59": 0.59, "58": 0.58, "57": 0.57, "56": 0.56, "55": 0.55, "54": 0.54, "53": 0.53, "52": 0.52, "51": 0.51, "50": 0.5, "49": 0.49, "48": 0.48, "47": 0.47, "46": 0.46, "45": 0.45, "44": 0.44, "43": 0.43, "42": 0.42, "41": 0.41, "40": 0.4, "39": 0.39, "38": 0.38, "37": 0.37, "36": 0.36, "35": 0.35, "34": 0.34, "33": 0.33, "32": 0.32, "31": 0.31, "30": 0.3, "29": 0.29, "28": 0.28, "27": 0.27, "26": 0.26, "25": 0.25, "24": 0.24, "23": 0.23, "22": 0.22, "21": 0.21, "20": 0.2, "19": 0.19, "18": 0.18, "17": 0.17, "16": 0.16, "15": 0.15, "14": 0.14, "13": 0.13, "12": 0.12, "11": 0.11, "10": 0.1, "9": 0.09, "8": 0.08, "7": 0.07, "6": 0.06, "5": 0.05, "4": 0.04, "3": 0.03, "2": 0.02, "1": 0.01, "0": 0.0}
+  choice_strings: ["100", "99", "98", "97", "96", "95", "94", "93", "92", "91", "90", "89", "88", "87", "86", "85", "84", "83", "82", "81", "80", "79", "78", "77", "76", "75", "74", "73", "72", "71", "70", "69", "68", "67", "66", "65", "64", "63", "62", "61", "60", "59", "58", "57", "56", "55", "54", "53", "52", "51", "50", "49", "48", "47", "46", "45", "44", "43", "42", "41", "40", "39", "38", "37", "36", "35", "34", "33", "32", "31", "30", "29", "28", "27", "26", "25", "24", "23", "22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1", "0"]
+  input_outputs:
+    input: "completion"
+```
+
+`evals/registry/evals/calculus.yaml`: This registers the eval. Its contents:
+
+```yaml
+calculus:
+  id: calculus.dev.v0
+  metrics: [accuracy]
+calculus.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: calculus/demo.jsonl
+    eval_type: cot_classify
+    modelgraded_spec: mathematics
+
+calculus-meta:
+  id: calculus-meta.dev.v0
+  metrics: [accuracy]
+calculus-meta.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: calculus/demo_labeled.jsonl
+    eval_type: cot_classify
+    modelgraded_spec: mathematics
+    metaeval: true
+```
+
+`evals/registry/data/calculus/demo.jsonl`: This is the dataset for the eval. For brevity I'll only list one line of the file:
+
+```json
+{"input":"Evaluate the following integral:\n$$\n\\int x^n dx\n$$","ideal":"$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$, for $n \\neq -1$.","rubric":"- Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.\n  - 50: The final answer is $\\frac{x^{n+1}}{n+1} + C$.\n  - 0: The final answer is not $\\frac{x^{n+1}}{n+1} + C$.\n- Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.\n  - 50: The explanation correctly states the power rule for integration, and applies it correctly to arrive at the final answer.\n  - 25: The explanation is partially correct but either does not correctly state the power rule for integration or does not correctly apply it.\n  - 0: The explanation is incorrect or missing.\n\nThere is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table."}
+```
+
+`evals/registry/data/calculus/demo_labels.jsonl`: This is the dataset for the meta eval, to evaluate the grading model. For brevity I'll only list two lines of the file:
+
+```json
+{"input":"Evaluate the following integral:\n$$\n\\int x^n dx\n$$","ideal":"$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$, for $n \\neq -1$.","rubric":"- Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.\n  - 50: The final answer is $\\frac{x^{n+1}}{n+1} + C$.\n  - 0: The final answer is not $\\frac{x^{n+1}}{n+1} + C$.\n- Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.\n  - 50: The explanation correctly states the power rule for integration, and applies it correctly to arrive at the final answer.\n  - 25: The explanation is partially correct but either does not correctly state the power rule for integration or does not correctly apply it.\n  - 0: The explanation is incorrect or missing.\n\nThere is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.","completion":"The power rule for integration states that the integral of $x^n$ is $\\frac{x^{n+2}}{n+2} + C$. So the integral of $x^n dx$ is $\\frac{x^{n+2}}{n+2} + C$.","choice":"0"}
+{"input":"Evaluate the following integral:\n$$\n\\int x^n dx\n$$","ideal":"$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$, for $n \\neq -1$.","rubric":"- Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.\n  - 50: The final answer is $\\frac{x^{n+1}}{n+1} + C$.\n  - 0: The final answer is not $\\frac{x^{n+1}}{n+1} + C$.\n- Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.\n  - 50: The explanation correctly states the power rule for integration, and applies it correctly to arrive at the final answer.\n  - 25: The explanation is partially correct but either does not correctly state the power rule for integration or does not correctly apply it.\n  - 0: The explanation is incorrect or missing.\n\nThere is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.","completion":"The power rule for integration states that the integral of $x^n$ is $\\frac{x^{n+1}}{n+1} + C$, for $n \\neq -1$. So the integral of $x^n dx$ is $\\frac{x^{n+1}}{n+1} + C$.","choice":"100"}
+```
+
+---
+
+Here is an example rubric for the problem of evaluating the surface area of Gabriel's Horn, which is described as the surface of revolution of \(y = e^{-x}\), \(x \ge 0\), about the \(x\)-axis:
+
+1. Problem Identification and Setup (20 points): The model correctly identifies the problem as a surface area of revolution calculation and sets up the integral correctly.
+
+2. Appropriate Substitution (20 points): The model correctly suggests the substitution $u = -e^{-x}$ and rewrites the integral in terms of $u$.
+
+3. Integral Evaluation (20 points): The model correctly evaluates the integral $\int_{0}^{-1} \sqrt{1 + u^2},du$.
+
+4. Applying the Bounds (20 points): The model correctly applies the bounds to the evaluated integral and simplifies the result.
+
+5. Final Simplification (20 points): The model correctly simplifies the result to obtain $\pi (\sqrt{2} + \ln(1 + \sqrt{2}))$.
+
+Each step of the process is worth 20 points, leading to a total score out of 100. A correct and well-explained solution would earn full points
+
+---
+
+Here is an example rubric for a standard integral the students typically memorize from a standard integral table, such as \(\int e^x dx = e^x + C\):
+
+1. Final Answer Correctness (50 points): The final answer provided by the model matches the expert's answer.
+  - 50: The final answer equivalent to $\ln |\csc x-\cot x| + C$.
+  - 0: The final answer is not $\ln |\csc x-\cot x| + C$.
+2. Explanation Correctness (50 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+  - 50: The explanation correctly states that the integral of $\csc x dx$ is $\ln |\csc x-\cot x| + C$, and may note that $-\ln|\csc x + \cot x| + C$ is in the same equivalence class of antiderivatives.
+  - 25: The explanation is partially correct but either does not correctly identify the integral of $\csc x dx$ as $\ln |\csc x-\cot x| + C$ or does not mention the alternative form.
+  - 0: The explanation is incorrect or missing.
+
+    There is little nuance in the grading of this problem, as the formula is fundamental and usually memorized as part of a standard integration table.

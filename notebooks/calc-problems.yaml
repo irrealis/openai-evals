@@ -1,0 +1,109 @@
+- input: |-
+    \[
+    \int x^n dx
+    \]
+    where \(n != -1\).
+  ideal: |-
+    \(\int x^n dx = \frac{x^{n+1}}{n+1} + C\), for \(n \neq -1\).
+- input: |-
+    \[
+    \int \frac{1}{x} dx
+    \]
+  ideal: |-
+    \(\int \frac{1}{x} dx = \ln|x| + C\).
+- input: |-
+    \[
+    \int e^{x} dx
+    \]
+  ideal: |-
+    \(\int e^x dx = e^x + C\).
+- input: |-
+    \[
+    \int b^x dx
+    \]
+  ideal: |-
+    \(\int b^x dx = \frac{b^x}{\ln b} + C\).
+- input: |-
+    \[
+    \int \sin x dx
+    \]
+  ideal: |-
+    \(\int \sin x dx = -\cos x + C\).
+- input: |-
+    \[
+    \int \cos x dx
+    \]
+  ideal: |-
+    \(\int \cos x dx = \sin x + C\).
+- input: |-
+    \[
+    \int \sec^2 x dx
+    \]
+  ideal: |-
+    \(\int \sec^2 x dx = \tan x + C\).
+- input: |-
+    \[
+    \int \csc^2 x dx
+    \]
+  ideal: |-
+    \(\int \csc^2 x dx = -\cot x + C\).
+- input: |-
+    \[
+    \int \sec x \tan x dx
+    \]
+  ideal: |-
+    \(\int \sec x \tan x dx = \sec x + C\).
+- input: |-
+    \[
+    \int \csc x \cot x dx
+    \]
+  ideal: |-
+    \(\int \csc x \cot x dx = -\csc x + C\).
+- input: |-
+    \[
+    \int \sec x dx
+    \]
+  ideal: |-
+    \(\int \sec x dx = \ln |\sec x + \tan x| + C\).
+- input: |-
+    \[
+    \int \csc x dx
+    \]
+  ideal: |-
+    \(\int \csc x dx = \ln |\csc x-\cot x| + C\). Note that \(-\ln|\csc x + \cot x| + C\) is also an antiderivative of \(\csc x dx\), but \(\ln |\csc x-\cot x| + C\) is the form more commonly found in textbooks and references.
+- input: |-
+    \[
+    \int \tan x dx
+    \]
+  ideal: |-
+    \(\int \tan x dx = \ln |\sec x| + C\).
+- input: |-
+    \[
+    \int \cot x dx
+    \]
+  ideal: |-
+    \(\int \cot x dx = \ln |\sin x| + C\).
+- input: |-
+    \[
+    \int \sinh x dx
+    \]
+  ideal: |-
+    \(\int \sinh x dx = \cosh x + C\).
+- input: |-
+    \[
+    \int \cosh x dx
+    \]
+  ideal: |-
+    \(\int \cosh x dx = \sinh x + C\).
+- input: |-
+    \[
+    \int \frac{dx}{x^2+a^2}
+    \]
+  ideal: |-
+    \(\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C\).
+- input: |-
+    \[
+    \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
+    \]
+  ideal: |-
+    \(\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C\).

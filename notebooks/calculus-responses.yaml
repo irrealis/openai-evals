@@ -1,0 +1,2963 @@
+- input: |-
+    \[
+    \int x^n dx
+    \]
+    where \(n != -1\).
+  ideal: |-
+    \(\int x^n dx = \frac{x^{n+1}}{n+1} + C\), for \(n \neq -1\).
+  responses:
+  - response: |-
+      Using the power rule of integration, we have:
+
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+
+      where \(C\) is the constant of integration. 
+
+      Answer: \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+    correct: true
+  - response: |-
+      Using the power rule of integration, we have:
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      where \(C\) is the constant of integration. 
+
+      Repeated answer: 
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+    correct: true
+  - response: |-
+      We use the power rule of integration, which states that for any real number \(n \neq -1\), \[\int x^n dx = \frac{x^{n+1}}{n+1} + C,\] where \(C\) is the constant of integration. 
+
+      Therefore, \[\int x^n dx = \frac{x^{n+1}}{n+1} + C.\]
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+    correct: true
+  - response: |-
+      We have 
+      \begin{align*} 
+      \int x^n dx &= \frac{x^{n+1}}{n+1} +C \quad (\text{since } n \neq -1)\\
+      &= \frac{1}{n+1}x^{n+1}+C
+      \end{align*}
+
+      Therefore, 
+      \[\int x^n dx = \frac{1}{n+1}x^{n+1}+C\]
+    correct: true
+  - response: |
+      If \(n != -1\), then we have 
+      \[
+      \int x^n dx = \frac{1}{n+1}x^{n+1} +C
+      \]
+      This can be shown by differentiating the right-hand side and observing that we obtain \(x^n\) as desired. Therefore,
+      \[
+      \int x^n dx = \frac{1}{n+1}x^{n+1} +C
+      \]
+    correct: true
+  - response: |-
+      We have:
+      \begin{align*}
+      \int x^n dx &= \frac{x^{n+1}}{n+1} + C \quad (\text{where } n\neq-1)\\
+      \end{align*}
+      This can be easily verified by taking the derivative of \(\frac{x^{n+1}}{n+1}\) and applying the power rule of differentiation. Therefore,
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (\text{where } n\neq-1)
+      \]
+    correct: true
+  - response: |-
+      Using the power rule of integration, we have:
+
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      where C is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+    correct: true
+  - response: |-
+      By the power rule of integration, we have:
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      where \(C\) is an arbitrary constant of integration.
+      Answer: 
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+    correct: true
+  - response: |-
+      Using the power rule of integration, we have
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1}+C\]
+
+      where C is the constant of integration. This follows from differentiation of the right-hand side.
+
+      Therefore,
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1}+C\]
+
+      where C is the constant of integration.
+    correct: true
+  - response: |-
+      If \(n = -1\), then \(\int x^n dx = \int \frac{1}{x} dx = \ln |x| + C\). However, since \(n\) is specified to be not equal to \(-1\), we can use the power rule of integration:
+      \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+      where \(C\) is the constant of integration.
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+    correct: true
+- input: |-
+    \[
+    \int \frac{1}{x} dx
+    \]
+  ideal: |-
+    \(\int \frac{1}{x} dx = \ln|x| + C\).
+  responses:
+  - response: |-
+      We have:
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C
+      \]
+      where \(C\) is the constant of integration. This is because we can write \(\frac{1}{x} = x^{-1}\) and then use the power rule of integration, which says that
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      for any real number \(n\neq -1\) (and where \(C\) is the constant of integration). Applying this rule with \(n=-1\) gives us the result above. 
+
+      \[\int \frac{1}{x} dx = \ln|x| + C\]
+    correct: false
+  - response: |-
+      We have:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln|x| + C \quad (\text{where } C \text{ is the constant of integration}) \\
+      &= \begin{cases}
+      \ln(x) + C_1, & \text{if } x > 0 \\
+      \ln(-x) + C_2, & \text{if } x < 0 \\
+      \end{cases}
+      \end{align*}
+      where $C_1$ and $C_2$ are constants of integration for the respective cases. 
+
+      Answer: \(\int \frac{1}{x} dx = \ln|x| + C\)
+    correct: true
+  - response: |-
+      We can evaluate the integral by using the formula for integrating powers of x:
+      \[
+      \int x^n dx = \frac{1}{n+1}x^{n+1} + C,
+      \]
+      where C is an arbitrary constant. Using this formula with n = -1, we get:
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C.
+      \]
+      Therefore:
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C.
+      \]
+    correct: false
+  - response: |-
+      We can evaluate the integral \(\int \frac{1}{x} dx\) using the rule of logarithms: \[\int \frac{1}{x} dx = \ln |x| + C\] where \(C\) is the constant of integration. We need to include the absolute value because the function \(\frac{1}{x}\) is undefined at \(x=0\) and can take on positive or negative values depending on the sign of \(x\).
+
+      \[\int \frac{1}{x} dx = \ln |x| + C\]
+    correct: false
+  - response: |-
+      We have
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln |x| + C \quad \text{(since }\frac{d}{dx} (\ln |x|) = \frac{1}{x}\text{)} \\
+      &= \begin{cases}
+      \ln x + C_1, & \text{if } x>0 \\
+      \ln (-x) + C_2, & \text{if } x<0
+      \end{cases} \quad \text{(using }\ln |x| = \begin{cases}
+      \ln x, & \text{if } x>0 \\
+      \ln(-x), & \text{if } x<0
+      \end{cases}\text{)}
+      \end{align*}
+
+      Therefore,
+      \[
+      \int \frac{1}{x} dx = \ln |x| + C = \begin{cases}
+      \ln x + C_1, & \text{if } x>0 \\
+      \ln (-x) + C_2, & \text{if } x<0
+      \end{cases}
+      \]
+    correct: true
+  - response: |-
+      We can evaluate the integral using the power rule of integration:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln|x| + C &&\text{(where } C \text{ is the constant of integration)}
+      \end{align*}
+      Therefore, 
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C
+      \]
+    correct: false
+  - response: |-
+      We have:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln |x| + C,
+      \end{align*}
+      where \(C\) is an arbitrary constant of integration. This follows from the fact that the derivative of \(\ln|x|\) is \(\frac{1}{x}\). Note that the absolute value is necessary since the antiderivative is only defined up to a constant, so we need to account for the possibility of negative values of \(x\). 
+
+      \[\int \frac{1}{x} dx = \ln |x| + C\]
+    correct: true
+  - response: |-
+      We have:
+      \[
+      \int \frac{1}{x} dx = \ln |x| + C,
+      \]
+      where \(C\) is the constant of integration. The reason for this is that the derivative of \(\ln |x|\) is \(\frac{1}{x}\) for all nonzero values of \(x\), since the absolute value function has a piecewise-defined derivative. Therefore, by the Fundamental Theorem of Calculus, we have:
+      \[
+      \int \frac{1}{x} dx = \ln |x| + C.
+      \]
+      Answer: \(\int \frac{1}{x} dx = \ln |x| + C\).
+    correct: true
+  - response: |-
+      We have:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln |x| + C \\
+      &= \boxed{\ln |x| + C}
+      \end{align*}
+    correct: true
+  - response: |-
+      We can evaluate this integral using the property of logarithms:
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C,
+      \]
+      where \(C\) is a constant of integration. This comes from the derivative of \(\ln|x|\) being \(1/x\).
+
+      Therefore,
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C.
+      \]
+    correct: true
+- input: |-
+    \[
+    \int e^{x} dx
+    \]
+  ideal: |-
+    \(\int e^x dx = e^x + C\).
+  responses:
+  - response: |-
+      We can evaluate the integral using the integration rule for exponential functions:
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+      where C is the constant of integration. This is because the derivative of $e^{x}$ is itself:
+      \[
+      \frac{d}{dx} (e^{x}) = e^{x}
+      \]
+      Therefore, the antiderivative of $e^{x}$ is $e^{x}$. 
+
+      Hence, 
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+    correct: true
+  - response: |-
+      We can evaluate the integral using integration by substitution. Let \(u = e^x\), so \(du/dx = e^x\) and \(dx = du/e^x = du/u\). Then we have:
+      \begin{align*}
+      \int e^{x} dx &= \int u \frac{du}{u}\\
+      &= \int du\\
+      &= u + C\\
+      &= e^x + C
+      \end{align*}
+      Therefore, \(\int e^{x} dx = e^x + C\).
+
+      \[\int e^x dx = e^x + C\]
+    correct: true
+  - response: |-
+      We can use the fact that the derivative of $e^x$ is itself, and thus the antiderivative of $e^x$ is $e^x$. Therefore, we have
+      \[
+      \int e^{x} dx = e^x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      $$\int e^{x} dx = e^x + C$$
+    correct: true
+  - response: |-
+      We can evaluate this integral using the rule for integrating exponential functions:
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+      where C is the constant of integration. The reason for this is that the derivative of e^x with respect to x is itself (that is, d/dx e^x = e^x), so when we take the antiderivative of e^x, we end up with e^x plus a constant term.
+
+      Therefore, we have:
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+
+      \[
+      \int e^{x} dx = e^{x} + C
+      \]
+    correct: true
+  - response: |-
+      We can evaluate the integral using integration by substitution. Let \(u = e^x\) and \(du = e^x dx\). Then, the integral becomes
+      \[
+      \int e^{x} dx = \int u du = \frac{1}{2}u^2 + C = \frac{1}{2}e^{2x} + C,
+      \]
+      where \(C\) is the constant of integration. Therefore,
+      \[
+      \int e^{x} dx = \frac{1}{2}e^{2x} + C.
+      \]
+    correct: false
+  - response: |-
+      We have
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where $C$ is the constant of integration. This can be verified by taking the derivative of $e^x + C$ with respect to $x$, which is $e^x$. 
+
+      \[
+      \int e^{x} dx = e^x + C
+      \]
+    correct: true
+  - response: |-
+      We can evaluate the integral using integration by substitution. Let \(u = x\) and \(dv = e^x dx\). Then \(du = dx\) and \(v = e^x\). Therefore,
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where \(C\) is the constant of integration. 
+
+      \[\int e^{x} dx = e^x + C\]
+    correct: false
+  - response: |-
+      We can use the fact that the derivative of $e^x$ is $e^x$ to evaluate the integral:
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where $C$ is the constant of integration. 
+
+      Answer: $\int e^{x} dx = e^x + C$
+    correct: true
+  - response: |-
+      We can solve the integral $\int e^x dx$ by using integration by substitution. Let \(u = x\) and \(du = dx\). Then we have:
+      \begin{align*}
+      \int e^x dx &= \int e^u du \\
+      &= e^u + C \\
+      &= e^x + C
+      \end{align*}
+      Therefore, \(\int e^x dx = e^x + C\).
+
+      \[\int e^x dx = e^x + C\]
+    correct: true
+  - response: |-
+      We can evaluate the integral \(\int e^x dx\) by using the formula for the antiderivative of an exponential function, which is:
+      \[
+      \int e^x dx = e^x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore, 
+      \begin{align*}
+      \int e^{x} dx &= e^x + C \\
+      &= \boxed{e^x + C}
+      \end{align*}
+    correct: true
+- input: |-
+    \[
+    \int b^x dx
+    \]
+  ideal: |-
+    \(\int b^x dx = \frac{b^x}{\ln b} + C\).
+  responses:
+  - response: |-
+      Using the power rule of integration, we have:
+      \begin{align*}
+      \int b^x dx &= \frac{b^x}{\ln(b)} + C \\
+      &= \frac{1}{\ln(b)} b^x + C
+      \end{align*}
+      where \(C\) is the constant of integration. 
+
+      Therefore, the integral of \(b^x\) is \(\frac{1}{\ln(b)} b^x + C\).
+    correct: false
+  - response: |-
+      Using the power rule of integration, we have:
+
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C
+      \]
+
+      where C is the constant of integration. 
+
+      Answer: 
+
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C
+      \]
+    correct: false
+  - response: |-
+      Using the power rule of integration, we have:
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+      where C is the constant of integration. 
+
+      Answer: $\int b^x dx = \frac{b^x}{\ln(b)} + C$
+    correct: false
+  - response: |-
+      The antiderivative of $b^x$ is $\frac{b^x}{\ln b}+C$, where $\ln$ denotes the natural logarithm and $C$ is the constant of integration. We can verify this by using the chain rule and the fact that $(b^x)'= b^x \ln b$:
+      \[
+      \frac{d}{dx} \left( \frac{b^x}{\ln b} \right) = \frac{b^x \ln b}{\ln b}= b^x
+      \]
+      Therefore, 
+      \[
+      \int b^x dx = \frac{b^x}{\ln b}+C
+      \]
+
+      Answer: $\int b^x dx = \frac{b^x}{\ln b}+C$
+    correct: true
+  - response: |-
+      Using the power rule of integration, we have:
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C,
+      \]
+      where C is the constant of integration. 
+
+      Answer: $\int b^x dx = \frac{b^x}{\ln(b)} + C$
+    correct: false
+  - response: |-
+      We can evaluate the integral using the rule:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+
+      where C is the constant of integration. We can verify this by taking the derivative of the right-hand side to obtain:
+
+      \[
+      \begin{aligned}
+      \frac{d}{dx}\left(\frac{b^x}{\ln(b)} + C\right) &= \frac{d}{dx}\left(\frac{1}{\ln(b)} b^x\right) \\
+      &= \frac{1}{\ln(b)} \cdot \frac{d}{dx} b^x \\
+      &= \frac{1}{\ln(b)} \cdot b^x \cdot \ln(b) \\
+      &= b^x
+      \end{aligned}
+      \]
+
+      Thus, we have:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+
+      Repeated answer:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+    correct: true
+  - response: |-
+      We can evaluate the indefinite integral by applying the power rule of integration:
+      \begin{align*}
+      \int b^x dx &= \frac{1}{\ln(b)} b^x + C 
+      \end{align*}
+      where \(C\) is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int b^x dx = \frac{1}{\ln(b)} b^x + C 
+      \]
+    correct: false
+  - response: |-
+      Using the power rule of integration, we have:
+      \begin{align*}
+      \int b^x dx &= \frac{b^x}{\ln b} + C \\
+      &= \frac{1}{\ln b}b^x + C,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      \[\int b^x dx = \frac{1}{\ln b}b^x + C\]
+    correct: false
+  - response: |-
+      We can evaluate the integral \(\int b^x dx\) using the power rule for integration:
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C,
+      \]
+      where \(C\) is the constant of integration. To derive this result, we take the derivative of the function \(\frac{b^x}{\ln(b)}\) using the chain rule and the fact that the derivative of \(\ln(b^x)\) is \(\frac{d}{dx}[\ln(b^x)] = \frac{1}{x}\):
+      \begin{align*}
+      \frac{d}{dx}\left[\frac{b^x}{\ln(b)}\right] &= \frac{d}{dx}\left[b^x\cdot\frac{1}{\ln(b)}\right]\\
+      &= b^x \cdot \frac{d}{dx}\left[\frac{1}{\ln(b)}\right]\\
+      &= b^x \cdot \frac{-1}{(\ln(b))^2}\cdot\frac{d}{dx}(\ln(b))\\
+      &= b^x \cdot \frac{-1}{(\ln(b))^2}\cdot\frac{1}{b}\\
+      &= \frac{b^x}{\ln(b)}\cdot\left(\frac{-1}{\ln(b)}\right)\\
+      &= -\frac{b^x}{(\ln(b))^2}.
+      \end{align*}
+      Thus, we have
+      \[
+      \frac{d}{dx}\left[\frac{b^x}{\ln(b)}\right] = -\frac{b^x}{(\ln(b))^2},
+      \]
+      which means that
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C,
+      \]
+      as desired.
+
+      Answer: \(\int b^x dx = \frac{b^x}{\ln(b)} + C\)
+    correct: false
+  - response: |-
+      Using the power rule of integration, we have
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C
+      \]
+      where C is the constant of integration. 
+
+      Answer: $\int b^x dx = \frac{b^x}{\ln(b)} + C$
+    correct: false
+- input: |-
+    \[
+    \int \sin x dx
+    \]
+  ideal: |-
+    \(\int \sin x dx = -\cos x + C\).
+  responses:
+  - response: |-
+      We know that the integral of $\sin x$ is $-\cos x + C$ (where $C$ is the constant of integration). We can see this by differentiating $-\cos x$:
+      \[
+      \frac{d}{dx}(-\cos x) = \sin x
+      \]
+      Therefore, using the formula for integration we get:
+      \[
+      \int \sin x dx = -\cos x + C
+      \]
+      Answer: \(\int \sin x dx = -\cos x + C\)
+    correct: true
+  - response: |-
+      We know that the integral of $\sin x$ is $-\cos x$ plus a constant. Therefore,
+      \[
+      \int \sin x dx = -\cos x + C
+      \]
+      where $C$ is the constant of integration.
+    correct: true
+  - response: |-
+      Using integration by parts, we let \(u = \sin x\) and \(dv = dx\), then \(du = \cos x dx\) and \(v=x\). Thus,
+      \begin{align*}
+      \int \sin x dx &= \int u dv \\
+      &= u v - \int v du \\
+      &= x\sin x - \int x\cos x dx \\
+      &= x\sin x - \int u dv \\
+      &= x\sin x - (x\cos x - \int v du) \\
+      &= x\sin x - x\cos x + \int \cos x dx \\
+      &= x\sin x - x\cos x + \sin x + C,
+      \end{align*}
+      where \(C\) is the constant of integration. Therefore,
+      \[
+      \int \sin x dx = x\sin x - x\cos x + \sin x + C.
+      \]
+    correct: false
+  - response: |-
+      We know that the integral of $\sin x$ is $-\cos x + C$, where $C$ is the constant of integration. Therefore,
+      \[
+      \int \sin x dx = -\cos x + C
+      \]
+
+      \[-\cos x + C\]
+    correct: true
+  - response: |-
+      We can use integration by substitution with \(u = \cos x\). Then, \(du = -\sin x dx\) and we have:
+      \begin{align*}
+      \int \sin x dx &= -\int (-\sin x) dx \\
+      &= -\int du \\
+      &= -u + C \\
+      &= -\cos x + C
+      \end{align*}
+
+      Therefore, \[\int \sin x dx = -\cos x + C.\]
+    correct: true
+  - response: |-
+      We can evaluate this integral using integration by substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
+      \begin{align*}
+      \int \sin x dx &= -\int (-\sin x) dx \\
+      &= -\int \frac{d}{dx}(\cos x) dx \\
+      &= -\cos x + C \\
+      &= -\cos(x) + C
+      \end{align*}
+      where \(C\) is the constant of integration. 
+
+      Therefore, the solution to the integral \(\int \sin x dx\) is \(-\cos(x) + C\).
+    correct: true
+  - response: |-
+      We have:
+      \begin{align*}
+      \int \sin x dx &= -\cos x + C \quad &\text{(where } C \text{ is a constant)} \\
+      \end{align*}
+      We know that the derivative of $\cos x$ is $-\sin x$, so the derivative of $-\cos x$ is $\sin x$. Therefore, $\int \sin x dx = -\cos x + C$. 
+
+      \[\int \sin x dx = -\cos x + C\]
+    correct: true
+  - response: |-
+      We can evaluate the given integral using integration by parts with \(u = \sin x\) and \(dv = dx\):
+      \begin{align*}
+      \int \sin x dx &= -\cos x + C
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      Therefore,
+      \[
+      \int \sin x dx = -\cos x + C
+      \]
+    correct: false
+  - response: |-
+      We can evaluate the integral using integration by parts. Let \(u = \sin x\) and \(dv = dx\), so \(du = \cos x \, dx\) and \(v = x\). Then we have:
+      \begin{align*}
+      \int \sin x \, dx &= -\cos x \cdot x + \int \cos x \cdot 1 \, dx \\
+      &= -\cos x \cdot x + \sin x + C
+      \end{align*}
+      where \(C\) is the constant of integration. Therefore,
+      \[
+      \int \sin x \, dx = -\cos x \cdot x + \sin x + C
+      \]
+    correct: false
+  - response: |+
+      We know that the derivative of $\cos x$ is $-\sin x$, so we can use substitution to evaluate the integral. Let $u = \cos x$, then $du = -\sin x dx$. Rewriting the integral in terms of $u$ gives us:
+      \[
+      \int \sin x dx = -\int (-\sin x) dx = -\int du = -u + C = -\cos x + C
+      \]
+      where $C$ is the constant of integration.
+
+      Therefore, $\int \sin x dx = -\cos x + C$.
+
+    correct: true
+- input: |-
+    \[
+    \int \cos x dx
+    \]
+  ideal: |-
+    \(\int \cos x dx = \sin x + C\).
+  responses:
+  - response: |-
+      We know that the derivative of $\sin x$ is $\cos x$, so using substitution with $u = \sin x$, we have:
+      \[
+      \begin{aligned}
+      \int \cos x dx &= \int d(\sin x) \\
+      &= \sin x + C
+      \end{aligned}
+      \]
+      Therefore, 
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+    correct: true
+  - response: |-
+      Using the power rule of integration, we have:
+
+      \begin{align*}
+      \int \cos x dx &= \sin x + C 
+      \end{align*}
+
+      where C is the constant of integration.
+
+      $\int \cos x dx = \sin x + C$
+    correct: false
+  - response: |-
+      We know that $\frac{d}{dx}\sin x=\cos x$. Therefore, integrating $\cos x$ is the same as finding the antiderivative of $\frac{d}{dx}\sin x$, which is $\sin x+c$, where $c$ is the constant of integration. 
+
+      Therefore, 
+      \[\int \cos x dx = \sin x + c.\]
+
+      Final answer: \[\int \cos x dx = \sin x + c.\]
+    correct: true
+  - response: |-
+      We have:
+      \[
+      \int \cos x dx = \sin x + C,
+      \]
+      where \(C\) is the constant of integration. This is because the derivative of \(\sin x\) is \(\cos x\) by the chain rule, and so the integral is the antiderivative of \(\cos x\). 
+
+      Therefore,
+      \[
+      \int \cos x dx = \sin x + C.
+      \]
+    correct: false
+  - response: |-
+      We know that the derivative of $\sin x$ is $\cos x$, so we can use substitution to evaluate the integral. Let $u = \sin x$. Then $du/dx = \cos x$ and $dx = du/\cos x$. So the integral becomes
+      \[
+      \int \cos x dx = \int \frac{du}{\cos x} = \int \frac{du}{\sqrt{1-u^2}},
+      \]
+      where we used the identity $\cos^2 x = 1-\sin^2 x = 1-u^2$. We recognize the integrand as the derivative of $\arcsin u$, so we have
+      \[
+      \int \cos x dx = \arcsin u + C = \arcsin \sin x + C.
+      \]
+      Therefore,
+      \[
+      \int \cos x dx = \boxed{\arcsin \sin x + C}.
+      \]
+    correct: false
+  - response: |-
+      We know that $\int \cos x dx=\sin x + C$ where $C$ is any constant. This is because the derivative of $\sin x$ is $\cos x$, so the integral essentially undoes the differentiation. Therefore,
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+      where $C$ is any constant.
+    correct: true
+  - response: |-
+      Using the formula $\int \cos x dx = \sin x + C$, where $C$ is the constant of integration, we have:
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+      Final Answer: \(\int \cos x dx = \sin x + C\)
+    correct: true
+  - response: |-
+      We can solve the integral using integration by substitution. Let \(u = \sin x\), then \(du = \cos x dx\). Substituting into the integral gives:
+      \[
+      \int \cos x dx = \int du = u + C = \sin x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore, 
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+    correct: true
+  - response: |-
+      We can evaluate the integral by using integration by substitution with \(u = \sin x\), \(du = \cos x dx\). Then,
+      \[
+      \int \cos x dx = \int du = u + C = \sin x + C,
+      \]
+      where \(C\) is the constant of integration. Thus, 
+      \[
+      \int \cos x dx = \boxed{\sin x + C}.
+      \]
+    correct: true
+  - response: |-
+      We know that the derivative of $\sin x$ is $\cos x$, so we can use integration by substitution.
+      Let \(u=\sin x\), then \(du=\cos x dx\).
+      Therefore,
+      \begin{align*}
+      \int \cos x dx &= \int du \\
+      &= u + C \\
+      &= \sin x + C,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      \[\int \cos x dx = \sin x + C\]
+    correct: true
+- input: |-
+    \[
+    \int \sec^2 x dx
+    \]
+  ideal: |-
+    \(\int \sec^2 x dx = \tan x + C\).
+  responses:
+  - response: |-
+      We know that $\frac{d}{dx}(\tan x) = \sec^2 x$. Therefore, we can rewrite the integral as
+      \[
+      \int \sec^2 x dx = \int \frac{d}{dx}(\tan x)dx = \tan x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      Answer: \(\int \sec^2 x dx = \tan x + C\)
+    correct: true
+  - response: |-
+      We know that $\frac{d}{dx}\tan x = \sec^2 x$, so by reversing the chain rule, we have:
+      \[
+      \int \sec^2 x dx = \tan x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      $$\int \sec^2 x dx = \tan x + C$$
+    correct: false
+  - response: |-
+      We start by using the identity \(\sec^2 x = 1+ \tan^2 x\). This gives
+      \begin{align*}
+      \int \sec^2 x dx &= \int (1+\tan^2 x) dx \\
+      &= \int 1 dx + \int \tan^2 x dx \\
+      &= x + \int \frac{\sec^2 x - 1}{\tan^2 x + 1} dx \\
+      &= x + \int \frac{dx}{\tan^2 x + 1} - \int \frac{dx}{\tan^2 x + 1} \\
+      &= x + \arctan(\tan x) + C \\
+      &= x + \arctan(\frac{\sin x}{\cos x}) + C \\
+      &= x + \arctan(\sin x) - \arctan(\cos x) + C.
+      \end{align*}
+
+      Therefore, \[\int \sec^2 x dx = x + \arctan(\sin x) - \arctan(\cos x) + C.\]
+    correct: false
+  - response: |-
+      We know that $\frac{d}{dx} \tan x = \sec^2 x$. Therefore, using substitution with $u = \tan x$, we have:
+      \begin{align*}
+      \int \sec^2 x dx &= \int \frac{d}{dx}(\tan x) dx \\
+      &= \int du \\
+      &= \boxed{\tan x + C}
+      \end{align*}
+    correct: true
+  - response: |-
+      We know that the derivative of $\tan x$ is $\sec^2 x$. Therefore, we can use substitution by letting $u = \tan x$, so $du = \sec^2 x dx$. Then, the integral becomes
+      \[
+      \int \sec^2 x dx = \int du = \boxed{\tan x + C}.
+      \]
+    correct: true
+  - response: |-
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so by the reverse chain rule, we can say that:
+      \[
+      \int \sec^2 x dx = \tan x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      Answer: \[\int \sec^2 x dx = \tan x + C\]
+    correct: false
+  - response: |-
+      We know that $\frac{d}{dx}(\tan x) = \sec^2 x$. Therefore, we can use substitution with $u=\tan x$ and $du = \sec^2 x dx$:
+      \begin{align*}
+      \int \sec^2 x dx &= \int du \\
+      &= \tan x + C,
+      \end{align*}
+      where $C$ is the constant of integration. 
+
+      Therefore, \[\int \sec^2 x dx = \tan x + C.\]
+    correct: true
+  - response: |-
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution letting $u = \tan x$ and $du = \sec^2 x dx$:
+      \begin{align*}
+      \int \sec^2 x dx &= \int du \\
+      &= \boxed{\tan x + C}.
+      \end{align*}
+    correct: true
+  - response: |-
+      We can use the formula $\int \sec^2 x dx = \tan x + C$. Therefore,
+      \[
+      \int \sec^2 x dx = \tan x + C
+      \]
+    correct: true
+  - response: |-
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution to evaluate the integral. Let \(u=\tan x\), so \(du = \sec^2 x dx\). Then the integral becomes
+      \[
+      \int \sec^2 x dx = \int du = \boxed{\tan x + C}.
+      \]
+    correct: true
+- input: |-
+    \[
+    \int \csc^2 x dx
+    \]
+  ideal: |-
+    \(\int \csc^2 x dx = -\cot x + C\).
+  responses:
+  - response: |-
+      We can use the identity \(\csc^2 x = 1 + \cot^2 x\) to rewrite the integral as 
+      \[
+      \int \csc^2 x dx = \int (1 + \cot^2 x) dx = x - \cot x + C,
+      \]
+      where \(C\) is the constant of integration. Therefore, 
+      \[
+      \int \csc^2 x dx = x - \cot x + C.
+      \]
+    correct: false
+  - response: |-
+      We can use a u-substitution of \(u = \cot x,\) so that \(du = -\csc^2 x dx.\) Then we have:
+      \begin{align*}
+      \int \csc^2 x dx &= -\int du \\
+      &= -\cot x + C,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      \[\int \csc^2 x dx = -\cot x + C.\]
+    correct: true
+  - response: |-
+      We can use the identity $\csc^2 x = 1 + \cot^2 x$ and integrate term by term:
+      \begin{align*}
+      \int \csc^2 x dx &= \int (1+\cot^2 x) dx \\
+      &= \int dx + \int \cot^2 x dx \\
+      &= x - \int \frac{\sin^2 x}{\cos^2 x} dx \\
+      &= x - \int \frac{1-\cos^2 x}{\cos^2 x} dx \\
+      &= x - \int \sec^2 x dx + \int dx \\
+      &= x - \tan x + C.
+      \end{align*}
+
+      Therefore, $\int \csc^2 x dx = x - \tan x + C$.
+    correct: false
+  - response: |-
+      We can use the identity $\csc^2 x = 1 + \cot^2 x$ to write
+      \[
+      \int \csc^2 x dx = \int (1 + \cot^2 x) dx = \int dx + \int \cot^2 x dx = x - \cot x + C
+      \]
+      where $C$ is a constant of integration. Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C
+      \]
+    correct: false
+  - response: |-
+      We can use the identity $\csc^2 x = 1+\cot^2 x$ to rewrite the integral as
+      \[
+      \int \csc^2 x dx = \int (1+\cot^2 x) dx = x - \cot x + C,
+      \]
+      where $C$ is the constant of integration. 
+
+      Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C.
+      \]
+    correct: false
+  - response: |-
+      We know that the derivative of $\cot x$ is $-\csc^2 x$. Therefore, we can rewrite the given integral as
+      \[
+      \int \csc^2 x dx = -\int \dfrac{d}{dx}(\cot x) dx = -\cot x + C,
+      \]
+      where $C$ is the constant of integration.
+
+      So the solution is:
+      \[
+      \int \csc^2 x dx = -\cot x + C
+      \]
+    correct: true
+  - response: |-
+      We use the identity $\csc^2 x = 1 + \cot^2 x$ and integrate term by term:
+      \begin{align*}
+      \int \csc^2 x dx &= \int (1 + \cot^2 x) dx \\
+      &= \int 1 dx + \int \cot^2 x dx \\
+      &= x - \int \frac{\sin^2 x}{\cos^2 x} dx \\
+      &= x - \int \frac{1 - \cos^2 x}{\cos^2 x} dx \\
+      &= x - \int \sec^2 x dx + \int dx \\
+      &= x - \tan x + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \csc^2 x dx = x - \tan x + C.
+      \]
+    correct: true
+  - response: |-
+      We can use the identity $\csc^2 x = 1+\cot^2 x$ and rewrite the integral as
+      \[
+      \int \csc^2 x dx = \int (1+\cot^2 x) dx = x - \cot x + C
+      \]
+      where $C$ is the constant of integration. Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C
+      \]
+    correct: true
+  - response: |-
+      We know that $\csc x = \frac{1}{\sin x}$, so $\csc^2 x = \frac{1}{\sin^2 x}$. Thus, we can rewrite the integral as
+      \[
+      \int \frac{1}{\sin^2 x} dx
+      \]
+      Next, we use the trigonometric identity $1 + \cot^2 x = \csc^2 x$ to rewrite the integrand as
+      \[
+      \frac{1}{\sin^2 x} = \frac{1 + \cot^2 x}{\sin^2 x} - \frac{1}{\sin^2 x} = \csc^2 x + \cot^2 x
+      \]
+      Therefore, the integral becomes
+      \[
+      \int \csc^2 x dx + \int \cot^2 x dx
+      \]
+      The first integral is just $\int \csc^2 x dx$, which we know how to integrate. For the second integral, we can use the identity $\cot^2 x = \csc^2 x - 1$ to rewrite it as
+      \[
+      \int \cot^2 x dx = \int (\csc^2 x - 1) dx = -\cot x - x + C
+      \]
+      where $C$ is an arbitrary constant of integration. Putting everything together, we have
+      \[
+      \int \csc^2 x dx = -\cot x + \int \cot^2 x dx = -\cot x - x + C
+      \]
+      Therefore, the solution is
+      \[
+      \int \csc^2 x dx = -\cot x - x + C
+      \]
+    correct: false
+  - response: |-
+      We can use the identity $\csc^2 x = 1 + \cot^2 x$ to rewrite the integral as
+      \[
+      \int \csc^2 x dx = \int (1 + \cot^2 x) dx = \int dx + \int \cot^2 x dx = x - \cot x + C,
+      \]
+      where $C$ is the constant of integration. Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C.
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \sec x \tan x dx
+    \]
+  ideal: |-
+    \(\int \sec x \tan x dx = \sec x + C\).
+  responses:
+  - response: |-
+      We can use $u$-substitution with $u = \sec x$ and $du = \sec x \tan x dx$:
+      \begin{align*}
+      \int \sec x \tan x dx &= \int du \\
+      &= \boxed{\sec x + C}.
+      \end{align*}
+    correct: true
+  - response: |-
+      We can use substitution to solve this integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Thus we have:
+      \[
+      \int \sec x \tan x dx = \int u du = \frac{1}{2} \sec^2 x + C
+      \]
+      where \(C\) is the constant of integration. Therefore, the integral evaluates to:
+      \[\int \sec x \tan x dx = \boxed{\frac{1}{2} \sec^2 x + C}\]
+    correct: false
+  - response: |-
+      We can use $u$-substitution with $u = \sec x$. Then $du = \sec x \tan x dx$, which is exactly what we have in the integral. Thus,
+      \[
+      \int \sec x \tan x dx = \int u du = \frac{1}{2}u^2 + C = \frac{1}{2}\sec^2 x + C
+      \]
+      where $C$ is the constant of integration.
+
+      Final answer:
+      \[\int \sec x \tan x dx = \frac{1}{2}\sec^2 x + C\]
+    correct: false
+  - response: |-
+      Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Thus,
+      \[\int \sec x \tan x dx = \int u\,du = \frac{\sec x}{2} + C\]
+      where \(C\) is the constant of integration.
+
+      \[\int \sec x \tan x dx = \frac{\sec x}{2} + C\]
+    correct: false
+  - response: |-
+      We can use a substitution to solve this integral. Let \(u = \sec x\), then
+      \begin{align*}
+      \frac{du}{dx} &= \sec x \tan x \\
+      dx &= \frac{du}{\sec x \tan x} = \frac{du}{u\tan x}\\
+      \end{align*}
+      Substituting, we have
+      \begin{align*}
+      \int \sec x \tan x dx &= \int \frac{1}{u} \frac{du}{\tan x} \\
+       &= \frac{1}{\tan x} \int \frac{du}{u} \\
+       &= \ln|\sec x + \tan x| + C
+      \end{align*}
+      Thus, \(\int \sec x \tan x dx = \ln|\sec x + \tan x| + C\).
+    correct: false
+  - response: |-
+      We can use substitution to evaluate this integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Making this substitution, we have:
+      \begin{align*}
+      \int \sec x \tan x dx &= \int du \\
+      &= \ln|\sec x + \tan x| + C, \quad \text{where }C \text{ is the constant of integration.}
+      \end{align*}
+
+      Therefore,
+      \[\int \sec x \tan x dx = \ln|\sec x + \tan x| + C\]
+    correct: false
+  - response: |-
+      We can use substitution to evaluate the integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\) and we have
+      \[
+      \int \sec x \tan x dx = \int u du = \frac{1}{2}\sec^2 x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Answer: \(\frac{1}{2}\sec^2 x + C\)
+    correct: false
+  - response: |-
+      We use the substitution \(u=\sec x\), so \(\frac{du}{dx}=\sec x\tan x\), or equivalently, \(du=\sec x\tan x\,dx\). Substituting, we have
+      \[
+      \int \sec x \tan x dx = \int u \,du = \frac{u^2}{2} + C = \frac{1}{2}\sec^2 x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore,
+      \[
+      \int \sec x \tan x dx = \frac{1}{2}\sec^2 x + C
+      \]
+    correct: false
+  - response: |-
+      Let $u=\sec x$ and $du=\sec x\tan x\,dx$. Then we have:
+      \begin{align*}
+      \int \sec x \tan x dx &= \int u\,du\\
+      &= \frac{u^2}{2}+C\\
+      &= \frac{\sec^2 x}{2}+C
+      \end{align*}
+
+      Therefore, 
+      \[
+      \int \sec x \tan x dx = \frac{\sec^2 x}{2}+C
+      \]
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sec x\) to simplify the integral. Then, \(du/dx = \sec x \tan x\) and \(dx = du/\sec x\). Thus,
+      \[
+      \int \sec x \tan x dx = \int u \frac{du}{u} = \int du = u + C = \sec x + C.
+      \]
+      Therefore,
+      \[
+      \int \sec x \tan x dx = \boxed{\sec x + C}.
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \csc x \cot x dx
+    \]
+  ideal: |-
+    \(\int \csc x \cot x dx = -\csc x + C\).
+  responses:
+  - response: |-
+      We can begin by using $u$-substitution with $u=\csc x$ and $du=-\csc x \cot x dx$. Then the integral becomes
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int u du \\
+      &= -\frac{1}{2}u^2 + C \\
+      &= -\frac{1}{2}\csc^2 x + C.
+      \end{align*}
+      Therefore,
+      \[
+      \int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C.
+      \]
+    correct: false
+  - response: |-
+      We start by using the substitution \(u = \csc x\), so \(du = -\csc x \cot x dx\), which simplifies the integral to:
+      \[\int -du = -\csc x + C\]
+      Therefore,
+      \[\int \csc x \cot x dx = \boxed{-\csc x + C}\]
+    correct: true
+  - response: |-
+      We can use the u-substitution \(u = \csc x, du = -\csc x \cot x dx\) to rewrite the integral as
+      \[
+      \int -du = -\csc x + C,
+      \]
+      where \(C\) is a constant of integration. Thus,
+      \[
+      \int \csc x \cot x dx = \boxed{-\csc x + C}.
+      \]
+    correct: true
+  - response: |-
+      We can start by using the substitution \(u = \csc x\), then \(du/dx = -\csc x \cot x\).
+
+      \begin{align*}
+      \int \csc x \cot x dx &= - \int u du \quad (\text{substituting}\; u = \csc x)\\ 
+      &= -\frac{u^2}{2} + C\\
+      &= -\frac{1}{2} \csc^2 x + C
+      \end{align*}
+
+      Therefore, \(\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C\).
+
+      $$\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C$$
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \csc x\). Then, \(du = -\csc x \cot x dx\). Substituting these expressions, we have:
+      \[\int \csc x \cot x dx = \int -du = -\csc x + C\]
+      where \(C\) is the constant of integration.
+
+      \[\int \csc x \cot x dx = -\csc x + C\]
+    correct: true
+  - response: |-
+      We can use the substitution \(u = \csc x\), \(du = -\csc x \cot x dx\) to simplify the integral. Then, we have:
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int u du\\
+      &= -\frac{1}{2}u^2 + C \\
+      &= -\frac{1}{2}\csc^2 x + C
+      \end{align*}
+      Therefore, \(\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C\).
+    correct: false
+  - response: |-
+      We start by using the substitution \(u=\csc{x}\), which means \(du=-\cot{x}\csc{x}dx\). Therefore, 
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int udu\\
+      &= -\frac{1}{2}u^2 +C\\
+      &=-\frac{1}{2}\csc^2 x + C.
+      \end{align*}
+
+      Therefore, \[\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C.\]
+    correct: false
+  - response: |-
+      We can start by using substitution. Let \(u=\csc x\), then \(du=-\csc x \cot x dx\) and we have:
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int u du \\
+      &= -\frac{1}{2}u^2 + C \\
+      &= -\frac{1}{2}\csc^2x + C
+      \end{align*}
+      Therefore,
+      \[
+      \int \csc x \cot x dx = -\frac{1}{2}\csc^2x + C
+      \]
+    correct: false
+  - response: |-
+      We can begin by using the substitution \(u = \csc x\), so \(du = -\csc x \cot x dx\). Substituting this gives:
+      \[ -\int u\; du = -\frac{1}{2}u^2 + C = -\frac{1}{2}\csc^2 x + C\]
+      Therefore, \[\int \csc x \cot x dx = \boxed{-\frac{1}{2}\csc^2 x + C}\]
+    correct: false
+  - response: |-
+      We can start by using the trigonometric identity $\cot x = \frac{\cos x}{\sin x}$ to rewrite the integrand as $\frac{\cos x}{\sin^2 x}$. Then, we can make the substitution $u = \sin x$, so $du = \cos x dx$ and the integral becomes
+      \begin{align*}
+      \int \csc x \cot x dx &= \int \frac{\cos x}{\sin^2 x} dx \\
+      &= \int \frac{1}{u^2} du \\
+      &= -\frac{1}{u} + C \\
+      &= -\frac{1}{\sin x} + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \csc x \cot x dx = -\frac{1}{\sin x} + C.
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \sec x dx
+    \]
+  ideal: |-
+    \(\int \sec x dx = \ln |\sec x + \tan x| + C\).
+  responses:
+  - response: |-
+      We can use a substitution to evaluate this integral. Let \(u = \cos x\). Then \(du = -\sin x dx\) and we can rewrite the integral as:
+      \[
+      \int \frac{-1}{\sin x \cos x} (-\sin x dx) = \int \frac{du}{u} = \ln|u| + C = \ln|\cos x| + C
+      \]
+      Therefore, 
+      \[
+      \int \sec x dx = \ln|\cos x| + C
+      \]
+    correct: false
+  - response: |-
+      We can use the substitution \(u=\sec x+\tan x\), which gives \(du=\sec x\tan x+\sec^2x dx\) and \(\sec x\tan x+\sec^2x=\sec x(\sec x+\tan x)=u\).
+
+      Therefore,
+      \begin{align*}
+      \int \sec x dx &= \int \frac{\sec x(\sec x+\tan x)}{\sec x+\tan x}dx \\
+      &= \int \frac{du}{u} \\
+      &= \ln|\sec x+\tan x| + C.
+      \end{align*}
+
+      Thus, \(\int \sec x dx = \ln|\sec x+\tan x| + C\).
+    correct: false
+  - response: |-
+      We use the method of substitution. Let \(u = \sin x\), then \(du = \cos x dx\). We can rewrite the integral now as
+      \[
+      \int \frac{1}{\cos x} \cos x dx = \int \frac{1}{\cos x} \cdot \cos x dx = \int \frac{1}{\cos x} \cdot \frac{\cos x}{\cos x} dx = \int \frac{1}{\cos^2 x} \cdot \cos x dx = \int \sec x \cdot \cos x dx.
+      \]
+      Now using the substitution \(w=\sec x\), we have \(dw=\sec x \tan x dx\), and so
+      \[
+      \int \sec x \cdot \cos x dx = \int \frac{1}{w} dw = \ln |w| = \ln |\sec x| + C.
+      \]
+      Therefore, 
+      \[
+      \int \sec x dx = \ln|\sec x| + C.
+      \]
+    correct: false
+  - response: |-
+      We can use the substitution $u = \sec x + \tan x$, $du = (\sec x \tan x + \sec^2 x) dx$, to evaluate the integral. Rewriting $\sec x$ in terms of $\tan x$, we have
+      \begin{align*}
+      \int \sec x dx &= \int \frac{\sec x(\sec x + \tan x) }{\sec x + \tan x} dx \\
+      &= \int \frac{(1+\tan^2 x) du}{u} \\
+      &= \int \frac{du}{u} + \int \tan^2 x \frac{du}{u} \\
+      &= \ln|u| + \int \left(\frac{u^2-1}{u^2}\right) du \\
+      &= \ln|\sec x + \tan x| - \frac{1}{u} + C \\
+      &= \ln|\sec x + \tan x| - \frac{1}{\sec x + \tan x} + C.
+      \end{align*}
+
+      Therefore, $\int \sec x dx = \ln|\sec x + \tan x| - \frac{1}{\sec x + \tan x} + C$.
+    correct: false
+  - response: |-
+      We can start by multiplying the numerator and denominator of $\sec x$ by $\sec x + \tan x$:
+      \begin{align*}
+      \int \sec x dx &= \int \frac{\sec x (\sec x + \tan x)}{\sec x + \tan x}dx \\
+      &= \int \frac{\sec^2 x + \sec x \tan x}{\sec x + \tan x}dx \\
+      &= \int \frac{\sec x (\sec x + \tan x)}{\sec x + \tan x}dx + \int \frac{\tan^2 x}{\sec x + \tan x}dx \\
+      &= \int \sec x dx + \int \frac{\sin^2 x}{\cos x + \sin x}dx
+      \end{align*}
+      Let $u=\cos x+\sin x$. Then $du=(-\sin x + \cos x)dx$.
+      \begin{align*}
+      \int \frac{\sin^2 x}{\cos x + \sin x}dx &= -\int \frac{-\sin^2 x}{\cos x + \sin x}dx \\
+      &= -\int \frac{(\cos^2 x - 1)}{u}du \\
+      &= -\int \frac{\cos x}{\cos x + \sin x}du + \int \frac{du}{\cos x + \sin x} \\
+      \end{align*}
+      Using a substitution and integration by parts, it can be shown that $\int \frac{\cos x}{\cos x + \sin x}dx = \ln|\cos x + \sin x| + C$.
+      \begin{align*}
+      \int \sec x dx &= \int \sec x dx +\int \frac{\sin^2 x}{\cos x + \sin x}dx \\
+      &= \int \sec x dx -\ln|\cos x + \sin x| + \ln|\cos x + \sin x| + C \\
+      &= \boxed{\ln|\sec x + \tan x|+C}
+      \end{align*}
+    correct: false
+  - response: |-
+      We can solve this integral by using substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then, we have:
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1}{\cos x} dx\\
+      &= \int \frac{1}{u} \cdot \frac{-1}{\sin x} du\\
+      &= -\int \frac{1}{u} du\\
+      &= -\ln |\cos x| + C.
+      \end{align*}
+      Therefore,
+      \[
+      \int \sec x dx = -\ln |\cos x| + C.
+      \]
+    correct: false
+  - response: |-
+      We use the trigonometric identity $\sec^2(x)=1+\tan^2(x)$ to rewrite the integral:
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1}{\cos x} dx \\
+      &= \int \frac{1 + \tan^2 x}{\cos x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{\tan^2 x}{\cos x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{\sin^2 x}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{1-\cos^2 x}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx - \int \frac{\cos x}{\cos^3 x} dx + \int \frac{1}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx - \int \frac{1}{\cos^2 x} dx + \int \frac{1}{\cos^3 x} dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} + \frac{1}{2}\int \frac{\sin x}{\cos^3 x} dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} + \frac{1}{2}\int \frac{d}{dx}\left(-\frac{1}{2\cos^2 x}\right) dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} - \frac{1}{2\cos^2 x} + C,
+      \end{align*}
+      where $C$ is an arbitrary constant of integration. Therefore,
+      \[
+      \int \sec x dx = \ln|\sec x + \tan x| + \frac{1}{\cos x} - \frac{1}{2\cos^2 x} + C.
+      \]
+    correct: false
+  - response: |-
+      We use the substitution \(u = \cos x\), then \(du = -\sin x dx\) and we have
+      \[
+      \int \sec x dx = \int \frac{1}{\cos x} dx = \int \frac{-du}{u \sqrt{1-u^2}}.
+      \]
+      Letting \(v = 1-u^2\) we get \(dv = -2u \, du\) and so
+      \[
+      \int \frac{-du}{u \sqrt{1-u^2}} = \int \frac{-dv}{2 \sqrt v} = -\sqrt v + C = -\sqrt{1-\cos^2 x} + C.
+      \]
+      Note that we used the fact that \(\sin^2 x + \cos^2 x = 1\) to write \(\sin x = \sqrt{1-\cos^2 x}\). 
+
+      Therefore,
+      \[
+      \int \sec x dx = -\sqrt{1-\cos^2 x} + C.
+      \]
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \tan \frac{x}{2}\), which gives us \(\sec x = \frac{1}{\cos x} = \frac{1}{\frac{1 - u^2}{1 + u^2}} = \frac{1 + u^2}{1 - u^2}\) and \(dx = \frac{2}{1+u^2}du\). Thus,
+
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1+u^2}{1-u^2} \cdot \frac{2}{1+u^2} du \\
+      &= \int \frac{2}{1 - u^2} du \\
+      &= \int \frac{1}{1-u} - \frac{1}{1+u} du \\
+      &= -\ln|1 - u| + \ln|1+u| + C \\
+      &= -\ln\left|\frac{1-\tan\frac{x}{2}}{1+\tan\frac{x}{2}}\right| + C \\
+      &= \boxed{-\ln|\sec x+\tan x| + C}.
+      \end{align*}
+    correct: false
+  - response: |-
+      We can use the substitution \(u=\cos x,\) which implies \(du=-\sin x dx.\) Therefore, we have
+      \begin{align*}
+          \int \sec x dx &= \int \frac{1}{\cos x} dx \\
+          &= \int \frac{-\sin x}{\cos x} \frac{-1}{\sin x} dx \\
+          &= \int \frac{-du}{u} \\
+          &= -\ln|u| + C \\
+          &= -\ln|\cos x| + C.
+      \end{align*}
+      Therefore, \(\int \sec x dx = -\ln|\cos x| + C.\)
+
+      \[-\ln|\cos x|+C\]
+    correct: true
+- input: |-
+    \[
+    \int \csc x dx
+    \]
+  ideal: |-
+    \(\int \csc x dx = \ln |\csc x-\cot x| + C\). Note that \(-\ln|\csc x + \cot x| + C\) is also an antiderivative of \(\csc x dx\), but \(\ln |\csc x-\cot x| + C\) is the form more commonly found in textbooks and references.
+  responses:
+  - response: |-
+      We can start by using the identity \(\csc x = \frac{1}{\sin x}\) to rewrite the integral as:
+      \begin{align*}
+      \int \csc x dx &= \int \frac{1}{\sin x} dx  
+      \end{align*}
+      Next, we can use the substitution \(u = \cos x, du = -\sin x dx\) to rewrite the integral as:
+      \begin{align*}
+      \int \frac{1}{\sin x} dx &= -\int \frac{1}{u} du \\
+      &= -\ln |u| + C \\
+      &= -\ln |\cos x| + C
+      \end{align*}
+      Therefore, 
+      \[
+      \int \csc x dx = -\ln |\cos x| + C
+      \]
+    correct: false
+  - response: |-
+      Using the substitution \(u = \cot x\), we have \(du = -\csc^2 x dx\) and
+      \begin{align*}
+      \int \csc x dx &= -\int \frac{-\csc^2 x}{\csc x} dx \\
+      &= -\int \frac{du}{u} \\
+      &= -\ln |u| + C \\
+      &= -\ln |\cot x| + C \\
+      &= \ln |\sin x| + C.
+      \end{align*}
+      Therefore, \(\int \csc x dx = \ln |\sin x| + C\).
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sin x,\) so that \(du = \cos x dx.\) Then, we can rewrite the integral as
+      \begin{align*}
+      \int \csc x dx &= \int \frac{1}{\sin x} \cos x dx \\
+      &= \int \frac{1}{u} du \\
+      &= \ln|u| + C \\
+      &= \ln|\sin x| + C.
+      \end{align*}
+      Therefore, \(\int \csc x dx = \ln|\sin x| + C.\)
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sin x,\ du = \cos x\ dx\) to rewrite the integral as
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{1}{u} \frac{du}{\sqrt{1 - u^2}}.
+      \]
+      We can now use another substitution \(v = \sqrt{1 - u^2},\ dv = -\frac{u}{\sqrt{1 - u^2}} du\) to rewrite the integral again as
+      \[
+      \int \frac{1}{u} \frac{du}{\sqrt{1 - u^2}} = -\int \frac{1}{1 - v^2} dv = -\frac{1}{2} \ln \left| \frac{1 + v}{1 - v} \right| + C.
+      \]
+      Substituting back for \(u\) and simplifying, we have
+      \[
+      \int \csc x dx = -\frac{1}{2} \ln \left| \frac{\csc x + \cot x}{\csc x - \cot x} \right| + C.
+      \]
+
+      Therefore, the integral of \(\csc x\) is \(-\frac{1}{2} \ln \left| \frac{\csc x + \cot x}{\csc x - \cot x} \right| + C.\)
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sin x\) to simplify the integrand:
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx = \int \frac{1}{u} \cdot \frac{1}{\sqrt{1-u^2}} du
+      \]
+      Now we can use another substitution, \(v = \cos^{-1} u\), which means \(du = -\sqrt{1 - u^2} dv\):
+      \begin{align*}
+      \int \frac{1}{u} \cdot \frac{1}{\sqrt{1-u^2}} du &= -\int \frac{1}{\cos v} dv\\
+      &= -\ln|\sec v + \tan v| + C\\
+      &= -\ln|\sec (\cos^{-1} u) + \tan (\cos^{-1} u)| + C\\
+      &= -\ln|\frac{1}{\sqrt{1-u^2}} + \frac{u}{\sqrt{1-u^2}}| + C\\
+      &= -\ln|\frac{1+u}{\sqrt{1-u^2}}| + C\\
+      &= -\ln|\csc x + \cot x| + C
+      \end{align*}
+      Therefore, \(\int \csc x dx = -\ln|\csc x + \cot x| + C.\)
+
+      \[-\ln|\csc x + \cot x| + C\]
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sin x\), so \(du=\cos x \ dx\), and the integral becomes:
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx = \int \frac{1}{u} \frac{du}{\sqrt{1-u^2}} = \ln|\sec x + \tan x| + C
+      \]
+      where we used the Pythagorean identity \(\sqrt{1-\sin^2 x} = \cos x\) to replace \(\sqrt{1-u^2}\) in terms of \(x\). Therefore:
+      \[
+      \int \csc x dx = \ln|\sec x + \tan x| + C
+      \]
+    correct: false
+  - response: |-
+      We begin by using the identity $\csc x = \frac{1}{\sin x}$. Hence, we have
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx.
+      \]
+      We can then use substitution, letting $u = \sin x$ and $du = \cos x dx$. Hence,
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{1}{u} \frac{du}{\cos x} = \int \frac{\sec x}{\sin x} du = \ln|\sin x| + C,
+      \]
+      where $C$ is a constant of integration. Therefore,
+      \[
+      \int \csc x dx = \ln|\sin x| + C.
+      \]
+    correct: false
+  - response: |-
+      We can write $\csc x$ as $\frac{1}{\sin x}$, giving us
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx.
+      \]
+      Now, letting $u = \sin x$, we have $du = \cos x dx$ and
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{1}{u} \cdot \frac{du}{\cos x} = \int \frac{1}{u} \sec x du.
+      \]
+      Using the identity $\sec x = \frac{1}{\cos x}$, we have
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{\sec x}{\tan x} d(\sin x) = \int \frac{d(\sin x)}{\sin x} = \ln|\sin x| + C,
+      \]
+      where $C$ is the constant of integration.
+
+      Therefore,
+      \[
+      \int \csc x dx = \ln|\sin x| + C.
+      \]
+    correct: false
+  - response: |-
+      We can use the substitution \(u = \sin x\), which gives \(du = \cos x dx\) and \[\int \csc x dx = \int \frac{1}{\sin x} \cos x dx = \int \frac{1}{u} du = \ln|\sin x|+C.\]Therefore, \[\int \csc x dx = \ln|\sin x|+C.\]
+    correct: false
+  - response: |-
+      We can use substitution to evaluate the integral. Let \(u=\csc x\), so \(du=-\csc x \cot x dx\). Then, the integral becomes
+      \begin{align*}
+      \int \csc x dx &= \int \frac{-du}{u\cot x} \\
+      &= \int -\frac{\sin x}{\cos x} \frac{du}{u} \\
+      &= -\ln|\csc x + \cot x| + C,
+      \end{align*}
+      where \(C\) is an arbitrary constant. Therefore,
+      \[
+      \int \csc x dx = -\ln|\csc x + \cot x| + C.
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \tan x dx
+    \]
+  ideal: |-
+    \(\int \tan x dx = \ln |\sec x| + C\). Note that \(\ln |\sec x| = -\ln |\cos x|\), which is an acceptable answer.
+  responses:
+  - response: |-
+      We can use integration by substitution with \(u=\cos x\). Then, \(du=-\sin x dx\) and \(\tan x=\frac{\sin x}{\cos x}= -\frac{1}{u} \). Thus,
+      \[
+      \int \tan x dx = \int \frac{\sin x}{\cos x}dx=-\int \frac{-\sin x}{\cos x}dx=-\int \frac{du}{u}=-\ln|u|+C=-\ln|\cos x|+C
+      \]
+      Therefore,
+      \[
+      \int \tan x dx=-\ln|\cos x|+C
+      \]
+    correct: false
+  - response: |-
+      We can rewrite the integrand using the identity $\tan x = \frac{\sin x}{\cos x}$:
+      \[
+      \int \tan x dx = \int \frac{\sin x}{\cos x} dx
+      \]
+      We can now make the substitution $u = \cos x$ and $du = -\sin x dx$, so that:
+      \[
+      \int \frac{\sin x}{\cos x} dx = \int \frac{-du}{u} = -\ln |u| + C = -\ln |\cos x| + C
+      \]
+      Therefore, 
+      \[
+      \int \tan x dx = -\ln |\cos x| + C
+      \]
+    correct: true
+  - response: |-
+      We can rewrite $\tan x$ as $\frac{\sin x}{\cos x}$, so
+      $$\int \tan x dx = \int \frac{\sin x}{\cos x} dx$$
+      Using the substitution $u= \cos x$, we have $du= -\sin x dx$, so
+      \begin{align*}
+      \int \frac{\sin x}{\cos x} dx &= -\int \frac{du}{u}\\
+      &= -\ln|u| + C \\
+      &= -\ln|\cos x| + C
+      \end{align*}
+      Thus,
+      $$\int \tan x dx = -\ln|\cos x| + C$$
+    correct: true
+  - response: |-
+      We can use substitution to evaluate this integral. Let \(u = \cos x\). Then \(du/dx = -\sin x\), so we have:
+      \[
+      \int \tan x dx = \int \frac{\sin x}{\cos x} dx = -\int \frac{-\sin x}{\cos x} dx = -\int \frac{du}{u} = -\ln|u| + C = -\ln|\cos x| + C
+      \]
+      Therefore, 
+      \[
+      \int \tan x dx = -\ln|\cos x| + C
+      \]
+    correct: true
+  - response: |-
+      We will use the substitution \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
+      \begin{align*}
+          \int \tan x dx &= \int \frac{\sin x}{\cos x} dx \\
+          &= -\int \frac{-\sin x}{\cos x} dx \\
+          &= -\int \frac{du}{u} \\
+          &= -\ln |u| + C \\
+          &= -\ln |\cos x| + C.
+      \end{align*}
+      Therefore, \(\int \tan x dx = -\ln |\cos x| + C\).
+    correct: true
+- input: |-
+    \[
+    \int \cot x dx
+    \]
+  ideal: |-
+    \(\int \cot x dx = \ln |\sin x| + C\).
+  responses:
+  - response: |-
+      We can use the substitution \(u = \sin x\) and \(du = \cos x dx\). Then we have:
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{du/u}{u} \\
+      &= \int \frac{1}{u^2} du \\
+      &= -\frac{1}{u} + C \\
+      &= -\frac{1}{\sin x} + C.
+      \end{align*}
+      Therefore, \[\int \cot x dx = -\frac{1}{\sin x} + C.\]
+    correct: false
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and use substitution. Letting $u = \sin x$, we have $du = \cos x dx$ and the integral becomes:
+      \[
+      \int \cot x dx = \int \frac{\cos x}{\sin x} dx = \int \frac{1}{u} du = \ln|u| + C = \boxed{\ln|\sin x| + C}
+      \]
+    correct: true
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so we have
+      \begin{align*}
+      \int \cot x dx &=\int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{1}{\sin x} d(\sin x) \\
+      &= \ln |\sin x| + C.
+      \end{align*}
+      Therefore, $\int \cot x dx = \ln |\sin x| + C$.
+    correct: true
+  - response: |-
+      We can use u-substitution with \(u=\sin x\), which implies \(du=\cos x dx\) and \(\cot x = \frac{\cos x}{\sin x}=\frac{1}{u}\). The integral becomes
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{1}{u} du \\
+      &= \ln |u| + C \\
+      &= \ln |\sin x| + C.
+      \end{align*}
+      Therefore, \[\int \cot x dx = \ln |\sin x| + C.\]
+    correct: true
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and then substitute $u = \sin x$ and $du = \cos x dx$:
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{du}{u} \\
+      &= \ln|u| + C \\
+      &= \ln|\sin x| + C
+      \end{align*}
+
+      Thus, $\int \cot x dx = \ln|\sin x| + C$.
+    correct: true
+- input: |-
+    \[
+    \int \sinh x dx
+    \]
+  ideal: |-
+    \(\int \sinh x dx = \cosh x + C\).
+  responses:
+  - response: |-
+      We can evaluate this integral using integration by substitution. Let \(u=\cosh x\), then \(du=\sinh x dx\). Substituting into the integral, we have
+      \[
+      \int \sinh x dx = \int du = u + C = \cosh x + C
+      \]
+      Therefore,
+      \[
+      \int \sinh x dx = \boxed{\cosh x + C}
+      \]
+    correct: true
+  - response: |-
+      We use the definition of hyperbolic sine to evaluate the integral:
+      \[
+      \sinh x = \frac{e^x - e^{-x}}{2}
+      \]
+      Thus,
+      \[
+      \int \sinh x dx = \int \frac{e^x - e^{-x}}{2} dx = \frac{1}{2}\int e^x dx - \frac{1}{2}\int e^{-x} dx = \frac{1}{2}e^x - \frac{1}{2}e^{-x} + C
+      \]
+      where \(C\) is the constant of integration. 
+
+      Answer: 
+      \[\int \sinh x dx = \frac{1}{2}e^x - \frac{1}{2}e^{-x} + C\]
+    correct: false
+  - response: |-
+      We know that $\frac{d}{dx}(\cosh x) = \sinh x$. Therefore,
+      \[
+      \int \sinh x dx = \cosh x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      $$
+      \int \sinh x dx = \cosh x + C
+      $$
+    correct: true
+  - response: |-
+      We have:
+      \begin{align*}
+      \int \sinh x dx &= \int \frac{e^x - e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx - \frac{1}{2} \int e^{-x} dx \\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \end{align*}
+      where $C$ is the constant of integration.
+
+      Therefore,
+      \[
+      \int \sinh x dx = \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \]
+    correct: false
+  - response: |-
+      We can use integration by parts with \(u=\cosh x\) and \(dv=\sinh x dx\) to find:
+      \begin{align*}
+      \int \sinh x dx &= \int \cosh x \cdot \frac{d}{dx} (\cosh x) dx \\
+      &= \cosh x \cdot \cosh x - \int \cosh x \cdot \frac{d}{dx} (\cosh x) dx \\
+      &= \cosh^2 x - \int \sinh^2 x dx \\
+      &= \cosh^2 x - \int (\cosh^2 x - 1) dx \\
+      &= \sinh x \cdot \cosh x - x + C,
+      \end{align*}
+      where \(C\) is a constant of integration. 
+
+      Therefore, \(\displaystyle{\int \sinh x dx = \sinh x \cdot \cosh x - x + C}\).
+    correct: false
+- input: |-
+    \[
+    \int \cosh x dx
+    \]
+  ideal: |-
+    \(\int \cosh x dx = \sinh x + C\).
+  responses:
+  - response: |-
+      We can solve the integral by using the definition of the hyperbolic cosine function:
+      \[
+      \cosh x = \frac{e^x + e^{-x}}{2}
+      \]
+      Substituting this into the integral, we get:
+      \begin{align*}
+      \int \cosh x dx &= \int \frac{e^x + e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx + \frac{1}{2} \int e^{-x} dx \\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \end{align*}
+      where C is the constant of integration.
+
+      Therefore, 
+      \[
+      \int \cosh x dx = \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \]
+    correct: false
+  - response: |-
+      We can evaluate this integral using the formula:
+      \[
+      \int \cosh x dx = \sinh x + C,
+      \]
+      where \(C\) is the constant of integration. This formula is a direct result of the derivative of \(\sinh x\), which is \(\cosh x\). Therefore, the anti-derivative of \(\cosh x\) is \(\sinh x\).
+
+      \[\int \cosh x dx = \sinh x + C\]
+    correct: true
+  - response: |-
+      We know that the derivative of $\sinh x$ is $\cosh x$, so we can use substitution. Let \(u = \sinh x\). Then \(du = \cosh x \ dx\). Thus,
+      \[
+      \int \cosh x dx = \int du = u + C = \sinh x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      \[\int \cosh x dx = \sinh x + C\]
+    correct: true
+  - response: |-
+      Using the power rule of integration and the fact that the derivative of $\sinh x$ is $\cosh x$, we have:
+      \begin{align*}
+      \int \cosh x dx &= \int \frac{e^x + e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx + \frac{1}{2} \int e^{-x} dx \\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \end{align*}
+      where $C$ is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int \cosh x dx = \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \]
+    correct: false
+  - response: |-
+      Using the definition of the hyperbolic cosine function, we have 
+      \[
+      \int \cosh x dx = \int \frac{e^x + e^{-x}}{2} dx = \frac{1}{2} \int e^x dx + \frac{1}{2} \int e^{-x} dx
+      \]
+      Using the power rule for integration, we have 
+      \[
+      \frac{1}{2} \int e^x dx + \frac{1}{2} \int e^{-x} dx =  \frac{1}{2} e^x + \frac{1}{2} e^{-x} + C
+      \]
+      where $C$ is the constant of integration. Therefore, 
+      \[
+      \int \cosh x dx = \frac{1}{2} e^x + \frac{1}{2} e^{-x} + C
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \frac{dx}{x^2+a^2}
+    \]
+  ideal: |-
+    \(\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C\).
+  responses:
+  - response: |-
+      We can start by using the substitution \(u = \frac{x}{a}\), which gives us \(du = \frac{1}{a}dx\) and \(x^2 = a^2u^2\). Substituting these into the integral, we get
+      \[\int \frac{dx}{x^2+a^2} = \int \frac{1}{a^2u^2 + a^2}\cdot \frac{1}{a} du = \frac{1}{a^2}\int \frac{1}{u^2+1} du.\]
+      Next, we can use the substitution \(v = u+ i\), which gives us \(du = dv\), \(u^2+1 = (v-i)^2+1 = v^2 -2iv +2\), and \(u^2 = v^2 -2iv\). Substituting these into the integral, we get
+      \[\frac{1}{a^2}\int \frac{1}{u^2+1} du = \frac{1}{a^2}\int \frac{1}{v^2+1-2iv} dv = \frac{1}{a^2}\int \frac{1}{(v-i)^2+1} dv.\]
+      Now, we can use the substitution \(w = v-i\), which gives us \(dv = dw\) and \((v-i)^2+1 = w^2+1\). Substituting these into the integral, we get
+      \[\frac{1}{a^2}\int \frac{1}{(v-i)^2+1} dv = \frac{1}{a^2}\int \frac{1}{w^2+1} dw = \frac{1}{a^2}\arctan(w) + C.\]
+      Substituting back for \(u\) and \(v\), we get
+      \[\int \frac{dx}{x^2+a^2} = \frac{1}{a}\arctan\left(\frac{x}{a}\right) + C.\]
+      Therefore,
+      \[\int \frac{dx}{x^2+a^2} = \boxed{\frac{1}{a}\arctan\left(\frac{x}{a}\right) + C}.\]
+    correct: true
+  - response: |-
+      We can use the substitution \(u = \frac{x}{a}\) to simplify the integral:
+      \[
+      \int \frac{dx}{x^2+a^2} = \int \frac{du}{u^2+1} = \tan^{-1}(u) + C = \tan^{-1}(\frac{x}{a}) + C
+      \]
+      Therefore,
+      \[
+      \int \frac{dx}{x^2+a^2} = \boxed{\tan^{-1}(\frac{x}{a}) + C}
+      \]
+    correct: false
+  - response: |-
+      We can start by using partial fraction decomposition. Let
+      \[
+      \frac{1}{x^2+a^2} = \frac{A}{x+ai} + \frac{B}{x-ai}
+      \]
+      for some constants $A$ and $B$. Then we have
+      \[
+      1 = A(x-a i) + B(x+ai) = (A+B)x + (B-A)ai
+      \]
+      Equating coefficients, we get $A+B = 0$ and $B-A = 1$. Solving for $A$ and $B$, we get $A = -\frac{1}{2ai}$ and $B = \frac{1}{2ai}$. Therefore,
+      \[
+      \frac{1}{x^2+a^2} = -\frac{1}{2ai(x+ai)} + \frac{1}{2ai(x-ai)}
+      \]
+      and
+      \[
+      \int \frac{dx}{x^2+a^2} = -\frac{1}{2ai} \int \frac{dx}{x+ai} + \frac{1}{2ai} \int \frac{dx}{x-ai}.
+      \]
+      Using the substitution $u = x+ai$ for the first integral and $u = x-ai$ for the second integral, we get
+      \[
+      \int \frac{dx}{x^2+a^2} = -\frac{1}{2ai} \ln|x+ai| + \frac{1}{2ai} \ln|x-ai| + C
+      \]
+      where $C$ is a constant of integration. Therefore,
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{2a} \ln\left|\frac{x-ai}{x+ai}\right| + C.
+      \]
+    correct: false
+  - response: |-
+      We can start by using the substitution \(x=a\tan u\), then \(dx=a\sec^2 u du\) and \(x^2+a^2=a^2\sec^2 u\). Substituting these expressions in our integral, we get
+      \begin{align*}
+      \int \frac{dx}{x^2+a^2} &= \int \frac{a\sec^2 u}{a^2\sec^2 u} du \\
+      &= \frac{1}{a}\int du \\
+      &= \frac{1}{a}u + C \\
+      &= \frac{1}{a}\arctan \left( \frac{x}{a} \right) + C.
+      \end{align*}
+      Therefore, the solution to the integral is
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{a}\arctan \left( \frac{x}{a} \right) + C.
+      \]
+    correct: true
+  - response: |-
+      We can rewrite the integral as
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{a} \int \frac{1}{(\frac{x}{a})^2+1} dx
+      \]
+      Making the substitution \(u=\frac{x}{a}\), we have
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{a} \int \frac{1}{u^2+1} du = \frac{1}{a} \tan^{-1}(u) + C = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C
+      \]
+      Therefore,
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C
+      \]
+    correct: false
+- input: |-
+    \[
+    \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
+    \]
+  ideal: |-
+    \(\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C\).
+  responses:
+  - response: |-
+      We can start the problem by making the substitution \(x=a\sin\theta\), \(dx=a\cos\theta\,d\theta\). Then we have:
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos\theta\, d\theta}{\sqrt{a^2-a^2\sin^2\theta}}\\
+      &= \int \frac{\cos\theta}{\sqrt{1-\sin^2\theta}}\,d\theta\\
+      &= \int \frac{\cos\theta}{\cos\theta}\,d\theta\\
+      &= \theta + C = \arcsin\left(\frac{x}{a}\right) + C \quad \blacksquare
+      \end{align*}
+      \[\int \frac{dx}{\sqrt{a^2-x^2}} = \arcsin\left(\frac{x}{a}\right) + C\]
+    correct: true
+  - response: |-
+      We can start by using the substitution $x=a\sin(t)$, so $dx=a\cos(t)dt$ and $\sqrt{a^2-x^2} = \sqrt{a^2-a^2\sin^2(t)} = a\cos(t)$. Substituting, we have
+      \[\int \frac{dx}{\sqrt{a^2-x^2}} = \int \frac{a\cos(t)}{a\cos(t)}dt = \int dt = t + C = \sin^{-1} \left(\frac{x}{a}\right) + C \]
+      where $C$ is the constant of integration. So we have
+      \[\int \frac{dx}{\sqrt{a^2-x^2}} = \boxed{\sin^{-1} \left(\frac{x}{a}\right) + C}\]
+    correct: true
+  - response: |-
+      We can use the substitution \(x=a\sin\theta\), so \(dx=a\cos\theta\,d\theta\) and
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} =& \int \frac{a\cos\theta\,d\theta}{\sqrt{a^2-a^2\sin^2\theta}} \\
+      =& \int \frac{a\cos\theta\,d\theta}{\sqrt{a^2\cos^2\theta}} \\
+      =& \int \frac{d\theta}{\cos\theta} \\
+      =& \ln|\sec\theta+\tan\theta|+C \\
+      =& \ln\left|\frac{x}{\sqrt{a^2-x^2}}+\frac{\sqrt{a^2-x^2}}{a}\right|+C.
+      \end{align*}
+      Thus
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \ln\left|\frac{x}{\sqrt{a^2-x^2}}+\frac{\sqrt{a^2-x^2}}{a}\right|+C.
+      \]
+    correct: false
+  - response: |-
+      We can solve this integral by using the substitution \(x=a\sin\theta\). Then we have \(dx=a\cos\theta\, d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Substituting these expressions, we get:
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos\theta\,d\theta}{a\cos\theta} \\
+      &= \int d\theta \\
+      &= \theta + C,
+      \end{align*}
+      where \(C\) is the constant of integration. To find \(\theta\), we use the inverse sine function and get:
+      \[\theta = \arcsin\left(\frac{x}{a}\right).\]
+      Therefore, the solution to the integral is:
+      \[\int \frac{dx}{\sqrt{a^2-x^2}} = \arcsin\left(\frac{x}{a}\right) + C.\]
+    correct: true
+  - response: |-
+      We start by using the substitution \(x=a\sin(t)\), so \(dx=a\cos(t) dt\) and \(\sqrt{a^2-x^2}=a\cos(t)\). The integral becomes
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos(t)}{a\cos(t)} dt\\
+      &=\int dt\\
+      &=t+C\\
+      &=\sin^{-1}\left(\frac{x}{a}\right)+C, \quad -\frac{\pi}{2} \leq t \leq \frac{\pi}{2}.
+      \end{align*}
+      Therefore, \[\int \frac{dx}{\sqrt{a^2-x^2}}  = \sin^{-1}\left(\frac{x}{a}\right)+C, \quad \text{where } C \text{ is a constant}.\]
+    correct: true
+
+
+
+
+- input: |-
+    \[
+    \int x^n dx
+    \]
+    where \(n != -1\).
+  ideal: |-
+    \(\int x^n dx = \frac{x^{n+1}}{n+1} + C\), for \(n \neq -1\).
+  responses:
+  - response: |- # done.
+      We have:
+      \begin{align*}
+      \int x^n dx &= \frac{x^{n+1}}{n+1} + C \quad (\text{where } n\neq-1)\\
+      \end{align*}
+      This can be easily verified by taking the derivative of \(\frac{x^{n+1}}{n+1}\) and applying the power rule of differentiation. Therefore,
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (\text{where } n\neq-1)
+      \]
+  - response: |- # done.
+      Using the power rule of integration, we have:
+
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      where C is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+  - response: |- # done.
+      By the power rule of integration, we have:
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+      where \(C\) is an arbitrary constant of integration.
+      Answer: 
+      \[
+      \int x^n dx = \frac{x^{n+1}}{n+1} + C
+      \]
+  - response: |- # done.
+      Using the power rule of integration, we have
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1}+C\]
+
+      where C is the constant of integration. This follows from differentiation of the right-hand side.
+
+      Therefore,
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1}+C\]
+
+      where C is the constant of integration.
+  - response: |- # done.
+      If \(n = -1\), then \(\int x^n dx = \int \frac{1}{x} dx = \ln |x| + C\). However, since \(n\) is specified to be not equal to \(-1\), we can use the power rule of integration:
+      \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+      where \(C\) is the constant of integration.
+
+      \[\int x^n dx = \frac{x^{n+1}}{n+1} + C\]
+- input: |-
+    \[
+    \int \frac{1}{x} dx
+    \]
+  ideal: |-
+    \(\int \frac{1}{x} dx = \ln|x| + C\).
+  responses:
+  - response: |- # done.
+      We can evaluate the integral using the power rule of integration:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln|x| + C &&\text{(where } C \text{ is the constant of integration)}
+      \end{align*}
+      Therefore, 
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C
+      \]
+  - response: |- # done.
+      We have:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln |x| + C,
+      \end{align*}
+      where \(C\) is an arbitrary constant of integration. This follows from the fact that the derivative of \(\ln|x|\) is \(\frac{1}{x}\). Note that the absolute value is necessary since the antiderivative is only defined up to a constant, so we need to account for the possibility of negative values of \(x\). 
+
+      \[\int \frac{1}{x} dx = \ln |x| + C\]
+  - response: |- # done.
+      We have:
+      \[
+      \int \frac{1}{x} dx = \ln |x| + C,
+      \]
+      where \(C\) is the constant of integration. The reason for this is that the derivative of \(\ln |x|\) is \(\frac{1}{x}\) for all nonzero values of \(x\), since the absolute value function has a piecewise-defined derivative. Therefore, by the Fundamental Theorem of Calculus, we have:
+      \[
+      \int \frac{1}{x} dx = \ln |x| + C.
+      \]
+      Answer: \(\int \frac{1}{x} dx = \ln |x| + C\).
+  - response: |- # done.
+      We have:
+      \begin{align*}
+      \int \frac{1}{x} dx &= \ln |x| + C \\
+      &= \boxed{\ln |x| + C}
+      \end{align*}
+  - response: |- # done.
+      We can evaluate this integral using the property of logarithms:
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C,
+      \]
+      where \(C\) is a constant of integration. This comes from the derivative of \(\ln|x|\) being \(1/x\).
+
+      Therefore,
+      \[
+      \int \frac{1}{x} dx = \ln|x| + C.
+      \]
+- input: |-
+    \[
+    \int e^{x} dx
+    \]
+  ideal: |-
+    \(\int e^x dx = e^x + C\).
+  responses:
+  - response: |- # done.
+      We have
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where $C$ is the constant of integration. This can be verified by taking the derivative of $e^x + C$ with respect to $x$, which is $e^x$. 
+
+      \[
+      \int e^{x} dx = e^x + C
+      \]
+  - response: |- # done.
+      We can evaluate the integral using integration by substitution. Let \(u = x\) and \(dv = e^x dx\). Then \(du = dx\) and \(v = e^x\). Therefore,
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where \(C\) is the constant of integration. 
+
+      \[\int e^{x} dx = e^x + C\]
+  - response: |- # done.
+      We can use the fact that the derivative of $e^x$ is $e^x$ to evaluate the integral:
+      \[
+      \int e^{x} dx = e^x + C,
+      \]
+      where $C$ is the constant of integration. 
+
+      Answer: $\int e^{x} dx = e^x + C$
+  - response: |- # done.
+      We can solve the integral $\int e^x dx$ by using integration by substitution. Let \(u = x\) and \(du = dx\). Then we have:
+      \begin{align*}
+      \int e^x dx &= \int e^u du \\
+      &= e^u + C \\
+      &= e^x + C
+      \end{align*}
+      Therefore, \(\int e^x dx = e^x + C\).
+
+      \[\int e^x dx = e^x + C\]
+  - response: |- # done.
+      We can evaluate the integral \(\int e^x dx\) by using the formula for the antiderivative of an exponential function, which is:
+      \[
+      \int e^x dx = e^x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore, 
+      \begin{align*}
+      \int e^{x} dx &= e^x + C \\
+      &= \boxed{e^x + C}
+      \end{align*}
+- input: |-
+    \[
+    \int b^x dx
+    \]
+  ideal: |-
+    \(\int b^x dx = \frac{b^x}{\ln b} + C\).
+  responses:
+  - response: |- # done.
+      We can evaluate the integral using the rule:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+
+      where C is the constant of integration. We can verify this by taking the derivative of the right-hand side to obtain:
+
+      \[
+      \begin{aligned}
+      \frac{d}{dx}\left(\frac{b^x}{\ln(b)} + C\right) &= \frac{d}{dx}\left(\frac{1}{\ln(b)} b^x\right) \\
+      &= \frac{1}{\ln(b)} \cdot \frac{d}{dx} b^x \\
+      &= \frac{1}{\ln(b)} \cdot b^x \cdot \ln(b) \\
+      &= b^x
+      \end{aligned}
+      \]
+
+      Thus, we have:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+
+      Repeated answer:
+
+      \[\int b^x dx = \frac{b^x}{\ln(b)} + C\]
+  - response: |- # done.
+      We can evaluate the indefinite integral by applying the power rule of integration:
+      \begin{align*}
+      \int b^x dx &= \frac{1}{\ln(b)} b^x + C 
+      \end{align*}
+      where \(C\) is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int b^x dx = \frac{1}{\ln(b)} b^x + C 
+      \]
+  - response: |- # done.
+      Using the power rule of integration, we have:
+      \begin{align*}
+      \int b^x dx &= \frac{b^x}{\ln b} + C \\
+      &= \frac{1}{\ln b}b^x + C,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      \[\int b^x dx = \frac{1}{\ln b}b^x + C\]
+  - response: |- # done.
+      We can evaluate the integral \(\int b^x dx\) using the power rule for integration:
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C,
+      \]
+      where \(C\) is the constant of integration. To derive this result, we take the derivative of the function \(\frac{b^x}{\ln(b)}\) using the chain rule and the fact that the derivative of \(\ln(b^x)\) is \(\frac{d}{dx}[\ln(b^x)] = \frac{1}{x}\):
+      \begin{align*}
+      \frac{d}{dx}\left[\frac{b^x}{\ln(b)}\right] &= \frac{d}{dx}\left[b^x\cdot\frac{1}{\ln(b)}\right]\\
+      &= b^x \cdot \frac{d}{dx}\left[\frac{1}{\ln(b)}\right]\\
+      &= b^x \cdot \frac{-1}{(\ln(b))^2}\cdot\frac{d}{dx}(\ln(b))\\
+      &= b^x \cdot \frac{-1}{(\ln(b))^2}\cdot\frac{1}{b}\\
+      &= \frac{b^x}{\ln(b)}\cdot\left(\frac{-1}{\ln(b)}\right)\\
+      &= -\frac{b^x}{(\ln(b))^2}.
+      \end{align*}
+      Thus, we have
+      \[
+      \frac{d}{dx}\left[\frac{b^x}{\ln(b)}\right] = -\frac{b^x}{(\ln(b))^2},
+      \]
+      which means that
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C,
+      \]
+      as desired.
+
+      Answer: \(\int b^x dx = \frac{b^x}{\ln(b)} + C\)
+  - response: |- # done.
+      Using the power rule of integration, we have
+      \[
+      \int b^x dx = \frac{b^x}{\ln(b)} + C
+      \]
+      where C is the constant of integration. 
+
+      Answer: $\int b^x dx = \frac{b^x}{\ln(b)} + C$
+- input: |-
+    \[
+    \int \sin x dx
+    \]
+  ideal: |-
+    \(\int \sin x dx = -\cos x + C\).
+  responses:
+  - response: |- # done.
+      We can evaluate this integral using integration by substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
+      \begin{align*}
+      \int \sin x dx &= -\int (-\sin x) dx \\
+      &= -\int \frac{d}{dx}(\cos x) dx \\
+      &= -\cos x + C \\
+      &= -\cos(x) + C
+      \end{align*}
+      where \(C\) is the constant of integration. 
+
+      Therefore, the solution to the integral \(\int \sin x dx\) is \(-\cos(x) + C\).
+  - response: |- # done.
+      We have:
+      \begin{align*}
+      \int \sin x dx &= -\cos x + C \quad &\text{(where } C \text{ is a constant)} \\
+      \end{align*}
+      We know that the derivative of $\cos x$ is $-\sin x$, so the derivative of $-\cos x$ is $\sin x$. Therefore, $\int \sin x dx = -\cos x + C$. 
+
+      \[\int \sin x dx = -\cos x + C\]
+  - response: |- # done.
+      We can evaluate the given integral using integration by parts with \(u = \sin x\) and \(dv = dx\):
+      \begin{align*}
+      \int \sin x dx &= -\cos x + C
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      Therefore,
+      \[
+      \int \sin x dx = -\cos x + C
+      \]
+  - response: |- # done.
+      We can evaluate the integral using integration by parts. Let \(u = \sin x\) and \(dv = dx\), so \(du = \cos x \, dx\) and \(v = x\). Then we have:
+      \begin{align*}
+      \int \sin x \, dx &= -\cos x \cdot x + \int \cos x \cdot 1 \, dx \\
+      &= -\cos x \cdot x + \sin x + C
+      \end{align*}
+      where \(C\) is the constant of integration. Therefore,
+      \[
+      \int \sin x \, dx = -\cos x \cdot x + \sin x + C
+      \]
+  - response: |+ # done.
+      We know that the derivative of $\cos x$ is $-\sin x$, so we can use substitution to evaluate the integral. Let $u = \cos x$, then $du = -\sin x dx$. Rewriting the integral in terms of $u$ gives us:
+      \[
+      \int \sin x dx = -\int (-\sin x) dx = -\int du = -u + C = -\cos x + C
+      \]
+      where $C$ is the constant of integration.
+
+      Therefore, $\int \sin x dx = -\cos x + C$.
+
+- input: |-
+    \[
+    \int \cos x dx
+    \]
+  ideal: |-
+    \(\int \cos x dx = \sin x + C\).
+  responses:
+  - response: |- # done.
+      We know that $\int \cos x dx=\sin x + C$ where $C$ is any constant. This is because the derivative of $\sin x$ is $\cos x$, so the integral essentially undoes the differentiation. Therefore,
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+      where $C$ is any constant.
+  - response: |- # done.
+      Using the formula $\int \cos x dx = \sin x + C$, where $C$ is the constant of integration, we have:
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+      Final Answer: \(\int \cos x dx = \sin x + C\)
+  - response: |- # done.
+      We can solve the integral using integration by substitution. Let \(u = \sin x\), then \(du = \cos x dx\). Substituting into the integral gives:
+      \[
+      \int \cos x dx = \int du = u + C = \sin x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore, 
+      \[
+      \int \cos x dx = \sin x + C
+      \]
+  - response: |- # done.
+      We can evaluate the integral by using integration by substitution with \(u = \sin x\), \(du = \cos x dx\). Then,
+      \[
+      \int \cos x dx = \int du = u + C = \sin x + C,
+      \]
+      where \(C\) is the constant of integration. Thus, 
+      \[
+      \int \cos x dx = \boxed{\sin x + C}.
+      \]
+  - response: |- # done.
+      We know that the derivative of $\sin x$ is $\cos x$, so we can use integration by substitution.
+      Let \(u=\sin x\), then \(du=\cos x dx\).
+      Therefore,
+      \begin{align*}
+      \int \cos x dx &= \int du \\
+      &= u + C \\
+      &= \sin x + C,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      \[\int \cos x dx = \sin x + C\]
+- input: |-
+    \[
+    \int \sec^2 x dx
+    \]
+  ideal: |-
+    \(\int \sec^2 x dx = \tan x + C\).
+  responses:
+  - response: |- # done.
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so by the reverse chain rule, we can say that:
+      \[
+      \int \sec^2 x dx = \tan x + C
+      \]
+      where $C$ is the constant of integration. 
+
+      Answer: \[\int \sec^2 x dx = \tan x + C\]
+  - response: |- # done.
+      We know that $\frac{d}{dx}(\tan x) = \sec^2 x$. Therefore, we can use substitution with $u=\tan x$ and $du = \sec^2 x dx$:
+      \begin{align*}
+      \int \sec^2 x dx &= \int du \\
+      &= \tan x + C,
+      \end{align*}
+      where $C$ is the constant of integration. 
+
+      Therefore, \[\int \sec^2 x dx = \tan x + C.\]
+  - response: |- # done.
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution letting $u = \tan x$ and $du = \sec^2 x dx$:
+      \begin{align*}
+      \int \sec^2 x dx &= \int du \\
+      &= \boxed{\tan x + C}.
+      \end{align*}
+  - response: |- # done.
+      We can use the formula $\int \sec^2 x dx = \tan x + C$. Therefore,
+      \[
+      \int \sec^2 x dx = \tan x + C
+      \]
+  - response: |- # done.
+      We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution to evaluate the integral. Let \(u=\tan x\), so \(du = \sec^2 x dx\). Then the integral becomes
+      \[
+      \int \sec^2 x dx = \int du = \boxed{\tan x + C}.
+      \]
+- input: |-
+    \[
+    \int \csc^2 x dx
+    \]
+  ideal: |-
+    \(\int \csc^2 x dx = -\cot x + C\).
+  responses:
+  - response: |- # done.
+      We know that the derivative of $\cot x$ is $-\csc^2 x$. Therefore, we can rewrite the given integral as
+      \[
+      \int \csc^2 x dx = -\int \dfrac{d}{dx}(\cot x) dx = -\cot x + C,
+      \]
+      where $C$ is the constant of integration.
+
+      So the solution is:
+      \[
+      \int \csc^2 x dx = -\cot x + C
+      \]
+  - response: |- # done
+      We use the identity $\csc^2 x = 1 + \cot^2 x$ and integrate term by term:
+      \begin{align*}
+      \int \csc^2 x dx &= \int (1 + \cot^2 x) dx \\
+      &= \int 1 dx + \int \cot^2 x dx \\
+      &= x - \int \frac{\sin^2 x}{\cos^2 x} dx \\
+      &= x - \int \frac{1 - \cos^2 x}{\cos^2 x} dx \\
+      &= x - \int \sec^2 x dx + \int dx \\
+      &= x - \tan x + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \csc^2 x dx = x - \tan x + C.
+      \]
+  - response: |- # done.
+      We can use the identity $\csc^2 x = 1+\cot^2 x$ and rewrite the integral as
+      \[
+      \int \csc^2 x dx = \int (1+\cot^2 x) dx = x - \cot x + C
+      \]
+      where $C$ is the constant of integration. Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C
+      \]
+  - response: |- # done.
+      We know that $\csc x = \frac{1}{\sin x}$, so $\csc^2 x = \frac{1}{\sin^2 x}$. Thus, we can rewrite the integral as
+      \[
+      \int \frac{1}{\sin^2 x} dx
+      \]
+      Next, we use the trigonometric identity $1 + \cot^2 x = \csc^2 x$ to rewrite the integrand as
+      \[
+      \frac{1}{\sin^2 x} = \frac{1 + \cot^2 x}{\sin^2 x} - \frac{1}{\sin^2 x} = \csc^2 x + \cot^2 x
+      \]
+      Therefore, the integral becomes
+      \[
+      \int \csc^2 x dx + \int \cot^2 x dx
+      \]
+      The first integral is just $\int \csc^2 x dx$, which we know how to integrate. For the second integral, we can use the identity $\cot^2 x = \csc^2 x - 1$ to rewrite it as
+      \[
+      \int \cot^2 x dx = \int (\csc^2 x - 1) dx = -\cot x - x + C
+      \]
+      where $C$ is an arbitrary constant of integration. Putting everything together, we have
+      \[
+      \int \csc^2 x dx = -\cot x + \int \cot^2 x dx = -\cot x - x + C
+      \]
+      Therefore, the solution is
+      \[
+      \int \csc^2 x dx = -\cot x - x + C
+      \]
+  - response: |- # done.
+      We can use the identity $\csc^2 x = 1 + \cot^2 x$ to rewrite the integral as
+      \[
+      \int \csc^2 x dx = \int (1 + \cot^2 x) dx = \int dx + \int \cot^2 x dx = x - \cot x + C,
+      \]
+      where $C$ is the constant of integration. Therefore,
+      \[
+      \int \csc^2 x dx = x - \cot x + C.
+      \]
+- input: |-
+    \[
+    \int \sec x \tan x dx
+    \]
+  ideal: |-
+    \(\int \sec x \tan x dx = \sec x + C\).
+  responses:
+  - response: |- # done.
+      We can use substitution to evaluate this integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Making this substitution, we have:
+      \begin{align*}
+      \int \sec x \tan x dx &= \int du \\
+      &= \ln|\sec x + \tan x| + C, \quad \text{where }C \text{ is the constant of integration.}
+      \end{align*}
+
+      Therefore,
+      \[\int \sec x \tan x dx = \ln|\sec x + \tan x| + C\]
+  - response: |- # done.
+      We can use substitution to evaluate the integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\) and we have
+      \[
+      \int \sec x \tan x dx = \int u du = \frac{1}{2}\sec^2 x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Answer: \(\frac{1}{2}\sec^2 x + C\)
+  - response: |- # done.
+      We use the substitution \(u=\sec x\), so \(\frac{du}{dx}=\sec x\tan x\), or equivalently, \(du=\sec x\tan x\,dx\). Substituting, we have
+      \[
+      \int \sec x \tan x dx = \int u \,du = \frac{u^2}{2} + C = \frac{1}{2}\sec^2 x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      Therefore,
+      \[
+      \int \sec x \tan x dx = \frac{1}{2}\sec^2 x + C
+      \]
+  - response: |- # done.
+      Let $u=\sec x$ and $du=\sec x\tan x\,dx$. Then we have:
+      \begin{align*}
+      \int \sec x \tan x dx &= \int u\,du\\
+      &= \frac{u^2}{2}+C\\
+      &= \frac{\sec^2 x}{2}+C
+      \end{align*}
+
+      Therefore, 
+      \[
+      \int \sec x \tan x dx = \frac{\sec^2 x}{2}+C
+      \]
+  - response: |- # done.
+      We can use the substitution \(u = \sec x\) to simplify the integral. Then, \(du/dx = \sec x \tan x\) and \(dx = du/\sec x\). Thus,
+      \[
+      \int \sec x \tan x dx = \int u \frac{du}{u} = \int du = u + C = \sec x + C.
+      \]
+      Therefore,
+      \[
+      \int \sec x \tan x dx = \boxed{\sec x + C}.
+      \]
+- input: |-
+    \[
+    \int \csc x \cot x dx
+    \]
+  ideal: |-
+    \(\int \csc x \cot x dx = -\csc x + C\).
+  responses:
+  - response: |- # done.
+      We can use the substitution \(u = \csc x\), \(du = -\csc x \cot x dx\) to simplify the integral. Then, we have:
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int u du\\
+      &= -\frac{1}{2}u^2 + C \\
+      &= -\frac{1}{2}\csc^2 x + C
+      \end{align*}
+      Therefore, \(\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C\).
+  - response: |- # done.
+      We start by using the substitution \(u=\csc{x}\), which means \(du=-\cot{x}\csc{x}dx\). Therefore, 
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int udu\\
+      &= -\frac{1}{2}u^2 +C\\
+      &=-\frac{1}{2}\csc^2 x + C.
+      \end{align*}
+
+      Therefore, \[\int \csc x \cot x dx = -\frac{1}{2}\csc^2 x + C.\]
+  - response: |- # done.
+      We can start by using substitution. Let \(u=\csc x\), then \(du=-\csc x \cot x dx\) and we have:
+      \begin{align*}
+      \int \csc x \cot x dx &= -\int u du \\
+      &= -\frac{1}{2}u^2 + C \\
+      &= -\frac{1}{2}\csc^2x + C
+      \end{align*}
+      Therefore,
+      \[
+      \int \csc x \cot x dx = -\frac{1}{2}\csc^2x + C
+      \]
+  - response: |- # done.
+      We can begin by using the substitution \(u = \csc x\), so \(du = -\csc x \cot x dx\). Substituting this gives:
+      \[ -\int u\; du = -\frac{1}{2}u^2 + C = -\frac{1}{2}\csc^2 x + C\]
+      Therefore, \[\int \csc x \cot x dx = \boxed{-\frac{1}{2}\csc^2 x + C}\]
+  - response: |- # done.
+      We can start by using the trigonometric identity $\cot x = \frac{\cos x}{\sin x}$ to rewrite the integrand as $\frac{\cos x}{\sin^2 x}$. Then, we can make the substitution $u = \sin x$, so $du = \cos x dx$ and the integral becomes
+      \begin{align*}
+      \int \csc x \cot x dx &= \int \frac{\cos x}{\sin^2 x} dx \\
+      &= \int \frac{1}{u^2} du \\
+      &= -\frac{1}{u} + C \\
+      &= -\frac{1}{\sin x} + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \csc x \cot x dx = -\frac{1}{\sin x} + C.
+      \]
+- input: |-
+    \[
+    \int \sec x dx
+    \]
+  ideal: |-
+    \(\int \sec x dx = \ln |\sec x + \tan x| + C\).
+  responses:
+  - response: |- # done.
+      We can solve this integral by using substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then, we have:
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1}{\cos x} dx\\
+      &= \int \frac{1}{u} \cdot \frac{-1}{\sin x} du\\
+      &= -\int \frac{1}{u} du\\
+      &= -\ln |\cos x| + C.
+      \end{align*}
+      Therefore,
+      \[
+      \int \sec x dx = -\ln |\cos x| + C.
+      \]
+  - response: |- # done.
+      We use the trigonometric identity $\sec^2(x)=1+\tan^2(x)$ to rewrite the integral:
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1}{\cos x} dx \\
+      &= \int \frac{1 + \tan^2 x}{\cos x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{\tan^2 x}{\cos x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{\sin^2 x}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx + \int \frac{1-\cos^2 x}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx - \int \frac{\cos x}{\cos^3 x} dx + \int \frac{1}{\cos^3 x} dx \\
+      &= \int \frac{1}{\cos x} dx - \int \frac{1}{\cos^2 x} dx + \int \frac{1}{\cos^3 x} dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} + \frac{1}{2}\int \frac{\sin x}{\cos^3 x} dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} + \frac{1}{2}\int \frac{d}{dx}\left(-\frac{1}{2\cos^2 x}\right) dx \\
+      &= \ln|\sec x + \tan x| + \frac{1}{\cos x} - \frac{1}{2\cos^2 x} + C,
+      \end{align*}
+      where $C$ is an arbitrary constant of integration. Therefore,
+      \[
+      \int \sec x dx = \ln|\sec x + \tan x| + \frac{1}{\cos x} - \frac{1}{2\cos^2 x} + C.
+      \]
+  - response: |- # done.
+      We use the substitution \(u = \cos x\), then \(du = -\sin x dx\) and we have
+      \[
+      \int \sec x dx = \int \frac{1}{\cos x} dx = \int \frac{-du}{u \sqrt{1-u^2}}.
+      \]
+      Letting \(v = 1-u^2\) we get \(dv = -2u \, du\) and so
+      \[
+      \int \frac{-du}{u \sqrt{1-u^2}} = \int \frac{-dv}{2 \sqrt v} = -\sqrt v + C = -\sqrt{1-\cos^2 x} + C.
+      \]
+      Note that we used the fact that \(\sin^2 x + \cos^2 x = 1\) to write \(\sin x = \sqrt{1-\cos^2 x}\). 
+
+      Therefore,
+      \[
+      \int \sec x dx = -\sqrt{1-\cos^2 x} + C.
+      \]
+  - response: |- # done.
+      We can use the substitution \(u = \tan \frac{x}{2}\), which gives us \(\sec x = \frac{1}{\cos x} = \frac{1}{\frac{1 - u^2}{1 + u^2}} = \frac{1 + u^2}{1 - u^2}\) and \(dx = \frac{2}{1+u^2}du\). Thus,
+
+      \begin{align*}
+      \int \sec x dx &= \int \frac{1+u^2}{1-u^2} \cdot \frac{2}{1+u^2} du \\
+      &= \int \frac{2}{1 - u^2} du \\
+      &= \int \frac{1}{1-u} - \frac{1}{1+u} du \\
+      &= -\ln|1 - u| + \ln|1+u| + C \\
+      &= -\ln\left|\frac{1-\tan\frac{x}{2}}{1+\tan\frac{x}{2}}\right| + C \\
+      &= \boxed{-\ln|\sec x+\tan x| + C}.
+      \end{align*}
+  - response: |- # done.
+      We can use the substitution \(u=\cos x,\) which implies \(du=-\sin x dx.\) Therefore, we have
+      \begin{align*}
+          \int \sec x dx &= \int \frac{1}{\cos x} dx \\
+          &= \int \frac{-\sin x}{\cos x} \frac{-1}{\sin x} dx \\
+          &= \int \frac{-du}{u} \\
+          &= -\ln|u| + C \\
+          &= -\ln|\cos x| + C.
+      \end{align*}
+      Therefore, \(\int \sec x dx = -\ln|\cos x| + C.\)
+
+      \[-\ln|\cos x|+C\]
+- input: |-
+    \[
+    \int \csc x dx
+    \]
+  ideal: |-
+    \(\int \csc x dx = \ln |\csc x-\cot x| + C\). Note that \(-\ln|\csc x + \cot x| + C\) is also an antiderivative of \(\csc x dx\), but \(\ln |\csc x-\cot x| + C\) is the form more commonly found in textbooks and references.
+  responses:
+  - response: |- # done.
+      We can use the substitution \(u = \sin x\), so \(du=\cos x \ dx\), and the integral becomes:
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx = \int \frac{1}{u} \frac{du}{\sqrt{1-u^2}} = \ln|\sec x + \tan x| + C
+      \]
+      where we used the Pythagorean identity \(\sqrt{1-\sin^2 x} = \cos x\) to replace \(\sqrt{1-u^2}\) in terms of \(x\). Therefore:
+      \[
+      \int \csc x dx = \ln|\sec x + \tan x| + C
+      \]
+  - response: |- # done.
+      We begin by using the identity $\csc x = \frac{1}{\sin x}$. Hence, we have
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx.
+      \]
+      We can then use substitution, letting $u = \sin x$ and $du = \cos x dx$. Hence,
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{1}{u} \frac{du}{\cos x} = \int \frac{\sec x}{\sin x} du = \ln|\sin x| + C,
+      \]
+      where $C$ is a constant of integration. Therefore,
+      \[
+      \int \csc x dx = \ln|\sin x| + C.
+      \]
+  - response: |- # done.
+      We can write $\csc x$ as $\frac{1}{\sin x}$, giving us
+      \[
+      \int \csc x dx = \int \frac{1}{\sin x} dx.
+      \]
+      Now, letting $u = \sin x$, we have $du = \cos x dx$ and
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{1}{u} \cdot \frac{du}{\cos x} = \int \frac{1}{u} \sec x du.
+      \]
+      Using the identity $\sec x = \frac{1}{\cos x}$, we have
+      \[
+      \int \frac{1}{\sin x} dx = \int \frac{\sec x}{\tan x} d(\sin x) = \int \frac{d(\sin x)}{\sin x} = \ln|\sin x| + C,
+      \]
+      where $C$ is the constant of integration.
+
+      Therefore,
+      \[
+      \int \csc x dx = \ln|\sin x| + C.
+      \]
+  - response: |- # done.
+      We can use the substitution \(u = \sin x\), which gives \(du = \cos x dx\) and \[\int \csc x dx = \int \frac{1}{\sin x} \cos x dx = \int \frac{1}{u} du = \ln|\sin x|+C.\]Therefore, \[\int \csc x dx = \ln|\sin x|+C.\]
+  - response: |- # done.
+      We can use substitution to evaluate the integral. Let \(u=\csc x\), so \(du=-\csc x \cot x dx\). Then, the integral becomes
+      \begin{align*}
+      \int \csc x dx &= \int \frac{-du}{u\cot x} \\
+      &= \int -\frac{\sin x}{\cos x} \frac{du}{u} \\
+      &= -\ln|\csc x + \cot x| + C,
+      \end{align*}
+      where \(C\) is an arbitrary constant. Therefore,
+      \[
+      \int \csc x dx = -\ln|\csc x + \cot x| + C.
+      \]
+- input: |-
+    \[
+    \int \tan x dx
+    \]
+  ideal: |-
+    \(\int \tan x dx = \ln |\sec x| + C\).
+  responses:
+  - response: |-
+      We can use a substitution to evaluate this integral. Let \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
+      \begin{align*}
+      \int \tan x dx &= \int \frac{\sin x}{\cos x}dx \\
+      &= -\int \frac{-\sin x}{\cos x}dx \\
+      &= -\int \frac{-du}{u} \\
+      &= \ln |u| + C \\
+      &= \ln |\cos x| + C.
+      \end{align*}
+
+      Therefore, \(\int \tan x dx = \ln |\cos x| + C\).
+  - response: |-
+      We can use the substitution \(u = \cos x\) to rewrite the integrand in terms of \(u\):
+      \begin{align*}
+      \int \tan x dx &= \int \frac{\sin x}{\cos x} dx \\
+      &= -\int \frac{-\sin x}{\cos^2 x} dx \\
+      &= -\int \frac{du}{u^2} \quad (\text{using } u = \cos x) \\
+      &= \frac{1}{u} + C \\
+      &= \frac{1}{\cos x} + C.
+      \end{align*}
+      Therefore, \[\int \tan x dx = \boxed{\frac{1}{\cos x} + C}.\]
+  - response: |-
+      We can use substitution to solve this integral. Let \(u = \cos x\), then \(du = -\sin x dx\). We see that \(\tan x = \frac{\sin x}{\cos x} = -\frac{du}{u}\). Therefore,
+      \begin{align*}
+      \int \tan x dx &= \int -\frac{du}{u} \\
+      &= -\ln|\cos x| + C.
+      \end{align*}
+      Therefore, \(\int \tan x dx = -\ln|\cos x| + C\).
+  - response: |-
+      We can use substitution to evaluate the integral. Let \(u = \cos x\), then \(du = -\sin x\ dx\). Using the identity \(\tan x = \frac{\sin x}{\cos x}\), we can write:
+      \begin{align*}
+      \int \tan x dx &= \int \frac{\sin x}{\cos x}dx\\
+      &= -\int \frac{-\sin x}{\cos x}dx\\
+      &= -\int \frac{du}{u}\\
+      &= -\ln|u| + C\\
+      &= -\ln|\cos x| + C
+      \end{align*}
+      Therefore, \(\int \tan x dx = -\ln|\cos x| + C\).
+
+      \[-\ln|\cos x| + C\]
+  - response: |-
+      We use the substitution \(u = \cos x.\) Then \(du = -\sin x \, dx,\) and so
+      \begin{align*}
+      \int \tan x \, dx &= \int \frac{\sin x}{\cos x} \, dx \\
+      &= -\int \frac{-\sin x}{\cos x} \, dx \\
+      &= -\int \frac{du}{u} \\
+      &= -\ln |u| + C \\
+      &= -\ln |\cos x| + C.
+      \end{align*}
+      Therefore,
+      \[
+      \int \tan x \, dx = \boxed{-\ln |\cos x| + C}.
+      \]
+- input: |-
+    \[
+    \int \cot x dx
+    \]
+  ideal: |-
+    \(\int \cot x dx = \ln |\sin x| + C\).
+  responses:
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so
+      \[
+      \int \cot x dx = \int \frac{\cos x}{\sin x} dx.
+      \]
+      Using substitution with $u=\sin x$, we get $du=\cos x dx$, and so
+      \begin{align*}
+      \int \frac{\cos x}{\sin x} dx &= \int \frac{du}{u} \\
+      &= \ln |\sin x| + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \cot x dx = \ln |\sin x| + C.
+      \]
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and then make the substitution $u=\sin x$:
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{du}{u} \\
+      &= \ln |u| + C \\
+      &= \ln |\sin x| + C
+      \end{align*}
+      Therefore,
+      \[
+      \int \cot x dx = \ln |\sin x| + C
+      \]
+  - response: |-
+      We can use the substitution \(u=\sin x\) and \(du=\cos x dx\) to rewrite the integral as
+      \[
+      \int \frac{\cos x}{\sin x} dx = \int \frac{du}{u} = \ln|u| + C = \ln|\sin x| + C.
+      \]
+      Therefore, \[\int \cot x dx = \ln|\sin x| + C.\]
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so we have
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \ln |\sin x| + C,
+      \end{align*}
+      where $C$ is the constant of integration. We used the substitution $u = \sin x$ and $du = \cos x \, dx$ to evaluate the integral. However, we also need to add the absolute value of $\sin x$ because $\sin x$ can be negative in certain intervals. Therefore, the final answer is
+      \[
+      \int \cot x dx = \ln |\sin x| + C.
+      \]
+  - response: |-
+      We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and use u-substitution with $u = \sin x$. Then $du = \cos x dx$ and we have:
+      \begin{align*}
+      \int \cot x dx &= \int \frac{\cos x}{\sin x} dx \\
+      &= \int \frac{1}{u} du \\
+      &= \ln |u| + C \\
+      &= \ln |\sin x| + C \\
+      \end{align*}
+      Therefore, $\int \cot x dx = \ln |\sin x| + C$, where $C$ is the constant of integration.
+- input: |-
+    \[
+    \int \sinh x dx
+    \]
+  ideal: |-
+    \(\int \sinh x dx = \cosh x + C\).
+  responses:
+  - response: |-
+      We can use the definition of the hyperbolic sine function:
+      \[
+      \sinh x = \frac{e^x-e^{-x}}{2}
+      \]
+      Thus, we have:
+      \begin{align*}
+      \int \sinh x dx &= \int \frac{e^x-e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx - \frac{1}{2} \int e^{-x} dx \\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C ,
+      \end{align*}
+      where \(C\) is the constant of integration.
+
+      Answer: \(\frac{1}{2} e^x - \frac{1}{2} e^{-x} + C\)
+  - response: |-
+      We can use the definition of the hyperbolic sine function to find the antiderivative:
+      \begin{align*}
+      \int \sinh x dx &= \int \frac{e^x - e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx - \frac{1}{2} \int e^{-x} dx\\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C
+      \end{align*}
+      where \(C\) is the constant of integration. Thus, the integral of \(\sinh x\) is \[\int \sinh x dx = \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C. \]
+  - response: |-
+      We can use integration by substitution to evaluate the integral. Let \(u = \cosh x\), then \(du = \sinh x dx\). Therefore,
+      \[
+      \int \sinh x dx = \int du = u + C = \cosh x + C
+      \]
+      where \(C\) is the constant of integration.
+
+      \[\int \sinh x dx = \cosh x + C\]
+  - response: |-
+      We know that $\sinh x = \frac{e^x - e^{-x}}{2}$, so we can substitute to get
+      \[
+      \int \sinh x dx = \int \frac{e^x - e^{-x}}{2} dx
+      \]
+      Using the linearity of integration, we can split this into two separate integrals:
+      \[
+      \int \frac{e^x}{2} dx - \int \frac{e^{-x}}{2} dx
+      \]
+      Integrating each term gives us 
+      \[
+      \frac{e^x}{2} + \frac{e^{-x}}{2} + C
+      \]
+      where $C$ is the constant of integration. Therefore, 
+      \[
+      \int \sinh x dx =  \frac{e^x}{2} + \frac{e^{-x}}{2} + C
+      \]
+  - response: |-
+      We have:
+      \[
+      \int \sinh x dx = \cosh x + C,
+      \]
+      where $C$ is the constant of integration. This can be found using the definition of hyperbolic functions and integrating term by term:
+      \begin{align*}
+      \int \sinh x dx &= \int \frac{e^{x} - e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^{x}dx - \frac{1}{2} \int e^{-x}dx \\
+      &= \frac{1}{2} e^{x} - \frac{1}{2} e^{-x} + C \\
+      &= \cosh x + C.
+      \end{align*}
+
+      \[
+      \int \sinh x dx = \cosh x + C
+      \]
+- input: |-
+    \[
+    \int \cosh x dx
+    \]
+  ideal: |-
+    \(\int \cosh x dx = \sinh x + C\).
+  responses:
+  - response: |-
+      We have that $\cosh x = \frac{e^x + e^{-x}}{2}$, so 
+      \begin{align*}
+      \int \cosh x dx &= \int \frac{e^x + e^{-x}}{2} dx \\
+      &= \frac{1}{2} \int e^x dx + \frac{1}{2} \int e^{-x} dx \\
+      &= \frac{1}{2} e^x - \frac{1}{2} e^{-x} + C.
+      \end{align*}
+      Therefore, $\int \cosh x dx = \boxed{\frac{1}{2} e^x - \frac{1}{2} e^{-x} + C}$.
+  - response: |-
+      We know that $\cosh x = \frac{e^x + e^{-x}}{2}$. Using this, we can integrate by substitution:
+
+      Let $u = e^x$, then $du = e^x dx$ and thus:
+      \begin{align*}
+      \int \cosh x dx &= \int \frac{e^x + e^{-x}}{2} dx \\
+      &= \frac{1}{2}\int \frac{e^x}{e^x} dx + \frac{1}{2}\int \frac{e^{-x}}{e^x} dx \\
+      &= \frac{1}{2}\int 1 dx + \frac{1}{2}\int e^{-2x} dx \\
+      &= \frac{1}{2}\left(x - \frac{1}{2}e^{-2x}\right) + C
+      \end{align*}
+
+      Therefore,
+      \[
+      \int \cosh x dx = \frac{1}{2}\left(x - \frac{1}{2}e^{-2x}\right) + C
+      \]
+  - response: |-
+      We can evaluate this integral by using the formula for the derivative of $\sinh x$: $\frac{d}{dx} \sinh x = \cosh x$. Rewriting the integral in terms of $\sinh x$:
+      \[
+      \int \cosh x dx = \int \frac{d}{dx}(\sinh x) dx = \sinh x + C,
+      \]
+      where $C$ is the constant of integration.
+
+      Therefore, 
+      \[
+      \int \cosh x dx = \sinh x + C.
+      \]
+  - response: |-
+      Using the formula for the derivative of $\sinh x$, we have that 
+      \[
+      \frac{d}{dx}\sinh x = \cosh x.
+      \]
+      Therefore, 
+      \[
+      \int \cosh x dx = \sinh x + C,
+      \]
+      where $C$ is the constant of integration.
+
+      \[\int \cosh x dx = \sinh x + C\]
+  - response: |-
+      We use the definition of the hyperbolic cosine:
+      \[
+      \cosh x = \frac{e^x+e^{-x}}{2}
+      \]
+      Thus,
+      \begin{align*}
+      \int \cosh x dx &= \int \frac{e^x+e^{-x}}{2} dx \\
+      &= \frac{1}{2} \left(\int e^x dx + \int e^{-x} dx\right) \\
+      &= \frac{1}{2} (e^x - e^{-x}) + C,
+      \end{align*}
+      where $C$ is the constant of integration. 
+
+      Therefore, 
+      \[
+      \int \cosh x dx = \frac{1}{2} (e^x - e^{-x}) + C. 
+      \]
+- input: |-
+    \[
+    \int \frac{dx}{x^2+a^2}
+    \]
+  ideal: |-
+    \(\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C\).
+  responses:
+  - response: |-
+      We can use the substitution \(x = a\tan\theta\) to evaluate the integral. Then \(dx = a\sec^2\theta\, d\theta\), and the integral becomes
+      \[
+      \int \frac{dx}{x^2+a^2} = \int\frac{a\sec^2\theta}{a^2\tan^2\theta+a^2}\,d\theta = \int \frac{d\theta}{\tan^2\theta+1} = \int \cos^2\theta \,d\theta.
+      \]
+      Using the identity \(\cos^2\theta = \frac{\cos2\theta+1}{2}\) and substituting back, we get
+      \begin{align*}
+      \int \frac{dx}{x^2+a^2} &= \int \frac{\cos^2\theta}{2}\, d\theta = \frac{1}{2}\int \frac{\cos2\theta+1}{2}\, d\theta\\
+      &= \frac{1}{4}\int \cos2\theta\, d\theta + \frac{1}{2}\int d\theta\\
+      &= \frac{1}{4}\sin2\theta + \frac{1}{2}\theta + C\\
+      &= \frac{1}{4}\frac{2x}{a^2+x^2} + \frac{1}{2}\tan^{-1}\frac{x}{a} + C.
+      \end{align*}
+      Therefore,
+      \[\int \frac{dx}{x^2+a^2} = \frac{1}{4}\frac{2x}{a^2 + x^2} + \frac{1}{2}\tan^{-1}\frac{x}{a} + C.\]
+  - response: |-
+      We can use the substitution \( x = a\tan(u) \). Then \( dx = a\sec^2(u)du \) and we have
+      \begin{align*}
+      \int \frac{dx}{x^2+a^2} &= \int \frac{a\sec^2(u)du}{a^2\tan^2(u)+a^2} \\
+      &= \int \frac{du}{a\tan^2(u)+1} \\
+      &= \frac{1}{a}\int \frac{\sec^2(u)du}{\tan^2(u)+1} \\
+      &= \frac{1}{a}\int \sec^2(u)du \\
+      &= \frac{1}{a} \tan(u) + C \\
+      &= \frac{1}{a} \tan \left( \arctan\left(\frac{x}{a}\right) \right) + C \\
+      &= \frac{1}{a} \cdot \frac{x}{a} + C \\
+      &= \frac{1}{a^2}x + C.
+      \end{align*}
+      Therefore, \[ \int \frac{dx}{x^2+a^2} = \boxed{\frac{1}{a^2}x + C}. \]
+  - response: |-
+      We can use the substitution \(x = a\tan(u)\), which gives us \(dx=a\sec^2(u)du\) and \(x^2+a^2=a^2\sec^2(u)\). Substituting these into the integral, we get
+      \[
+      \int \frac{dx}{x^2+a^2} = \int \frac{a\sec^2(u)du}{a^2\sec^2(u)} = \frac{1}{a}\int \frac{du}{\sec^2(u)} = \frac{1}{a}\int \cos^2(u)du.
+      \]
+      Using the identity \(\cos^2(u) = \frac{1}{2}(1+\cos(2u))\), we get
+      \[
+      \frac{1}{a}\int \cos^2(u)du = \frac{1}{2a}\int (1+\cos(2u))du = \frac{1}{2a}(u+\frac{1}{2}\sin(2u))+C,
+      \]
+      where \(C\) is a constant of integration. Substituting back \(x=a\tan(u)\), we obtain the final answer
+      \[
+      \int \frac{dx}{x^2+a^2} = \frac{1}{2a}\ln|x^2+a^2|+C.
+      \]
+      Answer: \(\int \frac{dx}{x^2+a^2} = \frac{1}{2a}\ln|x^2+a^2|+C\)
+  - response: |-
+      We can use the substitution \(u = \frac{x}{a}\) to transform the integral into
+      \begin{align*}
+      \int \frac{dx}{x^2+a^2} &= \int \frac{a\,du}{a^2u^2+a^2} \\
+      &= \int \frac{1}{u^2+1}\,du \\
+      &= \arctan(u) + C \\
+      &= \arctan\left(\frac{x}{a}\right) + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \frac{dx}{x^2+a^2} = \arctan\left(\frac{x}{a}\right) + C.
+      \]
+  - response: |-
+      We can use the substitution \(x=a \tan(\theta)\), which leads to \(dx=a\sec^2(\theta)d\theta\) and the integral becomes:
+      \begin{align*}
+      \int \frac{dx}{x^2+a^2}&=\int \frac{a\sec^2(\theta)d\theta}{a^2\tan^2(\theta)+a^2}\\
+      &=\int \frac{\sec^2(\theta)d\theta}{a(\tan^2(\theta)+1)}\\
+      &=\int \frac{\sec^2(\theta)}{a(\sec^2(\theta))}d\theta\\
+      &=\frac{1}{a}\int d\theta\\
+      &=\frac{1}{a}\tan^{-1}\left(\frac{x}{a}\right) + C
+      \end{align*}
+      where \(C\) is the constant of integration. Therefore,
+      \[
+      \int \frac{dx}{x^2+a^2}=\frac{1}{a}\tan^{-1}\left(\frac{x}{a}\right) + C
+      \]
+- input: |-
+    \[
+    \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
+    \]
+  ideal: |-
+    \(\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C\).
+  responses:
+  - response: |-
+      We can use the substitution \(x=a\sin\theta\), which gives \(dx=a\cos\theta\,d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Substituting these into the integral, we get
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \int \frac{a\cos\theta\,d\theta}{a\cos\theta} = \int d\theta = \theta + C = \sin^{-1}\left(\frac{x}{a}\right) + C,
+      \]
+      where \(C\) is a constant of integration. Hence, the answer is
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C.
+      \]
+  - response: |-
+      We start by substituting \(x=a\sin\theta\), so that \(dx=a\cos\theta d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Thus, we have:
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos\theta d\theta}{a\cos\theta} \\
+      &= \int d\theta \\
+      &= \theta + C \\
+      &= \sin^{-1}\left(\frac{x}{a}\right) + C
+      \end{align*}
+      Therefore,
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C
+      \]
+  - response: |-
+      We can use the substitution \(x=a\sin(u)\), which implies \(dx=a\cos(u)du\) and \(u=\arcsin(x/a)\). Making this substitution, we get
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos(u)du}{\sqrt{a^2-a^2\sin^2(u)}} \\
+      &= \int \frac{a\cos(u)du}{\sqrt{a^2\cos^2(u)}} \\
+      &= \int \frac{du}{\cos(u)} \\
+      &= \ln|\sec(u) + \tan(u)| + C \\
+      &= \ln\left|\frac{\sqrt{a^2-x^2}}{x} + \frac{a}{x}\right| + C.
+      \end{align*}
+      Therefore, 
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \boxed{\ln\left|\frac{\sqrt{a^2-x^2}}{x} + \frac{a}{x}\right| + C}.
+      \]
+  - response: |-
+      We can recognize the integrand as the derivative of the inverse sine function with the argument $x/a$. Therefore, we have:
+
+      \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \arcsin\left(\frac{x}{a}\right) + C
+      \]
+
+      where $C$ is the constant of integration. 
+
+      $$ \int \frac{dx}{\sqrt{a^2-x^2}} = \arcsin\left(\frac{x}{a}\right) + C $$
+  - response: |-
+      We can evaluate the integral by using trigonometric substitution. Let \(x=a\sin\theta\) and \(dx=a\cos\theta\, d\theta\). Then,
+      \begin{align*}
+      \int \frac{dx}{\sqrt{a^2-x^2}} &= \int \frac{a\cos\theta}{\sqrt{a^2-a^2\sin^2\theta}}\,d\theta\\
+      &= \int \frac{a\cos\theta}{\sqrt{a^2\cos^2\theta}}\,d\theta\\
+      &=\int d\theta\\
+      &= \theta + C\\
+      &= \sin^{-1}\left(\frac{x}{a}\right) + C.
+      \end{align*}
+      Therefore, \[
+      \int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C, \quad a>0.
+      \]
+      \]
