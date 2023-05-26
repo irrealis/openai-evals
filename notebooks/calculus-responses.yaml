@@ -5,6 +5,27 @@
     where \(n != -1\).
   ideal: |-
     \(\int x^n dx = \frac{x^{n+1}}{n+1} + C\), for \(n \neq -1\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 1.0
   responses:
   - response: |-
       Using the power rule of integration, we have:
@@ -126,7 +147,27 @@
     \]
   ideal: |-
     \(\int \frac{1}{x} dx = \ln|x| + C\).
-  # Rubric: may need to try to steer grading model given frequent misapplication of the power rule of integration here.
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We have:
@@ -229,7 +270,7 @@
     correct: true
     comment: |-
       The final answer is correct, as is the need to account for negative values of \(x\).
-      
+
       All antiderivatives differ by a constant in the equivalence class of solutions for any indefinite integral, and in terms of the need for the absolute value, this fact is irrelevant.
 
       I've tentatively decided that the answer is correct, because I think that the irrelevant statement is less important than the correct elements of the argument. But I think this kind irrelevant statement may be considered incorrect by the grading model.
@@ -272,6 +313,27 @@
     \]
   ideal: |-
     \(\int e^x dx = e^x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.8
   responses:
   - response: |-
       We can evaluate the integral using the integration rule for exponential functions:
@@ -410,6 +472,27 @@
     \]
   ideal: |-
     \(\int b^x dx = \frac{b^x}{\ln b} + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.2
   responses:
   - response: |-
       Using the power rule of integration, we have:
@@ -569,6 +652,27 @@
     \]
   ideal: |-
     \(\int \sin x dx = -\cos x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We know that the integral of $\sin x$ is $-\cos x + C$ (where $C$ is the constant of integration). We can see this by differentiating $-\cos x$:
@@ -694,6 +798,27 @@
     \]
   ideal: |-
     \(\int \cos x dx = \sin x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We know that the derivative of $\sin x$ is $\cos x$, so using substitution with $u = \sin x$, we have:
@@ -820,6 +945,27 @@
     \]
   ideal: |-
     \(\int \sec^2 x dx = \tan x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We know that $\frac{d}{dx}(\tan x) = \sec^2 x$. Therefore, we can rewrite the integral as
@@ -923,6 +1069,27 @@
     \]
   ideal: |-
     \(\int \csc^2 x dx = -\cot x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.2
   responses:
   - response: |-
       We can use the identity \(\csc^2 x = 1 + \cot^2 x\) to rewrite the integral as 
@@ -1068,6 +1235,27 @@
     \]
   ideal: |-
     \(\int \sec x \tan x dx = \sec x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.1
   responses:
   - response: |-
       We can use $u$-substitution with $u = \sec x$ and $du = \sec x \tan x dx$:
@@ -1186,6 +1374,27 @@
     \]
   ideal: |-
     \(\int \csc x \cot x dx = -\csc x + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.3
   responses:
   - response: |-
       We can begin by using $u$-substitution with $u=\csc x$ and $du=-\csc x \cot x dx$. Then the integral becomes
@@ -1300,6 +1509,27 @@
     \]
   ideal: |-
     \(\int \sec x dx = \ln |\sec x + \tan x| + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.1
   responses:
   - response: |-
       We can use a substitution to evaluate this integral. Let \(u = \cos x\). Then \(du = -\sin x dx\) and we can rewrite the integral as:
@@ -1464,6 +1694,27 @@
     \]
   ideal: |-
     \(\int \csc x dx = \ln |\csc x-\cot x| + C\). Note that \(-\ln|\csc x + \cot x| + C\) is also an antiderivative of \(\csc x dx\) and should be considered correct, but \(\ln |\csc x-\cot x| + C\) is the form more commonly found in textbooks and references.
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.0
   responses:
   - response: |-
       We can start by using the identity \(\csc x = \frac{1}{\sin x}\) to rewrite the integral as:
@@ -1613,6 +1864,27 @@
     \]
   ideal: |-
     \(\int \tan x dx = \ln |\sec x| + C\). Note that \(\ln |\sec x| = -\ln |\cos x|\), which is an acceptable answer.
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We can use integration by substitution with \(u=\cos x\). Then, \(du=-\sin x dx\) and \(\tan x=\frac{\sin x}{\cos x}= -\frac{1}{u} \). Thus,
@@ -1746,6 +2018,27 @@
     \]
   ideal: |-
     \(\int \cot x dx = \ln |\sin x| + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.8
   responses:
   - response: |-
       We can use the substitution \(u = \sin x\) and \(du = \cos x dx\). Then we have:
@@ -1867,6 +2160,27 @@
     \]
   ideal: |-
     \(\int \sinh x dx = \cosh x + C\). Although \(\frac{e^x}{2} + \frac{e^{-x}}{2} + C\) is an equivalent answer, it is not considered acceptable because it does not match the form of the integrand.
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.3
   responses:
   - response: |-
       We can evaluate this integral using integration by substitution. Let \(u=\cosh x\), then \(du=\sinh x dx\). Substituting into the integral, we have
@@ -2010,7 +2324,7 @@
       \int \sinh x dx = \cosh x + C
       \]
     correct: false
-    comment:
+    comment: |-
       The final answer is correct, but \(\int e^{-x}dx = -e^{-x}\), not \(e^{-x}\), and \(\frac{1}{2} e^{x} - \frac{1}{2} e^{-x} = \sinh x\), not \(\cosh x\).
 - input: |-
     \[
@@ -2018,6 +2332,27 @@
     \]
   ideal: |-
     \(\int \cosh x dx = \sinh x + C\). Although \(\frac{e^x}{2} - \frac{e^{-x}}{2} + C\) is an equivalent answer, it is not considered acceptable because it does not match the form of the integrand.
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.4
   responses:
   - response: |-
       We can solve the integral by using the definition of the hyperbolic cosine function:
@@ -2173,6 +2508,27 @@
     \]
   ideal: |-
     \(\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.2
   responses:
   - response: |-
       We can start by using the substitution \(u = \frac{x}{a}\), which gives us \(du = \frac{1}{a}dx\) and \(x^2 = a^2u^2\). Substituting these into the integral, we get
@@ -2338,6 +2694,27 @@
     \]
   ideal: |-
     \(\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C\).
+  rubric: |-
+    Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+
+    40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+    0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+
+    30: The explanation correctly justifies each step of the problem-solving process.
+    15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+    0: The explanation is incorrect or missing.
+    Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+
+    20: The submission demonstrates full mathematical rigor.
+    10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+    0: The submission does not demonstrate mathematical rigor.
+    Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+
+    10: All intermediate steps are correct.
+    5: Some intermediate steps are correct.
+    0: No intermediate steps are correct.
+  correct_response_rate: 0.7
   responses:
   - response: |-
       We can start the problem by making the substitution \(x=a\sin\theta\), \(dx=a\cos\theta\,d\theta\). Then we have:
