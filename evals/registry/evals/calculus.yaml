@@ -1,0 +1,20 @@
+calculus:
+  id: calculus.dev.v0
+  metrics: [accuracy]
+calculus.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: calculus/demo.jsonl
+    eval_type: cot_classify
+    modelgraded_spec: mathematics
+
+calculus-meta:
+  id: calculus-meta.dev.v0
+  metrics: [accuracy]
+calculus-meta.dev.v0:
+  class: evals.elsuite.modelgraded.classify:ModelBasedClassify
+  args:
+    samples_jsonl: calculus/demo_labeled.jsonl
+    eval_type: cot_classify
+    modelgraded_spec: mathematics
+    metaeval: true
