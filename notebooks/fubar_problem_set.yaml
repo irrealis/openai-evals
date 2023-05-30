@@ -1,0 +1,498 @@
+meta:
+  data_exported_at: 2023-05-30 02:06:03.131651
+  problems_listed: 18
+problem_sets:
+- name: integration table problem set
+  notes: ''
+  problem_set_size: 18
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:05.519602
+  updated_at: 2023-05-29 22:17:05.519602
+problems:
+- input: |-
+    \[
+    \int x^n dx
+    \]
+    where \(n != -1\).
+  ideal: |-
+    \(\int x^n dx = \frac{x^{n+1}}{n+1} + C\), for \(n \neq -1\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 1
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.478568
+  updated_at: 2023-05-29 22:17:10.478568
+- input: |-
+    \[
+    \int \frac{1}{x} dx
+    \]
+  ideal: |-
+    \(\int \frac{1}{x} dx = \ln|x| + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 2
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.497680
+  updated_at: 2023-05-29 22:17:10.497680
+- input: |-
+    \[
+    \int e^{x} dx
+    \]
+  ideal: |-
+    \(\int e^x dx = e^x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 3
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.521966
+  updated_at: 2023-05-29 22:17:10.521966
+- input: |-
+    \[
+    \int b^x dx
+    \]
+  ideal: |-
+    \(\int b^x dx = \frac{b^x}{\ln b} + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 4
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.544063
+  updated_at: 2023-05-29 22:17:10.544063
+- input: |-
+    \[
+    \int \sin x dx
+    \]
+  ideal: |-
+    \(\int \sin x dx = -\cos x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 5
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.572178
+  updated_at: 2023-05-29 22:17:10.572178
+- input: |-
+    \[
+    \int \cos x dx
+    \]
+  ideal: |-
+    \(\int \cos x dx = \sin x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 6
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.596920
+  updated_at: 2023-05-29 22:17:10.596920
+- input: |-
+    \[
+    \int \sec^2 x dx
+    \]
+  ideal: |-
+    \(\int \sec^2 x dx = \tan x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 7
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.613434
+  updated_at: 2023-05-29 22:17:10.613434
+- input: |-
+    \[
+    \int \csc^2 x dx
+    \]
+  ideal: |-
+    \(\int \csc^2 x dx = -\cot x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 8
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.630437
+  updated_at: 2023-05-29 22:17:10.630437
+- input: |-
+    \[
+    \int \sec x \tan x dx
+    \]
+  ideal: |-
+    \(\int \sec x \tan x dx = \sec x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 9
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.650212
+  updated_at: 2023-05-29 22:17:10.650212
+- input: |-
+    \[
+    \int \csc x \cot x dx
+    \]
+  ideal: |-
+    \(\int \csc x \cot x dx = -\csc x + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 10
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.666655
+  updated_at: 2023-05-29 22:17:10.666655
+- input: |-
+    \[
+    \int \sec x dx
+    \]
+  ideal: |-
+    \(\int \sec x dx = \ln |\sec x + \tan x| + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 11
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.686004
+  updated_at: 2023-05-29 22:17:10.686004
+- input: |-
+    \[
+    \int \csc x dx
+    \]
+  ideal: |-
+    \(\int \csc x dx = \ln |\csc x-\cot x| + C\). Note that \(-\ln|\csc x + \cot x| + C\) is also an antiderivative of \(\csc x dx\) and should be considered correct, but \(\ln |\csc x-\cot x| + C\) is the form more commonly found in textbooks and references.
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 12
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.701526
+  updated_at: 2023-05-29 22:17:10.701526
+- input: |-
+    \[
+    \int \tan x dx
+    \]
+  ideal: |-
+    \(\int \tan x dx = \ln |\sec x| + C\). Note that \(\ln |\sec x| = -\ln |\cos x|\), which is an acceptable answer.
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 13
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.717538
+  updated_at: 2023-05-29 22:17:10.717538
+- input: |-
+    \[
+    \int \cot x dx
+    \]
+  ideal: |-
+    \(\int \cot x dx = \ln |\sin x| + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 14
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.733217
+  updated_at: 2023-05-29 22:17:10.733217
+- input: |-
+    \[
+    \int \sinh x dx
+    \]
+  ideal: |-
+    \(\int \sinh x dx = \cosh x + C\). Although \(\frac{e^x}{2} + \frac{e^{-x}}{2} + C\) is an equivalent answer, it is not considered acceptable because it does not match the form of the integrand.
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 15
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.756033
+  updated_at: 2023-05-29 22:17:10.756033
+- input: |-
+    \[
+    \int \cosh x dx
+    \]
+  ideal: |-
+    \(\int \cosh x dx = \sinh x + C\). Although \(\frac{e^x}{2} - \frac{e^{-x}}{2} + C\) is an equivalent answer, it is not considered acceptable because it does not match the form of the integrand.
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 16
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.779180
+  updated_at: 2023-05-29 22:17:10.779180
+- input: |-
+    \[
+    \int \frac{dx}{x^2+a^2}
+    \]
+  ideal: |-
+    \(\int \frac{dx}{x^2+a^2} = \frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 17
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.793272
+  updated_at: 2023-05-29 22:17:10.793272
+- input: |-
+    \[
+    \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
+    \]
+  ideal: |-
+    \(\int \frac{dx}{\sqrt{a^2-x^2}} = \sin^{-1}\left(\frac{x}{a}\right) + C\).
+  rubric: |-
+    - Final Answer Correctness (40 points): The final answer provided by the model matches the expert's answer in its simplest form.
+      - 40: The final answer is mathematically equivalent to the expert's answer and is in its simplest form.
+      - 0: The final answer is not mathematically equivalent to the expert's answer or is not in its simplest form.
+    - Explanation Correctness (30 points): The explanation provided by the model to arrive at the answer is correct and logically sound.
+      - 30: The explanation correctly justifies each step of the problem-solving process.
+      - 15: The explanation is partially correct but does not correctly justify each step of the problem-solving process.
+      - 0: The explanation is incorrect or missing.
+    - Mathematical Rigor (20 points): The submission correctly uses mathematical identities and applies integral and derivative rules.
+      - 20: The submission demonstrates full mathematical rigor.
+      - 10: The submission demonstrates some mathematical rigor but makes minor mistakes.
+      - 0: The submission does not demonstrate mathematical rigor.
+    - Correctness of Intermediate Steps (10 points): The submission correctly executes each step of the problem-solving process.
+      - 10: All intermediate steps are correct.
+      - 5: Some intermediate steps are correct.
+      - 0: No intermediate steps are correct.
+  notes: ''
+  problem_id: 18
+  problem_set_id: 1
+  created_at: 2023-05-29 22:17:10.805448
+  updated_at: 2023-05-29 22:17:10.805448
