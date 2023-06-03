@@ -1,28 +1,28 @@
 meta:
-  data_exported_at: 2023-05-30 02:06:04.499094
+  data_exported_at: 2023-05-31 00:00:00.059943
   problems_listed: 18
   submissions_listed: 180
 models:
 - name: gpt-3.5-turbo
   notes: ''
   id: 1
-  created_at: 2023-05-29 22:17:03.846867
-  updated_at: 2023-05-29 22:17:03.846867
+  created_at: 2023-05-30 23:59:38.119017
+  updated_at: 2023-05-30 23:59:38.119028
 problem_sets:
 - name: integration table problem set
   notes: ''
   problem_set_size: 18
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:05.519602
-  updated_at: 2023-05-29 22:17:05.519602
+  created_at: 2023-05-30 23:59:43.620504
+  updated_at: 2023-05-30 23:59:43.620511
 submission_sets:
 - name: integration table submission set
   notes: ''
   submission_set_size: 180
   submission_set_id: 1
   model_id: 1
-  created_at: 2023-05-29 22:17:05.527777
-  updated_at: 2023-05-29 22:17:05.527777
+  created_at: 2023-05-30 23:59:43.632026
+  updated_at: 2023-05-30 23:59:43.632033
 problems:
 - input: |-
     \[
@@ -50,8 +50,8 @@ problems:
   notes: ''
   problem_id: 1
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.478568
-  updated_at: 2023-05-29 22:17:10.478568
+  created_at: 2023-05-30 23:59:47.340411
+  updated_at: 2023-05-30 23:59:47.340418
   submissions:
   - completion: ''
     message: |-
@@ -68,8 +68,8 @@ problems:
     notes: ''
     submission_id: 1
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.482584
-    updated_at: 2023-05-30 01:57:07.018850
+    created_at: 2023-05-30 23:59:47.351302
+    updated_at: 2023-05-30 23:59:47.351308
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -86,8 +86,8 @@ problems:
     notes: ''
     submission_id: 2
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.484869
-    updated_at: 2023-05-30 01:57:07.024851
+    created_at: 2023-05-30 23:59:47.370445
+    updated_at: 2023-05-30 23:59:47.370455
   - completion: ''
     message: |-
       We use the power rule of integration, which states that for any real number \(n \neq -1\), \[\int x^n dx = \frac{x^{n+1}}{n+1} + C,\] where \(C\) is the constant of integration. 
@@ -99,8 +99,8 @@ problems:
     notes: ''
     submission_id: 3
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.485420
-    updated_at: 2023-05-30 01:57:07.028020
+    created_at: 2023-05-30 23:59:47.380890
+    updated_at: 2023-05-30 23:59:47.380896
   - completion: ''
     message: |-
       We have 
@@ -115,8 +115,8 @@ problems:
     notes: ''
     submission_id: 4
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.486467
-    updated_at: 2023-05-30 01:57:07.034023
+    created_at: 2023-05-30 23:59:47.389056
+    updated_at: 2023-05-30 23:59:47.389062
   - completion: ''
     message: |
       If \(n != -1\), then we have 
@@ -131,8 +131,8 @@ problems:
     notes: ''
     submission_id: 5
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.487466
-    updated_at: 2023-05-30 01:57:07.039539
+    created_at: 2023-05-30 23:59:47.397551
+    updated_at: 2023-05-30 23:59:47.397556
   - completion: ''
     message: |-
       We have:
@@ -147,8 +147,8 @@ problems:
     notes: ''
     submission_id: 6
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.489429
-    updated_at: 2023-05-30 01:57:07.043561
+    created_at: 2023-05-30 23:59:47.407003
+    updated_at: 2023-05-30 23:59:47.407008
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -166,8 +166,8 @@ problems:
     notes: ''
     submission_id: 7
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.491425
-    updated_at: 2023-05-30 01:57:07.046562
+    created_at: 2023-05-30 23:59:47.415806
+    updated_at: 2023-05-30 23:59:47.415813
   - completion: ''
     message: |-
       By the power rule of integration, we have:
@@ -183,8 +183,8 @@ problems:
     notes: ''
     submission_id: 8
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.493670
-    updated_at: 2023-05-30 01:57:07.051569
+    created_at: 2023-05-30 23:59:47.424139
+    updated_at: 2023-05-30 23:59:47.424144
   - completion: ''
     message: |-
       Using the power rule of integration, we have
@@ -202,8 +202,8 @@ problems:
     notes: ''
     submission_id: 9
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.495680
-    updated_at: 2023-05-30 01:57:07.053561
+    created_at: 2023-05-30 23:59:47.432331
+    updated_at: 2023-05-30 23:59:47.432336
   - completion: ''
     message: |-
       If \(n = -1\), then \(\int x^n dx = \int \frac{1}{x} dx = \ln |x| + C\). However, since \(n\) is specified to be not equal to \(-1\), we can use the power rule of integration:
@@ -215,8 +215,8 @@ problems:
     notes: ''
     submission_id: 10
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.496681
-    updated_at: 2023-05-30 01:57:07.055563
+    created_at: 2023-05-30 23:59:47.440687
+    updated_at: 2023-05-30 23:59:47.440692
 - input: |-
     \[
     \int \frac{1}{x} dx
@@ -242,8 +242,8 @@ problems:
   notes: ''
   problem_id: 2
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.497680
-  updated_at: 2023-05-29 22:17:10.497680
+  created_at: 2023-05-30 23:59:47.448605
+  updated_at: 2023-05-30 23:59:47.448610
   submissions:
   - completion: ''
     message: |-
@@ -262,8 +262,8 @@ problems:
     notes: ''
     submission_id: 11
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.498915
-    updated_at: 2023-05-30 01:57:07.058565
+    created_at: 2023-05-30 23:59:47.452565
+    updated_at: 2023-05-30 23:59:47.452570
   - completion: ''
     message: |-
       We have:
@@ -281,8 +281,8 @@ problems:
     notes: ''
     submission_id: 12
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.505434
-    updated_at: 2023-05-30 01:57:07.060566
+    created_at: 2023-05-30 23:59:47.473313
+    updated_at: 2023-05-30 23:59:47.473318
   - completion: ''
     message: |-
       We can evaluate the integral by using the formula for integrating powers of x:
@@ -301,8 +301,8 @@ problems:
     notes: ''
     submission_id: 13
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.512674
-    updated_at: 2023-05-30 01:57:07.064377
+    created_at: 2023-05-30 23:59:47.492741
+    updated_at: 2023-05-30 23:59:47.492746
   - completion: ''
     message: |-
       We can evaluate the integral \(\int \frac{1}{x} dx\) using the rule of logarithms: \[\int \frac{1}{x} dx = \ln |x| + C\] where \(C\) is the constant of integration. We need to include the absolute value because the function \(\frac{1}{x}\) is undefined at \(x=0\) and can take on positive or negative values depending on the sign of \(x\).
@@ -312,8 +312,8 @@ problems:
     notes: ''
     submission_id: 14
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.514095
-    updated_at: 2023-05-30 01:57:07.067383
+    created_at: 2023-05-30 23:59:47.500914
+    updated_at: 2023-05-30 23:59:47.500919
   - completion: ''
     message: |-
       We have
@@ -339,8 +339,8 @@ problems:
     notes: ''
     submission_id: 15
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.515421
-    updated_at: 2023-05-30 01:57:07.070863
+    created_at: 2023-05-30 23:59:47.508696
+    updated_at: 2023-05-30 23:59:47.508701
   - completion: ''
     message: |-
       We can evaluate the integral using the power rule of integration:
@@ -355,8 +355,8 @@ problems:
     notes: ''
     submission_id: 16
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.515951
-    updated_at: 2023-05-30 01:57:07.071865
+    created_at: 2023-05-30 23:59:47.516441
+    updated_at: 2023-05-30 23:59:47.516446
   - completion: ''
     message: |-
       We have:
@@ -370,8 +370,8 @@ problems:
     notes: ''
     submission_id: 17
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.517965
-    updated_at: 2023-05-30 01:57:07.074864
+    created_at: 2023-05-30 23:59:47.524218
+    updated_at: 2023-05-30 23:59:47.524223
   - completion: ''
     message: |-
       We have:
@@ -387,8 +387,8 @@ problems:
     notes: ''
     submission_id: 18
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.518967
-    updated_at: 2023-05-30 01:57:07.075865
+    created_at: 2023-05-30 23:59:47.531983
+    updated_at: 2023-05-30 23:59:47.531987
   - completion: ''
     message: |-
       We have:
@@ -400,8 +400,8 @@ problems:
     notes: ''
     submission_id: 19
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.519967
-    updated_at: 2023-05-30 01:57:07.077864
+    created_at: 2023-05-30 23:59:47.539710
+    updated_at: 2023-05-30 23:59:47.539715
   - completion: ''
     message: |-
       We can evaluate this integral using the property of logarithms:
@@ -418,8 +418,8 @@ problems:
     notes: ''
     submission_id: 20
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.520966
-    updated_at: 2023-05-30 01:57:07.079864
+    created_at: 2023-05-30 23:59:47.545793
+    updated_at: 2023-05-30 23:59:47.545796
 - input: |-
     \[
     \int e^{x} dx
@@ -445,8 +445,8 @@ problems:
   notes: ''
   problem_id: 3
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.521966
-  updated_at: 2023-05-29 22:17:10.521966
+  created_at: 2023-05-30 23:59:47.551034
+  updated_at: 2023-05-30 23:59:47.551036
   submissions:
   - completion: ''
     message: |-
@@ -472,8 +472,8 @@ problems:
     notes: ''
     submission_id: 21
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.524301
-    updated_at: 2023-05-30 01:57:07.085320
+    created_at: 2023-05-30 23:59:47.553048
+    updated_at: 2023-05-30 23:59:47.553051
   - completion: ''
     message: |-
       We can evaluate the integral using integration by substitution. Let \(u = e^x\), so \(du/dx = e^x\) and \(dx = du/e^x = du/u\). Then we have:
@@ -490,8 +490,8 @@ problems:
     notes: ''
     submission_id: 22
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.529360
-    updated_at: 2023-05-30 01:57:07.091418
+    created_at: 2023-05-30 23:59:47.562319
+    updated_at: 2023-05-30 23:59:47.562321
   - completion: ''
     message: |-
       We can use the fact that the derivative of $e^x$ is itself, and thus the antiderivative of $e^x$ is $e^x$. Therefore, we have
@@ -505,8 +505,8 @@ problems:
     notes: ''
     submission_id: 23
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.534381
-    updated_at: 2023-05-30 01:57:07.093429
+    created_at: 2023-05-30 23:59:47.569991
+    updated_at: 2023-05-30 23:59:47.569993
   - completion: ''
     message: |-
       We can evaluate this integral using the rule for integrating exponential functions:
@@ -527,8 +527,8 @@ problems:
     notes: ''
     submission_id: 24
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.535384
-    updated_at: 2023-05-30 01:57:07.095418
+    created_at: 2023-05-30 23:59:47.572642
+    updated_at: 2023-05-30 23:59:47.572643
   - completion: ''
     message: |-
       We can evaluate the integral using integration by substitution. Let \(u = e^x\) and \(du = e^x dx\). Then, the integral becomes
@@ -543,8 +543,8 @@ problems:
     notes: ''
     submission_id: 25
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.537480
-    updated_at: 2023-05-30 01:57:07.097418
+    created_at: 2023-05-30 23:59:47.575269
+    updated_at: 2023-05-30 23:59:47.575271
   - completion: ''
     message: |-
       We have
@@ -560,8 +560,8 @@ problems:
     notes: ''
     submission_id: 26
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.538003
-    updated_at: 2023-05-30 01:57:07.101907
+    created_at: 2023-05-30 23:59:47.577919
+    updated_at: 2023-05-30 23:59:47.577921
   - completion: ''
     message: |-
       We can evaluate the integral using integration by substitution. Let \(u = x\) and \(dv = e^x dx\). Then \(du = dx\) and \(v = e^x\). Therefore,
@@ -575,8 +575,8 @@ problems:
     notes: ''
     submission_id: 27
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.539038
-    updated_at: 2023-05-30 01:57:07.102949
+    created_at: 2023-05-30 23:59:47.580189
+    updated_at: 2023-05-30 23:59:47.580191
   - completion: ''
     message: |-
       We can use the fact that the derivative of $e^x$ is $e^x$ to evaluate the integral:
@@ -590,8 +590,8 @@ problems:
     notes: ''
     submission_id: 28
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.541024
-    updated_at: 2023-05-30 01:57:07.105643
+    created_at: 2023-05-30 23:59:47.582482
+    updated_at: 2023-05-30 23:59:47.582483
   - completion: ''
     message: |-
       We can solve the integral $\int e^x dx$ by using integration by substitution. Let \(u = x\) and \(du = dx\). Then we have:
@@ -607,8 +607,8 @@ problems:
     notes: ''
     submission_id: 29
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.542040
-    updated_at: 2023-05-30 01:57:07.107664
+    created_at: 2023-05-30 23:59:47.584770
+    updated_at: 2023-05-30 23:59:47.584772
   - completion: ''
     message: |-
       We can evaluate the integral \(\int e^x dx\) by using the formula for the antiderivative of an exponential function, which is:
@@ -626,8 +626,8 @@ problems:
     notes: ''
     submission_id: 30
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.543061
-    updated_at: 2023-05-30 01:57:07.109663
+    created_at: 2023-05-30 23:59:47.587009
+    updated_at: 2023-05-30 23:59:47.587010
 - input: |-
     \[
     \int b^x dx
@@ -653,8 +653,8 @@ problems:
   notes: ''
   problem_id: 4
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.544063
-  updated_at: 2023-05-29 22:17:10.544063
+  created_at: 2023-05-30 23:59:47.588937
+  updated_at: 2023-05-30 23:59:47.588939
   submissions:
   - completion: ''
     message: |-
@@ -670,8 +670,8 @@ problems:
     notes: ''
     submission_id: 31
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.548048
-    updated_at: 2023-05-30 01:57:07.111664
+    created_at: 2023-05-30 23:59:47.589915
+    updated_at: 2023-05-30 23:59:47.589916
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -691,8 +691,8 @@ problems:
     notes: ''
     submission_id: 32
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.554985
-    updated_at: 2023-05-30 01:57:07.114662
+    created_at: 2023-05-30 23:59:47.594807
+    updated_at: 2023-05-30 23:59:47.594808
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -704,8 +704,8 @@ problems:
     notes: ''
     submission_id: 33
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.560557
-    updated_at: 2023-05-30 01:57:07.122659
+    created_at: 2023-05-30 23:59:47.599283
+    updated_at: 2023-05-30 23:59:47.599284
   - completion: ''
     message: |-
       The antiderivative of $b^x$ is $\frac{b^x}{\ln b}+C$, where $\ln$ denotes the natural logarithm and $C$ is the constant of integration. We can verify this by using the chain rule and the fact that $(b^x)'= b^x \ln b$:
@@ -722,8 +722,8 @@ problems:
     notes: ''
     submission_id: 34
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.561555
-    updated_at: 2023-05-30 01:57:07.129668
+    created_at: 2023-05-30 23:59:47.601042
+    updated_at: 2023-05-30 23:59:47.601043
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -737,8 +737,8 @@ problems:
     notes: ''
     submission_id: 35
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.562554
-    updated_at: 2023-05-30 01:57:07.133798
+    created_at: 2023-05-30 23:59:47.602787
+    updated_at: 2023-05-30 23:59:47.602788
   - completion: ''
     message: |-
       We can evaluate the integral using the rule:
@@ -767,8 +767,8 @@ problems:
     notes: ''
     submission_id: 36
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.563555
-    updated_at: 2023-05-30 01:57:07.135806
+    created_at: 2023-05-30 23:59:47.604556
+    updated_at: 2023-05-30 23:59:47.604557
   - completion: ''
     message: |-
       We can evaluate the indefinite integral by applying the power rule of integration:
@@ -785,8 +785,8 @@ problems:
     notes: ''
     submission_id: 37
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.564556
-    updated_at: 2023-05-30 01:57:07.138316
+    created_at: 2023-05-30 23:59:47.606189
+    updated_at: 2023-05-30 23:59:47.606190
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -801,8 +801,8 @@ problems:
     notes: ''
     submission_id: 38
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.566556
-    updated_at: 2023-05-30 01:57:07.140324
+    created_at: 2023-05-30 23:59:47.607771
+    updated_at: 2023-05-30 23:59:47.607772
   - completion: ''
     message: |-
       We can evaluate the integral \(\int b^x dx\) using the power rule for integration:
@@ -833,8 +833,8 @@ problems:
     notes: ''
     submission_id: 39
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.569165
-    updated_at: 2023-05-30 01:57:07.142323
+    created_at: 2023-05-30 23:59:47.609353
+    updated_at: 2023-05-30 23:59:47.609354
   - completion: ''
     message: |-
       Using the power rule of integration, we have
@@ -848,8 +848,8 @@ problems:
     notes: ''
     submission_id: 40
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.571177
-    updated_at: 2023-05-30 01:57:07.144323
+    created_at: 2023-05-30 23:59:47.610948
+    updated_at: 2023-05-30 23:59:47.610949
 - input: |-
     \[
     \int \sin x dx
@@ -875,8 +875,8 @@ problems:
   notes: ''
   problem_id: 5
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.572178
-  updated_at: 2023-05-29 22:17:10.572178
+  created_at: 2023-05-30 23:59:47.612590
+  updated_at: 2023-05-30 23:59:47.612592
   submissions:
   - completion: ''
     message: |-
@@ -893,8 +893,8 @@ problems:
     notes: ''
     submission_id: 41
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.574186
-    updated_at: 2023-05-30 01:57:07.147325
+    created_at: 2023-05-30 23:59:47.613433
+    updated_at: 2023-05-30 23:59:47.613434
   - completion: ''
     message: |-
       We know that the integral of $\sin x$ is $-\cos x$ plus a constant. Therefore,
@@ -906,8 +906,8 @@ problems:
     notes: ''
     submission_id: 42
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.579634
-    updated_at: 2023-05-30 01:57:07.153322
+    created_at: 2023-05-30 23:59:47.617107
+    updated_at: 2023-05-30 23:59:47.617108
   - completion: ''
     message: |-
       Using integration by parts, we let \(u = \sin x\) and \(dv = dx\), then \(du = \cos x dx\) and \(v=x\). Thus,
@@ -928,8 +928,8 @@ problems:
     notes: ''
     submission_id: 43
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.583631
-    updated_at: 2023-05-30 01:57:07.155323
+    created_at: 2023-05-30 23:59:47.620687
+    updated_at: 2023-05-30 23:59:47.620687
   - completion: ''
     message: |-
       We know that the integral of $\sin x$ is $-\cos x + C$, where $C$ is the constant of integration. Therefore,
@@ -942,8 +942,8 @@ problems:
     notes: ''
     submission_id: 44
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.584631
-    updated_at: 2023-05-30 01:57:07.159731
+    created_at: 2023-05-30 23:59:47.622119
+    updated_at: 2023-05-30 23:59:47.622120
   - completion: ''
     message: |-
       We can use integration by substitution with \(u = \cos x\). Then, \(du = -\sin x dx\) and we have:
@@ -959,8 +959,8 @@ problems:
     notes: ''
     submission_id: 45
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.585629
-    updated_at: 2023-05-30 01:57:07.162739
+    created_at: 2023-05-30 23:59:47.623557
+    updated_at: 2023-05-30 23:59:47.623558
   - completion: ''
     message: |-
       We can evaluate this integral using integration by substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
@@ -977,8 +977,8 @@ problems:
     notes: ''
     submission_id: 46
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.586629
-    updated_at: 2023-05-30 01:57:07.166744
+    created_at: 2023-05-30 23:59:47.625040
+    updated_at: 2023-05-30 23:59:47.625041
   - completion: ''
     message: |-
       We have:
@@ -992,8 +992,8 @@ problems:
     notes: ''
     submission_id: 47
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.586629
-    updated_at: 2023-05-30 01:57:07.171740
+    created_at: 2023-05-30 23:59:47.626470
+    updated_at: 2023-05-30 23:59:47.626471
   - completion: ''
     message: |-
       We can evaluate the given integral using integration by parts with \(u = \sin x\) and \(dv = dx\):
@@ -1010,8 +1010,8 @@ problems:
     notes: ''
     submission_id: 48
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.588631
-    updated_at: 2023-05-30 01:57:07.174236
+    created_at: 2023-05-30 23:59:47.627957
+    updated_at: 2023-05-30 23:59:47.627958
   - completion: ''
     message: |-
       We can evaluate the integral using integration by parts. Let \(u = \sin x\) and \(dv = dx\), so \(du = \cos x \, dx\) and \(v = x\). Then we have:
@@ -1027,8 +1027,8 @@ problems:
     notes: ''
     submission_id: 49
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.594630
-    updated_at: 2023-05-30 01:57:07.176769
+    created_at: 2023-05-30 23:59:47.629410
+    updated_at: 2023-05-30 23:59:47.629411
   - completion: ''
     message: |+
       We know that the derivative of $\cos x$ is $-\sin x$, so we can use substitution to evaluate the integral. Let $u = \cos x$, then $du = -\sin x dx$. Rewriting the integral in terms of $u$ gives us:
@@ -1043,8 +1043,8 @@ problems:
     notes: ''
     submission_id: 50
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.595910
-    updated_at: 2023-05-30 01:57:07.178779
+    created_at: 2023-05-30 23:59:47.630849
+    updated_at: 2023-05-30 23:59:47.630850
 - input: |-
     \[
     \int \cos x dx
@@ -1070,8 +1070,8 @@ problems:
   notes: ''
   problem_id: 6
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.596920
-  updated_at: 2023-05-29 22:17:10.596920
+  created_at: 2023-05-30 23:59:47.632310
+  updated_at: 2023-05-30 23:59:47.632311
   submissions:
   - completion: ''
     message: |-
@@ -1090,8 +1090,8 @@ problems:
     notes: ''
     submission_id: 51
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.597428
-    updated_at: 2023-05-30 01:57:07.183420
+    created_at: 2023-05-30 23:59:47.633029
+    updated_at: 2023-05-30 23:59:47.633030
   - completion: ''
     message: |-
       Using the power rule of integration, we have:
@@ -1107,8 +1107,8 @@ problems:
     notes: ''
     submission_id: 52
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.599432
-    updated_at: 2023-05-30 01:57:07.188979
+    created_at: 2023-05-30 23:59:47.636676
+    updated_at: 2023-05-30 23:59:47.636677
   - completion: ''
     message: |-
       We know that $\frac{d}{dx}\sin x=\cos x$. Therefore, integrating $\cos x$ is the same as finding the antiderivative of $\frac{d}{dx}\sin x$, which is $\sin x+c$, where $c$ is the constant of integration. 
@@ -1121,8 +1121,8 @@ problems:
     notes: ''
     submission_id: 53
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.602432
-    updated_at: 2023-05-30 01:57:07.192074
+    created_at: 2023-05-30 23:59:47.640280
+    updated_at: 2023-05-30 23:59:47.640281
   - completion: ''
     message: |-
       We have:
@@ -1139,8 +1139,8 @@ problems:
     notes: ''
     submission_id: 54
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.603432
-    updated_at: 2023-05-30 01:57:07.193096
+    created_at: 2023-05-30 23:59:47.641717
+    updated_at: 2023-05-30 23:59:47.641718
   - completion: ''
     message: |-
       We know that the derivative of $\sin x$ is $\cos x$, so we can use substitution to evaluate the integral. Let $u = \sin x$. Then $du/dx = \cos x$ and $dx = du/\cos x$. So the integral becomes
@@ -1159,8 +1159,8 @@ problems:
     notes: ''
     submission_id: 55
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.603432
-    updated_at: 2023-05-30 01:57:07.195495
+    created_at: 2023-05-30 23:59:47.643155
+    updated_at: 2023-05-30 23:59:47.643156
   - completion: ''
     message: |-
       We know that $\int \cos x dx=\sin x + C$ where $C$ is any constant. This is because the derivative of $\sin x$ is $\cos x$, so the integral essentially undoes the differentiation. Therefore,
@@ -1172,8 +1172,8 @@ problems:
     notes: ''
     submission_id: 56
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.604432
-    updated_at: 2023-05-30 01:57:07.199893
+    created_at: 2023-05-30 23:59:47.644631
+    updated_at: 2023-05-30 23:59:47.644632
   - completion: ''
     message: |-
       Using the formula $\int \cos x dx = \sin x + C$, where $C$ is the constant of integration, we have:
@@ -1185,8 +1185,8 @@ problems:
     notes: ''
     submission_id: 57
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.605433
-    updated_at: 2023-05-30 01:57:07.202891
+    created_at: 2023-05-30 23:59:47.646064
+    updated_at: 2023-05-30 23:59:47.646064
   - completion: ''
     message: |-
       We can solve the integral using integration by substitution. Let \(u = \sin x\), then \(du = \cos x dx\). Substituting into the integral gives:
@@ -1203,8 +1203,8 @@ problems:
     notes: ''
     submission_id: 58
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.605433
-    updated_at: 2023-05-30 01:57:07.204890
+    created_at: 2023-05-30 23:59:47.647498
+    updated_at: 2023-05-30 23:59:47.647499
   - completion: ''
     message: |-
       We can evaluate the integral by using integration by substitution with \(u = \sin x\), \(du = \cos x dx\). Then,
@@ -1219,8 +1219,8 @@ problems:
     notes: ''
     submission_id: 59
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.608440
-    updated_at: 2023-05-30 01:57:07.205890
+    created_at: 2023-05-30 23:59:47.648970
+    updated_at: 2023-05-30 23:59:47.648971
   - completion: ''
     message: |-
       We know that the derivative of $\sin x$ is $\cos x$, so we can use integration by substitution.
@@ -1238,8 +1238,8 @@ problems:
     notes: ''
     submission_id: 60
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.612433
-    updated_at: 2023-05-30 01:57:07.206890
+    created_at: 2023-05-30 23:59:47.650406
+    updated_at: 2023-05-30 23:59:47.650407
 - input: |-
     \[
     \int \sec^2 x dx
@@ -1265,8 +1265,8 @@ problems:
   notes: ''
   problem_id: 7
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.613434
-  updated_at: 2023-05-29 22:17:10.613434
+  created_at: 2023-05-30 23:59:47.651839
+  updated_at: 2023-05-30 23:59:47.651840
   submissions:
   - completion: ''
     message: |-
@@ -1281,8 +1281,8 @@ problems:
     notes: ''
     submission_id: 61
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.613434
-    updated_at: 2023-05-30 01:57:07.207890
+    created_at: 2023-05-30 23:59:47.652555
+    updated_at: 2023-05-30 23:59:47.652555
   - completion: ''
     message: |-
       We know that $\frac{d}{dx}\tan x = \sec^2 x$, so by reversing the chain rule, we have:
@@ -1296,8 +1296,8 @@ problems:
     notes: ''
     submission_id: 62
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.616437
-    updated_at: 2023-05-30 01:57:07.209890
+    created_at: 2023-05-30 23:59:47.656106
+    updated_at: 2023-05-30 23:59:47.656107
   - completion: ''
     message: |-
       We start by using the identity \(\sec^2 x = 1+ \tan^2 x\). This gives
@@ -1316,8 +1316,8 @@ problems:
     notes: ''
     submission_id: 63
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.619437
-    updated_at: 2023-05-30 01:57:07.212892
+    created_at: 2023-05-30 23:59:47.659711
+    updated_at: 2023-05-30 23:59:47.659712
   - completion: ''
     message: |-
       We know that $\frac{d}{dx} \tan x = \sec^2 x$. Therefore, using substitution with $u = \tan x$, we have:
@@ -1330,8 +1330,8 @@ problems:
     notes: ''
     submission_id: 64
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.619437
-    updated_at: 2023-05-30 01:57:07.213890
+    created_at: 2023-05-30 23:59:47.661148
+    updated_at: 2023-05-30 23:59:47.661149
   - completion: ''
     message: |-
       We know that the derivative of $\tan x$ is $\sec^2 x$. Therefore, we can use substitution by letting $u = \tan x$, so $du = \sec^2 x dx$. Then, the integral becomes
@@ -1342,8 +1342,8 @@ problems:
     notes: ''
     submission_id: 65
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.620437
-    updated_at: 2023-05-30 01:57:07.218073
+    created_at: 2023-05-30 23:59:47.662581
+    updated_at: 2023-05-30 23:59:47.662582
   - completion: ''
     message: |-
       We know that the derivative of $\tan x$ is $\sec^2 x$, so by the reverse chain rule, we can say that:
@@ -1357,8 +1357,8 @@ problems:
     notes: ''
     submission_id: 66
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.621437
-    updated_at: 2023-05-30 01:57:07.220420
+    created_at: 2023-05-30 23:59:47.664030
+    updated_at: 2023-05-30 23:59:47.664031
   - completion: ''
     message: |-
       We know that $\frac{d}{dx}(\tan x) = \sec^2 x$. Therefore, we can use substitution with $u=\tan x$ and $du = \sec^2 x dx$:
@@ -1373,8 +1373,8 @@ problems:
     notes: ''
     submission_id: 67
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.621437
-    updated_at: 2023-05-30 01:57:07.221424
+    created_at: 2023-05-30 23:59:47.665478
+    updated_at: 2023-05-30 23:59:47.665479
   - completion: ''
     message: |-
       We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution letting $u = \tan x$ and $du = \sec^2 x dx$:
@@ -1386,8 +1386,8 @@ problems:
     notes: ''
     submission_id: 68
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.623434
-    updated_at: 2023-05-30 01:57:07.222424
+    created_at: 2023-05-30 23:59:47.666920
+    updated_at: 2023-05-30 23:59:47.666921
   - completion: ''
     message: |-
       We can use the formula $\int \sec^2 x dx = \tan x + C$. Therefore,
@@ -1398,8 +1398,8 @@ problems:
     notes: ''
     submission_id: 69
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.626432
-    updated_at: 2023-05-30 01:57:07.223424
+    created_at: 2023-05-30 23:59:47.668400
+    updated_at: 2023-05-30 23:59:47.668401
   - completion: ''
     message: |-
       We know that the derivative of $\tan x$ is $\sec^2 x$, so we can use substitution to evaluate the integral. Let \(u=\tan x\), so \(du = \sec^2 x dx\). Then the integral becomes
@@ -1410,8 +1410,8 @@ problems:
     notes: ''
     submission_id: 70
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.629437
-    updated_at: 2023-05-30 01:57:07.224429
+    created_at: 2023-05-30 23:59:47.669839
+    updated_at: 2023-05-30 23:59:47.669840
 - input: |-
     \[
     \int \csc^2 x dx
@@ -1437,8 +1437,8 @@ problems:
   notes: ''
   problem_id: 8
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.630437
-  updated_at: 2023-05-29 22:17:10.630437
+  created_at: 2023-05-30 23:59:47.671228
+  updated_at: 2023-05-30 23:59:47.671229
   submissions:
   - completion: ''
     message: |-
@@ -1454,8 +1454,8 @@ problems:
     notes: ''
     submission_id: 71
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.631437
-    updated_at: 2023-05-30 01:57:07.226429
+    created_at: 2023-05-30 23:59:47.671951
+    updated_at: 2023-05-30 23:59:47.671951
   - completion: ''
     message: |-
       We can use a u-substitution of \(u = \cot x,\) so that \(du = -\csc^2 x dx.\) Then we have:
@@ -1470,8 +1470,8 @@ problems:
     notes: ''
     submission_id: 72
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.635435
-    updated_at: 2023-05-30 01:57:07.229576
+    created_at: 2023-05-30 23:59:47.675516
+    updated_at: 2023-05-30 23:59:47.675517
   - completion: ''
     message: |-
       We can use the identity $\csc^2 x = 1 + \cot^2 x$ and integrate term by term:
@@ -1489,8 +1489,8 @@ problems:
     notes: ''
     submission_id: 73
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.644203
-    updated_at: 2023-05-30 01:57:07.232123
+    created_at: 2023-05-30 23:59:47.679078
+    updated_at: 2023-05-30 23:59:47.679079
   - completion: ''
     message: |-
       We can use the identity $\csc^2 x = 1 + \cot^2 x$ to write
@@ -1505,8 +1505,8 @@ problems:
     notes: ''
     submission_id: 74
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.645225
-    updated_at: 2023-05-30 01:57:07.235175
+    created_at: 2023-05-30 23:59:47.680517
+    updated_at: 2023-05-30 23:59:47.680518
   - completion: ''
     message: |-
       We can use the identity $\csc^2 x = 1+\cot^2 x$ to rewrite the integral as
@@ -1523,8 +1523,8 @@ problems:
     notes: ''
     submission_id: 75
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.646210
-    updated_at: 2023-05-30 01:57:07.236817
+    created_at: 2023-05-30 23:59:47.681956
+    updated_at: 2023-05-30 23:59:47.681957
   - completion: ''
     message: |-
       We know that the derivative of $\cot x$ is $-\csc^2 x$. Therefore, we can rewrite the given integral as
@@ -1541,8 +1541,8 @@ problems:
     notes: ''
     submission_id: 76
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.647209
-    updated_at: 2023-05-30 01:57:07.238341
+    created_at: 2023-05-30 23:59:47.683390
+    updated_at: 2023-05-30 23:59:47.683391
   - completion: ''
     message: |-
       We use the identity $\csc^2 x = 1 + \cot^2 x$ and integrate term by term:
@@ -1562,8 +1562,8 @@ problems:
     notes: ''
     submission_id: 77
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.647209
-    updated_at: 2023-05-30 01:57:07.239353
+    created_at: 2023-05-30 23:59:47.684853
+    updated_at: 2023-05-30 23:59:47.684854
   - completion: ''
     message: |-
       We can use the identity $\csc^2 x = 1+\cot^2 x$ and rewrite the integral as
@@ -1578,8 +1578,8 @@ problems:
     notes: ''
     submission_id: 78
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.648208
-    updated_at: 2023-05-30 01:57:07.240377
+    created_at: 2023-05-30 23:59:47.686293
+    updated_at: 2023-05-30 23:59:47.686294
   - completion: ''
     message: |-
       We know that $\csc x = \frac{1}{\sin x}$, so $\csc^2 x = \frac{1}{\sin^2 x}$. Thus, we can rewrite the integral as
@@ -1610,8 +1610,8 @@ problems:
     notes: ''
     submission_id: 79
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.649220
-    updated_at: 2023-05-30 01:57:07.241353
+    created_at: 2023-05-30 23:59:47.687740
+    updated_at: 2023-05-30 23:59:47.687741
   - completion: ''
     message: |-
       We can use the identity $\csc^2 x = 1 + \cot^2 x$ to rewrite the integral as
@@ -1626,8 +1626,8 @@ problems:
     notes: ''
     submission_id: 80
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.649220
-    updated_at: 2023-05-30 01:57:07.242353
+    created_at: 2023-05-30 23:59:47.689182
+    updated_at: 2023-05-30 23:59:47.689183
 - input: |-
     \[
     \int \sec x \tan x dx
@@ -1653,8 +1653,8 @@ problems:
   notes: ''
   problem_id: 9
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.650212
-  updated_at: 2023-05-29 22:17:10.650212
+  created_at: 2023-05-30 23:59:47.690583
+  updated_at: 2023-05-30 23:59:47.690584
   submissions:
   - completion: ''
     message: |-
@@ -1667,8 +1667,8 @@ problems:
     notes: ''
     submission_id: 81
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.651208
-    updated_at: 2023-05-30 01:57:07.244065
+    created_at: 2023-05-30 23:59:47.691305
+    updated_at: 2023-05-30 23:59:47.691306
   - completion: ''
     message: |-
       We can use substitution to solve this integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Thus we have:
@@ -1681,8 +1681,8 @@ problems:
     notes: ''
     submission_id: 82
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.653208
-    updated_at: 2023-05-30 01:57:07.246074
+    created_at: 2023-05-30 23:59:47.694994
+    updated_at: 2023-05-30 23:59:47.694995
   - completion: ''
     message: |-
       We can use $u$-substitution with $u = \sec x$. Then $du = \sec x \tan x dx$, which is exactly what we have in the integral. Thus,
@@ -1697,8 +1697,8 @@ problems:
     notes: ''
     submission_id: 83
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.660670
-    updated_at: 2023-05-30 01:57:07.250070
+    created_at: 2023-05-30 23:59:47.699021
+    updated_at: 2023-05-30 23:59:47.699022
   - completion: ''
     message: |-
       Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Thus,
@@ -1710,8 +1710,8 @@ problems:
     notes: ''
     submission_id: 84
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.661650
-    updated_at: 2023-05-30 01:57:07.252402
+    created_at: 2023-05-30 23:59:47.700758
+    updated_at: 2023-05-30 23:59:47.700759
   - completion: ''
     message: |-
       We can use a substitution to solve this integral. Let \(u = \sec x\), then
@@ -1730,8 +1730,8 @@ problems:
     notes: ''
     submission_id: 85
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.662651
-    updated_at: 2023-05-30 01:57:07.253406
+    created_at: 2023-05-30 23:59:47.702318
+    updated_at: 2023-05-30 23:59:47.702319
   - completion: ''
     message: |-
       We can use substitution to evaluate this integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\). Making this substitution, we have:
@@ -1746,8 +1746,8 @@ problems:
     notes: ''
     submission_id: 86
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.663656
-    updated_at: 2023-05-30 01:57:07.255406
+    created_at: 2023-05-30 23:59:47.703816
+    updated_at: 2023-05-30 23:59:47.703817
   - completion: ''
     message: |-
       We can use substitution to evaluate the integral. Let \(u = \sec x\), then \(du = \sec x \tan x dx\) and we have
@@ -1761,8 +1761,8 @@ problems:
     notes: ''
     submission_id: 87
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.663656
-    updated_at: 2023-05-30 01:57:07.256406
+    created_at: 2023-05-30 23:59:47.705289
+    updated_at: 2023-05-30 23:59:47.705289
   - completion: ''
     message: |-
       We use the substitution \(u=\sec x\), so \(\frac{du}{dx}=\sec x\tan x\), or equivalently, \(du=\sec x\tan x\,dx\). Substituting, we have
@@ -1779,8 +1779,8 @@ problems:
     notes: ''
     submission_id: 88
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.664657
-    updated_at: 2023-05-30 01:57:07.257405
+    created_at: 2023-05-30 23:59:47.706735
+    updated_at: 2023-05-30 23:59:47.706736
   - completion: ''
     message: |-
       Let $u=\sec x$ and $du=\sec x\tan x\,dx$. Then we have:
@@ -1798,8 +1798,8 @@ problems:
     notes: ''
     submission_id: 89
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.665655
-    updated_at: 2023-05-30 01:57:07.258406
+    created_at: 2023-05-30 23:59:47.708223
+    updated_at: 2023-05-30 23:59:47.708224
   - completion: ''
     message: |-
       We can use the substitution \(u = \sec x\) to simplify the integral. Then, \(du/dx = \sec x \tan x\) and \(dx = du/\sec x\). Thus,
@@ -1814,8 +1814,8 @@ problems:
     notes: ''
     submission_id: 90
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.665655
-    updated_at: 2023-05-30 01:57:07.260407
+    created_at: 2023-05-30 23:59:47.709669
+    updated_at: 2023-05-30 23:59:47.709670
 - input: |-
     \[
     \int \csc x \cot x dx
@@ -1841,8 +1841,8 @@ problems:
   notes: ''
   problem_id: 10
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.666655
-  updated_at: 2023-05-29 22:17:10.666655
+  created_at: 2023-05-30 23:59:47.711130
+  updated_at: 2023-05-30 23:59:47.711131
   submissions:
   - completion: ''
     message: |-
@@ -1860,8 +1860,8 @@ problems:
     notes: ''
     submission_id: 91
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.667656
-    updated_at: 2023-05-30 01:57:07.261406
+    created_at: 2023-05-30 23:59:47.711895
+    updated_at: 2023-05-30 23:59:47.711896
   - completion: ''
     message: |-
       We start by using the substitution \(u = \csc x\), so \(du = -\csc x \cot x dx\), which simplifies the integral to:
@@ -1872,8 +1872,8 @@ problems:
     notes: ''
     submission_id: 92
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.670394
-    updated_at: 2023-05-30 01:57:07.263405
+    created_at: 2023-05-30 23:59:47.715474
+    updated_at: 2023-05-30 23:59:47.715475
   - completion: ''
     message: |-
       We can use the u-substitution \(u = \csc x, du = -\csc x \cot x dx\) to rewrite the integral as
@@ -1888,8 +1888,8 @@ problems:
     notes: ''
     submission_id: 93
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.672415
-    updated_at: 2023-05-30 01:57:07.267984
+    created_at: 2023-05-30 23:59:47.719244
+    updated_at: 2023-05-30 23:59:47.719245
   - completion: ''
     message: |-
       We can start by using the substitution \(u = \csc x\), then \(du/dx = -\csc x \cot x\).
@@ -1907,8 +1907,8 @@ problems:
     notes: ''
     submission_id: 94
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.676880
-    updated_at: 2023-05-30 01:57:07.270180
+    created_at: 2023-05-30 23:59:47.720760
+    updated_at: 2023-05-30 23:59:47.720761
   - completion: ''
     message: |-
       We can use the substitution \(u = \csc x\). Then, \(du = -\csc x \cot x dx\). Substituting these expressions, we have:
@@ -1920,8 +1920,8 @@ problems:
     notes: ''
     submission_id: 95
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.677891
-    updated_at: 2023-05-30 01:57:07.271201
+    created_at: 2023-05-30 23:59:47.722207
+    updated_at: 2023-05-30 23:59:47.722208
   - completion: ''
     message: |-
       We can use the substitution \(u = \csc x\), \(du = -\csc x \cot x dx\) to simplify the integral. Then, we have:
@@ -1935,8 +1935,8 @@ problems:
     notes: ''
     submission_id: 96
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.679892
-    updated_at: 2023-05-30 01:57:07.272201
+    created_at: 2023-05-30 23:59:47.723696
+    updated_at: 2023-05-30 23:59:47.723697
   - completion: ''
     message: |-
       We start by using the substitution \(u=\csc{x}\), which means \(du=-\cot{x}\csc{x}dx\). Therefore, 
@@ -1951,8 +1951,8 @@ problems:
     notes: ''
     submission_id: 97
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.680891
-    updated_at: 2023-05-30 01:57:07.273202
+    created_at: 2023-05-30 23:59:47.725166
+    updated_at: 2023-05-30 23:59:47.725167
   - completion: ''
     message: |-
       We can start by using substitution. Let \(u=\csc x\), then \(du=-\csc x \cot x dx\) and we have:
@@ -1969,8 +1969,8 @@ problems:
     notes: ''
     submission_id: 98
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.680891
-    updated_at: 2023-05-30 01:57:07.274202
+    created_at: 2023-05-30 23:59:47.726618
+    updated_at: 2023-05-30 23:59:47.726619
   - completion: ''
     message: |-
       We can begin by using the substitution \(u = \csc x\), so \(du = -\csc x \cot x dx\). Substituting this gives:
@@ -1980,8 +1980,8 @@ problems:
     notes: ''
     submission_id: 99
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.682874
-    updated_at: 2023-05-30 01:57:07.276581
+    created_at: 2023-05-30 23:59:47.728102
+    updated_at: 2023-05-30 23:59:47.728103
   - completion: ''
     message: |-
       We can start by using the trigonometric identity $\cot x = \frac{\cos x}{\sin x}$ to rewrite the integrand as $\frac{\cos x}{\sin^2 x}$. Then, we can make the substitution $u = \sin x$, so $du = \cos x dx$ and the integral becomes
@@ -1999,8 +1999,8 @@ problems:
     notes: ''
     submission_id: 100
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.684492
-    updated_at: 2023-05-30 01:57:07.278104
+    created_at: 2023-05-30 23:59:47.729550
+    updated_at: 2023-05-30 23:59:47.729551
 - input: |-
     \[
     \int \sec x dx
@@ -2026,8 +2026,8 @@ problems:
   notes: ''
   problem_id: 11
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.686004
-  updated_at: 2023-05-29 22:17:10.686004
+  created_at: 2023-05-30 23:59:47.730994
+  updated_at: 2023-05-30 23:59:47.730995
   submissions:
   - completion: ''
     message: |-
@@ -2043,8 +2043,8 @@ problems:
     notes: ''
     submission_id: 101
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.687005
-    updated_at: 2023-05-30 01:57:07.279103
+    created_at: 2023-05-30 23:59:47.731812
+    updated_at: 2023-05-30 23:59:47.731813
   - completion: ''
     message: |-
       We can use the substitution \(u=\sec x+\tan x\), which gives \(du=\sec x\tan x+\sec^2x dx\) and \(\sec x\tan x+\sec^2x=\sec x(\sec x+\tan x)=u\).
@@ -2061,8 +2061,8 @@ problems:
     notes: ''
     submission_id: 102
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.690003
-    updated_at: 2023-05-30 01:57:07.281104
+    created_at: 2023-05-30 23:59:47.735695
+    updated_at: 2023-05-30 23:59:47.735696
   - completion: ''
     message: |-
       We use the method of substitution. Let \(u = \sin x\), then \(du = \cos x dx\). We can rewrite the integral now as
@@ -2081,8 +2081,8 @@ problems:
     notes: ''
     submission_id: 103
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.696796
-    updated_at: 2023-05-30 01:57:07.285822
+    created_at: 2023-05-30 23:59:47.739356
+    updated_at: 2023-05-30 23:59:47.739357
   - completion: ''
     message: |-
       We can use the substitution $u = \sec x + \tan x$, $du = (\sec x \tan x + \sec^2 x) dx$, to evaluate the integral. Rewriting $\sec x$ in terms of $\tan x$, we have
@@ -2100,8 +2100,8 @@ problems:
     notes: ''
     submission_id: 104
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.696796
-    updated_at: 2023-05-30 01:57:07.287350
+    created_at: 2023-05-30 23:59:47.740906
+    updated_at: 2023-05-30 23:59:47.740907
   - completion: ''
     message: |-
       We can start by multiplying the numerator and denominator of $\sec x$ by $\sec x + \tan x$:
@@ -2127,8 +2127,8 @@ problems:
     notes: ''
     submission_id: 105
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.697796
-    updated_at: 2023-05-30 01:57:07.288371
+    created_at: 2023-05-30 23:59:47.742531
+    updated_at: 2023-05-30 23:59:47.742532
   - completion: ''
     message: |-
       We can solve this integral by using substitution. Let \(u = \cos x\), so \(du = -\sin x dx\). Then, we have:
@@ -2146,8 +2146,8 @@ problems:
     notes: ''
     submission_id: 106
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.698795
-    updated_at: 2023-05-30 01:57:07.289371
+    created_at: 2023-05-30 23:59:47.744128
+    updated_at: 2023-05-30 23:59:47.744129
   - completion: ''
     message: |-
       We use the trigonometric identity $\sec^2(x)=1+\tan^2(x)$ to rewrite the integral:
@@ -2171,8 +2171,8 @@ problems:
     notes: ''
     submission_id: 107
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.698795
-    updated_at: 2023-05-30 01:57:07.291369
+    created_at: 2023-05-30 23:59:47.745635
+    updated_at: 2023-05-30 23:59:47.745636
   - completion: ''
     message: |-
       We use the substitution \(u = \cos x\), then \(du = -\sin x dx\) and we have
@@ -2193,8 +2193,8 @@ problems:
     notes: ''
     submission_id: 108
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.699796
-    updated_at: 2023-05-30 01:57:07.292368
+    created_at: 2023-05-30 23:59:47.747081
+    updated_at: 2023-05-30 23:59:47.747082
   - completion: ''
     message: |-
       We can use the substitution \(u = \tan \frac{x}{2}\), which gives us \(\sec x = \frac{1}{\cos x} = \frac{1}{\frac{1 - u^2}{1 + u^2}} = \frac{1 + u^2}{1 - u^2}\) and \(dx = \frac{2}{1+u^2}du\). Thus,
@@ -2211,8 +2211,8 @@ problems:
     notes: ''
     submission_id: 109
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.701010
-    updated_at: 2023-05-30 01:57:07.294367
+    created_at: 2023-05-30 23:59:47.748581
+    updated_at: 2023-05-30 23:59:47.748582
   - completion: ''
     message: |-
       We can use the substitution \(u=\cos x,\) which implies \(du=-\sin x dx.\) Therefore, we have
@@ -2230,8 +2230,8 @@ problems:
     notes: ''
     submission_id: 110
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.701526
-    updated_at: 2023-05-30 01:57:07.295367
+    created_at: 2023-05-30 23:59:47.750024
+    updated_at: 2023-05-30 23:59:47.750025
 - input: |-
     \[
     \int \csc x dx
@@ -2257,8 +2257,8 @@ problems:
   notes: ''
   problem_id: 12
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.701526
-  updated_at: 2023-05-29 22:17:10.701526
+  created_at: 2023-05-30 23:59:47.751448
+  updated_at: 2023-05-30 23:59:47.751449
   submissions:
   - completion: ''
     message: |-
@@ -2280,8 +2280,8 @@ problems:
     notes: ''
     submission_id: 111
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.702537
-    updated_at: 2023-05-30 01:57:07.296367
+    created_at: 2023-05-30 23:59:47.752267
+    updated_at: 2023-05-30 23:59:47.752268
   - completion: ''
     message: |-
       Using the substitution \(u = \cot x\), we have \(du = -\csc^2 x dx\) and
@@ -2297,8 +2297,8 @@ problems:
     notes: ''
     submission_id: 112
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.705537
-    updated_at: 2023-05-30 01:57:07.301601
+    created_at: 2023-05-30 23:59:47.755923
+    updated_at: 2023-05-30 23:59:47.755924
   - completion: ''
     message: |-
       We can use the substitution \(u = \sin x,\) so that \(du = \cos x dx.\) Then, we can rewrite the integral as
@@ -2313,8 +2313,8 @@ problems:
     notes: ''
     submission_id: 113
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.712534
-    updated_at: 2023-05-30 01:57:07.304606
+    created_at: 2023-05-30 23:59:47.759524
+    updated_at: 2023-05-30 23:59:47.759525
   - completion: ''
     message: |-
       We can use the substitution \(u = \sin x,\ du = \cos x\ dx\) to rewrite the integral as
@@ -2335,8 +2335,8 @@ problems:
     notes: ''
     submission_id: 114
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.712534
-    updated_at: 2023-05-30 01:57:07.306608
+    created_at: 2023-05-30 23:59:47.761109
+    updated_at: 2023-05-30 23:59:47.761110
   - completion: ''
     message: |-
       We can use the substitution \(u = \sin x\) to simplify the integrand:
@@ -2359,8 +2359,8 @@ problems:
     notes: ''
     submission_id: 115
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.713538
-    updated_at: 2023-05-30 01:57:07.308613
+    created_at: 2023-05-30 23:59:47.762555
+    updated_at: 2023-05-30 23:59:47.762556
   - completion: ''
     message: |-
       We can use the substitution \(u = \sin x\), so \(du=\cos x \ dx\), and the integral becomes:
@@ -2375,8 +2375,8 @@ problems:
     notes: ''
     submission_id: 116
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.714537
-    updated_at: 2023-05-30 01:57:07.310610
+    created_at: 2023-05-30 23:59:47.764052
+    updated_at: 2023-05-30 23:59:47.764052
   - completion: ''
     message: |-
       We begin by using the identity $\csc x = \frac{1}{\sin x}$. Hence, we have
@@ -2395,8 +2395,8 @@ problems:
     notes: ''
     submission_id: 117
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.714537
-    updated_at: 2023-05-30 01:57:07.313609
+    created_at: 2023-05-30 23:59:47.765629
+    updated_at: 2023-05-30 23:59:47.765630
   - completion: ''
     message: |-
       We can write $\csc x$ as $\frac{1}{\sin x}$, giving us
@@ -2421,8 +2421,8 @@ problems:
     notes: ''
     submission_id: 118
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.715537
-    updated_at: 2023-05-30 01:57:07.317609
+    created_at: 2023-05-30 23:59:47.767115
+    updated_at: 2023-05-30 23:59:47.767116
   - completion: ''
     message: |-
       We can use the substitution \(u = \sin x\), which gives \(du = \cos x dx\) and \[\int \csc x dx = \int \frac{1}{\sin x} \cos x dx = \int \frac{1}{u} du = \ln|\sin x|+C.\]Therefore, \[\int \csc x dx = \ln|\sin x|+C.\]
@@ -2430,8 +2430,8 @@ problems:
     notes: ''
     submission_id: 119
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.716550
-    updated_at: 2023-05-30 01:57:07.319612
+    created_at: 2023-05-30 23:59:47.768598
+    updated_at: 2023-05-30 23:59:47.768599
   - completion: ''
     message: |-
       We can use substitution to evaluate the integral. Let \(u=\csc x\), so \(du=-\csc x \cot x dx\). Then, the integral becomes
@@ -2448,8 +2448,8 @@ problems:
     notes: ''
     submission_id: 120
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.717538
-    updated_at: 2023-05-30 01:57:07.322608
+    created_at: 2023-05-30 23:59:47.770074
+    updated_at: 2023-05-30 23:59:47.770075
 - input: |-
     \[
     \int \tan x dx
@@ -2475,8 +2475,8 @@ problems:
   notes: ''
   problem_id: 13
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.717538
-  updated_at: 2023-05-29 22:17:10.717538
+  created_at: 2023-05-30 23:59:47.771528
+  updated_at: 2023-05-30 23:59:47.771529
   submissions:
   - completion: ''
     message: |-
@@ -2492,8 +2492,8 @@ problems:
     notes: ''
     submission_id: 121
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.718539
-    updated_at: 2023-05-30 01:57:07.326992
+    created_at: 2023-05-30 23:59:47.772272
+    updated_at: 2023-05-30 23:59:47.772273
   - completion: ''
     message: |-
       We can rewrite the integrand using the identity $\tan x = \frac{\sin x}{\cos x}$:
@@ -2512,8 +2512,8 @@ problems:
     notes: ''
     submission_id: 122
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.720537
-    updated_at: 2023-05-30 01:57:07.328990
+    created_at: 2023-05-30 23:59:47.775965
+    updated_at: 2023-05-30 23:59:47.775966
   - completion: ''
     message: |-
       We can rewrite $\tan x$ as $\frac{\sin x}{\cos x}$, so
@@ -2530,8 +2530,8 @@ problems:
     notes: ''
     submission_id: 123
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.726879
-    updated_at: 2023-05-30 01:57:07.330990
+    created_at: 2023-05-30 23:59:47.779645
+    updated_at: 2023-05-30 23:59:47.779646
   - completion: ''
     message: |-
       We can use substitution to evaluate this integral. Let \(u = \cos x\). Then \(du/dx = -\sin x\), so we have:
@@ -2546,8 +2546,8 @@ problems:
     notes: ''
     submission_id: 124
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.727914
-    updated_at: 2023-05-30 01:57:07.338435
+    created_at: 2023-05-30 23:59:47.781144
+    updated_at: 2023-05-30 23:59:47.781145
   - completion: ''
     message: |-
       We will use the substitution \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
@@ -2563,8 +2563,8 @@ problems:
     notes: ''
     submission_id: 125
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.728900
-    updated_at: 2023-05-30 01:57:07.341447
+    created_at: 2023-05-30 23:59:47.782647
+    updated_at: 2023-05-30 23:59:47.782648
   - completion: ''
     message: |-
       We can use a substitution to evaluate this integral. Let \(u = \cos x\), so \(du = -\sin x dx\). Then we have:
@@ -2581,8 +2581,8 @@ problems:
     notes: ''
     submission_id: 126
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.729899
-    updated_at: 2023-05-30 01:57:07.345786
+    created_at: 2023-05-30 23:59:47.784137
+    updated_at: 2023-05-30 23:59:47.784138
   - completion: ''
     message: |-
       We can use the substitution \(u = \cos x\) to rewrite the integrand in terms of \(u\):
@@ -2598,8 +2598,8 @@ problems:
     notes: ''
     submission_id: 127
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.729899
-    updated_at: 2023-05-30 01:57:07.349312
+    created_at: 2023-05-30 23:59:47.785613
+    updated_at: 2023-05-30 23:59:47.785614
   - completion: ''
     message: |-
       We can use substitution to solve this integral. Let \(u = \cos x\), then \(du = -\sin x dx\). We see that \(\tan x = \frac{\sin x}{\cos x} = -\frac{du}{u}\). Therefore,
@@ -2612,8 +2612,8 @@ problems:
     notes: ''
     submission_id: 128
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.730900
-    updated_at: 2023-05-30 01:57:07.357095
+    created_at: 2023-05-30 23:59:47.787084
+    updated_at: 2023-05-30 23:59:47.787085
   - completion: ''
     message: |-
       We can use substitution to evaluate the integral. Let \(u = \cos x\), then \(du = -\sin x\ dx\). Using the identity \(\tan x = \frac{\sin x}{\cos x}\), we can write:
@@ -2631,8 +2631,8 @@ problems:
     notes: ''
     submission_id: 129
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.732704
-    updated_at: 2023-05-30 01:57:07.357608
+    created_at: 2023-05-30 23:59:47.788562
+    updated_at: 2023-05-30 23:59:47.788563
   - completion: ''
     message: |-
       We use the substitution \(u = \cos x.\) Then \(du = -\sin x \, dx,\) and so
@@ -2651,8 +2651,8 @@ problems:
     notes: ''
     submission_id: 130
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.733217
-    updated_at: 2023-05-30 01:57:07.359627
+    created_at: 2023-05-30 23:59:47.790037
+    updated_at: 2023-05-30 23:59:47.790038
 - input: |-
     \[
     \int \cot x dx
@@ -2678,8 +2678,8 @@ problems:
   notes: ''
   problem_id: 14
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.733217
-  updated_at: 2023-05-29 22:17:10.733217
+  created_at: 2023-05-30 23:59:47.791471
+  updated_at: 2023-05-30 23:59:47.791472
   submissions:
   - completion: ''
     message: |-
@@ -2696,8 +2696,8 @@ problems:
     notes: ''
     submission_id: 131
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.734238
-    updated_at: 2023-05-30 01:57:07.360627
+    created_at: 2023-05-30 23:59:47.792209
+    updated_at: 2023-05-30 23:59:47.792210
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and use substitution. Letting $u = \sin x$, we have $du = \cos x dx$ and the integral becomes:
@@ -2708,8 +2708,8 @@ problems:
     notes: ''
     submission_id: 132
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.737238
-    updated_at: 2023-05-30 01:57:07.362627
+    created_at: 2023-05-30 23:59:47.795876
+    updated_at: 2023-05-30 23:59:47.795877
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so we have
@@ -2723,8 +2723,8 @@ problems:
     notes: ''
     submission_id: 133
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.739238
-    updated_at: 2023-05-30 01:57:07.366662
+    created_at: 2023-05-30 23:59:47.799531
+    updated_at: 2023-05-30 23:59:47.799532
   - completion: ''
     message: |-
       We can use u-substitution with \(u=\sin x\), which implies \(du=\cos x dx\) and \(\cot x = \frac{\cos x}{\sin x}=\frac{1}{u}\). The integral becomes
@@ -2739,8 +2739,8 @@ problems:
     notes: ''
     submission_id: 134
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.741910
-    updated_at: 2023-05-30 01:57:07.371333
+    created_at: 2023-05-30 23:59:47.801010
+    updated_at: 2023-05-30 23:59:47.801011
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and then substitute $u = \sin x$ and $du = \cos x dx$:
@@ -2756,8 +2756,8 @@ problems:
     notes: ''
     submission_id: 135
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.743918
-    updated_at: 2023-05-30 01:57:07.372350
+    created_at: 2023-05-30 23:59:47.802493
+    updated_at: 2023-05-30 23:59:47.802494
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so
@@ -2777,8 +2777,8 @@ problems:
     notes: ''
     submission_id: 136
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.744919
-    updated_at: 2023-05-30 01:57:07.373354
+    created_at: 2023-05-30 23:59:47.803974
+    updated_at: 2023-05-30 23:59:47.803975
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and then make the substitution $u=\sin x$:
@@ -2796,8 +2796,8 @@ problems:
     notes: ''
     submission_id: 137
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.745919
-    updated_at: 2023-05-30 01:57:07.374355
+    created_at: 2023-05-30 23:59:47.805454
+    updated_at: 2023-05-30 23:59:47.805455
   - completion: ''
     message: |-
       We can use the substitution \(u=\sin x\) and \(du=\cos x dx\) to rewrite the integral as
@@ -2809,8 +2809,8 @@ problems:
     notes: ''
     submission_id: 138
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.751738
-    updated_at: 2023-05-30 01:57:07.376355
+    created_at: 2023-05-30 23:59:47.806926
+    updated_at: 2023-05-30 23:59:47.806927
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$, so we have
@@ -2826,8 +2826,8 @@ problems:
     notes: ''
     submission_id: 139
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.754015
-    updated_at: 2023-05-30 01:57:07.377355
+    created_at: 2023-05-30 23:59:47.808404
+    updated_at: 2023-05-30 23:59:47.808404
   - completion: ''
     message: |-
       We can rewrite $\cot x$ as $\frac{\cos x}{\sin x}$ and use u-substitution with $u = \sin x$. Then $du = \cos x dx$ and we have:
@@ -2842,8 +2842,8 @@ problems:
     notes: ''
     submission_id: 140
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.755022
-    updated_at: 2023-05-30 01:57:07.378355
+    created_at: 2023-05-30 23:59:47.809878
+    updated_at: 2023-05-30 23:59:47.809878
 - input: |-
     \[
     \int \sinh x dx
@@ -2869,8 +2869,8 @@ problems:
   notes: ''
   problem_id: 15
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.756033
-  updated_at: 2023-05-29 22:17:10.756033
+  created_at: 2023-05-30 23:59:47.811310
+  updated_at: 2023-05-30 23:59:47.811312
   submissions:
   - completion: ''
     message: |-
@@ -2886,8 +2886,8 @@ problems:
     notes: ''
     submission_id: 141
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.758618
-    updated_at: 2023-05-30 01:57:07.380356
+    created_at: 2023-05-30 23:59:47.812051
+    updated_at: 2023-05-30 23:59:47.812052
   - completion: ''
     message: |-
       We use the definition of hyperbolic sine to evaluate the integral:
@@ -2906,8 +2906,8 @@ problems:
     notes: ''
     submission_id: 142
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.764449
-    updated_at: 2023-05-30 01:57:07.386622
+    created_at: 2023-05-30 23:59:47.815723
+    updated_at: 2023-05-30 23:59:47.815724
   - completion: ''
     message: |-
       We know that $\frac{d}{dx}(\cosh x) = \sinh x$. Therefore,
@@ -2923,8 +2923,8 @@ problems:
     notes: ''
     submission_id: 143
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.769349
-    updated_at: 2023-05-30 01:57:07.389707
+    created_at: 2023-05-30 23:59:47.819391
+    updated_at: 2023-05-30 23:59:47.819392
   - completion: ''
     message: |-
       We have:
@@ -2943,8 +2943,8 @@ problems:
     notes: ''
     submission_id: 144
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.770982
-    updated_at: 2023-05-30 01:57:07.390708
+    created_at: 2023-05-30 23:59:47.820872
+    updated_at: 2023-05-30 23:59:47.820873
   - completion: ''
     message: |-
       We can use integration by parts with \(u=\cosh x\) and \(dv=\sinh x dx\) to find:
@@ -2962,8 +2962,8 @@ problems:
     notes: ''
     submission_id: 145
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.771489
-    updated_at: 2023-05-30 01:57:07.391708
+    created_at: 2023-05-30 23:59:47.822349
+    updated_at: 2023-05-30 23:59:47.822349
   - completion: ''
     message: |-
       We can use the definition of the hyperbolic sine function:
@@ -2983,8 +2983,8 @@ problems:
     notes: ''
     submission_id: 146
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.772493
-    updated_at: 2023-05-30 01:57:07.392708
+    created_at: 2023-05-30 23:59:47.823831
+    updated_at: 2023-05-30 23:59:47.823832
   - completion: ''
     message: |-
       We can use the definition of the hyperbolic sine function to find the antiderivative:
@@ -2998,8 +2998,8 @@ problems:
     notes: ''
     submission_id: 147
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.772493
-    updated_at: 2023-05-30 01:57:07.393709
+    created_at: 2023-05-30 23:59:47.825315
+    updated_at: 2023-05-30 23:59:47.825316
   - completion: ''
     message: |-
       We can use integration by substitution to evaluate the integral. Let \(u = \cosh x\), then \(du = \sinh x dx\). Therefore,
@@ -3013,8 +3013,8 @@ problems:
     notes: ''
     submission_id: 148
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.775493
-    updated_at: 2023-05-30 01:57:07.395708
+    created_at: 2023-05-30 23:59:47.826797
+    updated_at: 2023-05-30 23:59:47.826798
   - completion: ''
     message: |-
       We know that $\sinh x = \frac{e^x - e^{-x}}{2}$, so we can substitute to get
@@ -3037,8 +3037,8 @@ problems:
     notes: ''
     submission_id: 149
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.777493
-    updated_at: 2023-05-30 01:57:07.396708
+    created_at: 2023-05-30 23:59:47.828279
+    updated_at: 2023-05-30 23:59:47.828280
   - completion: ''
     message: |-
       We have:
@@ -3060,8 +3060,8 @@ problems:
     notes: ''
     submission_id: 150
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.779180
-    updated_at: 2023-05-30 01:57:07.397708
+    created_at: 2023-05-30 23:59:47.829768
+    updated_at: 2023-05-30 23:59:47.829769
 - input: |-
     \[
     \int \cosh x dx
@@ -3087,8 +3087,8 @@ problems:
   notes: ''
   problem_id: 16
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.779180
-  updated_at: 2023-05-29 22:17:10.779180
+  created_at: 2023-05-30 23:59:47.831214
+  updated_at: 2023-05-30 23:59:47.831215
   submissions:
   - completion: ''
     message: |-
@@ -3112,8 +3112,8 @@ problems:
     notes: ''
     submission_id: 151
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.780199
-    updated_at: 2023-05-30 01:57:07.403710
+    created_at: 2023-05-30 23:59:47.831948
+    updated_at: 2023-05-30 23:59:47.831949
   - completion: ''
     message: |-
       We can evaluate this integral using the formula:
@@ -3127,8 +3127,8 @@ problems:
     notes: ''
     submission_id: 152
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.783198
-    updated_at: 2023-05-30 01:57:07.405710
+    created_at: 2023-05-30 23:59:47.835622
+    updated_at: 2023-05-30 23:59:47.835623
   - completion: ''
     message: |-
       We know that the derivative of $\sinh x$ is $\cosh x$, so we can use substitution. Let \(u = \sinh x\). Then \(du = \cosh x \ dx\). Thus,
@@ -3142,8 +3142,8 @@ problems:
     notes: ''
     submission_id: 153
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.785199
-    updated_at: 2023-05-30 01:57:07.409707
+    created_at: 2023-05-30 23:59:47.839303
+    updated_at: 2023-05-30 23:59:47.839304
   - completion: ''
     message: |-
       Using the power rule of integration and the fact that the derivative of $\sinh x$ is $\cosh x$, we have:
@@ -3162,8 +3162,8 @@ problems:
     notes: ''
     submission_id: 154
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.786198
-    updated_at: 2023-05-30 01:57:07.411708
+    created_at: 2023-05-30 23:59:47.840788
+    updated_at: 2023-05-30 23:59:47.840789
   - completion: ''
     message: |-
       Using the definition of the hyperbolic cosine function, we have 
@@ -3182,8 +3182,8 @@ problems:
     notes: ''
     submission_id: 155
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.787198
-    updated_at: 2023-05-30 01:57:07.414110
+    created_at: 2023-05-30 23:59:47.842266
+    updated_at: 2023-05-30 23:59:47.842267
   - completion: ''
     message: |-
       We have that $\cosh x = \frac{e^x + e^{-x}}{2}$, so 
@@ -3197,8 +3197,8 @@ problems:
     notes: ''
     submission_id: 156
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.787198
-    updated_at: 2023-05-30 01:57:07.419234
+    created_at: 2023-05-30 23:59:47.843757
+    updated_at: 2023-05-30 23:59:47.843758
   - completion: ''
     message: |-
       We know that $\cosh x = \frac{e^x + e^{-x}}{2}$. Using this, we can integrate by substitution:
@@ -3219,8 +3219,8 @@ problems:
     notes: ''
     submission_id: 157
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.788198
-    updated_at: 2023-05-30 01:57:07.421052
+    created_at: 2023-05-30 23:59:47.845246
+    updated_at: 2023-05-30 23:59:47.845247
   - completion: ''
     message: |-
       We can evaluate this integral by using the formula for the derivative of $\sinh x$: $\frac{d}{dx} \sinh x = \cosh x$. Rewriting the integral in terms of $\sinh x$:
@@ -3237,8 +3237,8 @@ problems:
     notes: ''
     submission_id: 158
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.789198
-    updated_at: 2023-05-30 01:57:07.422071
+    created_at: 2023-05-30 23:59:47.846727
+    updated_at: 2023-05-30 23:59:47.846728
   - completion: ''
     message: |-
       Using the formula for the derivative of $\sinh x$, we have that 
@@ -3256,8 +3256,8 @@ problems:
     notes: ''
     submission_id: 159
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.789198
-    updated_at: 2023-05-30 01:57:07.423070
+    created_at: 2023-05-30 23:59:47.848209
+    updated_at: 2023-05-30 23:59:47.848210
   - completion: ''
     message: |-
       We use the definition of the hyperbolic cosine:
@@ -3280,8 +3280,8 @@ problems:
     notes: ''
     submission_id: 160
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.792260
-    updated_at: 2023-05-30 01:57:07.424093
+    created_at: 2023-05-30 23:59:47.849697
+    updated_at: 2023-05-30 23:59:47.849698
 - input: |-
     \[
     \int \frac{dx}{x^2+a^2}
@@ -3307,8 +3307,8 @@ problems:
   notes: ''
   problem_id: 17
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.793272
-  updated_at: 2023-05-29 22:17:10.793272
+  created_at: 2023-05-30 23:59:47.851146
+  updated_at: 2023-05-30 23:59:47.851148
   submissions:
   - completion: ''
     message: |-
@@ -3326,8 +3326,8 @@ problems:
     notes: ''
     submission_id: 161
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.794444
-    updated_at: 2023-05-30 01:57:07.426092
+    created_at: 2023-05-30 23:59:47.851887
+    updated_at: 2023-05-30 23:59:47.851888
   - completion: ''
     message: |-
       We can use the substitution \(u = \frac{x}{a}\) to simplify the integral:
@@ -3342,8 +3342,8 @@ problems:
     notes: ''
     submission_id: 162
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.797448
-    updated_at: 2023-05-30 01:57:07.428092
+    created_at: 2023-05-30 23:59:47.855601
+    updated_at: 2023-05-30 23:59:47.855601
   - completion: ''
     message: |-
       We can start by using partial fraction decomposition. Let
@@ -3374,8 +3374,8 @@ problems:
     notes: ''
     submission_id: 163
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.800448
-    updated_at: 2023-05-30 01:57:07.436209
+    created_at: 2023-05-30 23:59:47.859282
+    updated_at: 2023-05-30 23:59:47.859283
   - completion: ''
     message: |-
       We can start by using the substitution \(x=a\tan u\), then \(dx=a\sec^2 u du\) and \(x^2+a^2=a^2\sec^2 u\). Substituting these expressions in our integral, we get
@@ -3393,8 +3393,8 @@ problems:
     notes: ''
     submission_id: 164
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.800448
-    updated_at: 2023-05-30 01:57:07.437218
+    created_at: 2023-05-30 23:59:47.860768
+    updated_at: 2023-05-30 23:59:47.860769
   - completion: ''
     message: |-
       We can rewrite the integral as
@@ -3413,8 +3413,8 @@ problems:
     notes: ''
     submission_id: 165
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.801448
-    updated_at: 2023-05-30 01:57:07.438729
+    created_at: 2023-05-30 23:59:47.862248
+    updated_at: 2023-05-30 23:59:47.862249
   - completion: ''
     message: |-
       We can use the substitution \(x = a\tan\theta\) to evaluate the integral. Then \(dx = a\sec^2\theta\, d\theta\), and the integral becomes
@@ -3434,8 +3434,8 @@ problems:
     notes: ''
     submission_id: 166
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.802448
-    updated_at: 2023-05-30 01:57:07.439735
+    created_at: 2023-05-30 23:59:47.863743
+    updated_at: 2023-05-30 23:59:47.863744
   - completion: ''
     message: |-
       We can use the substitution \( x = a\tan(u) \). Then \( dx = a\sec^2(u)du \) and we have
@@ -3454,8 +3454,8 @@ problems:
     notes: ''
     submission_id: 167
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.802448
-    updated_at: 2023-05-30 01:57:07.441734
+    created_at: 2023-05-30 23:59:47.865223
+    updated_at: 2023-05-30 23:59:47.865224
   - completion: ''
     message: |-
       We can use the substitution \(x = a\tan(u)\), which gives us \(dx=a\sec^2(u)du\) and \(x^2+a^2=a^2\sec^2(u)\). Substituting these into the integral, we get
@@ -3475,8 +3475,8 @@ problems:
     notes: ''
     submission_id: 168
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.803448
-    updated_at: 2023-05-30 01:57:07.442735
+    created_at: 2023-05-30 23:59:47.866712
+    updated_at: 2023-05-30 23:59:47.866713
   - completion: ''
     message: |-
       We can use the substitution \(u = \frac{x}{a}\) to transform the integral into
@@ -3494,8 +3494,8 @@ problems:
     notes: ''
     submission_id: 169
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.804448
-    updated_at: 2023-05-30 01:57:07.443734
+    created_at: 2023-05-30 23:59:47.868205
+    updated_at: 2023-05-30 23:59:47.868206
   - completion: ''
     message: |-
       We can use the substitution \(x=a \tan(\theta)\), which leads to \(dx=a\sec^2(\theta)d\theta\) and the integral becomes:
@@ -3514,8 +3514,8 @@ problems:
     notes: ''
     submission_id: 170
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.804448
-    updated_at: 2023-05-30 01:57:07.444734
+    created_at: 2023-05-30 23:59:47.869696
+    updated_at: 2023-05-30 23:59:47.869697
 - input: |-
     \[
     \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
@@ -3541,8 +3541,8 @@ problems:
   notes: ''
   problem_id: 18
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.805448
-  updated_at: 2023-05-29 22:17:10.805448
+  created_at: 2023-05-30 23:59:47.871137
+  updated_at: 2023-05-30 23:59:47.871138
   submissions:
   - completion: ''
     message: |-
@@ -3558,8 +3558,8 @@ problems:
     notes: ''
     submission_id: 171
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.806448
-    updated_at: 2023-05-30 01:57:07.446871
+    created_at: 2023-05-30 23:59:47.871875
+    updated_at: 2023-05-30 23:59:47.871876
   - completion: ''
     message: |-
       We can start by using the substitution $x=a\sin(t)$, so $dx=a\cos(t)dt$ and $\sqrt{a^2-x^2} = \sqrt{a^2-a^2\sin^2(t)} = a\cos(t)$. Substituting, we have
@@ -3570,8 +3570,8 @@ problems:
     notes: ''
     submission_id: 172
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.812489
-    updated_at: 2023-05-30 01:57:07.452980
+    created_at: 2023-05-30 23:59:47.875594
+    updated_at: 2023-05-30 23:59:47.875595
   - completion: ''
     message: |-
       We can use the substitution \(x=a\sin\theta\), so \(dx=a\cos\theta\,d\theta\) and
@@ -3590,8 +3590,8 @@ problems:
     notes: ''
     submission_id: 173
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.815487
-    updated_at: 2023-05-30 01:57:07.454990
+    created_at: 2023-05-30 23:59:47.879311
+    updated_at: 2023-05-30 23:59:47.879312
   - completion: ''
     message: |-
       We can solve this integral by using the substitution \(x=a\sin\theta\). Then we have \(dx=a\cos\theta\, d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Substituting these expressions, we get:
@@ -3608,8 +3608,8 @@ problems:
     notes: ''
     submission_id: 174
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.815487
-    updated_at: 2023-05-30 01:57:07.455992
+    created_at: 2023-05-30 23:59:47.880799
+    updated_at: 2023-05-30 23:59:47.880800
   - completion: ''
     message: |-
       We start by using the substitution \(x=a\sin(t)\), so \(dx=a\cos(t) dt\) and \(\sqrt{a^2-x^2}=a\cos(t)\). The integral becomes
@@ -3624,8 +3624,8 @@ problems:
     notes: ''
     submission_id: 175
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.816488
-    updated_at: 2023-05-30 01:57:07.456991
+    created_at: 2023-05-30 23:59:47.882298
+    updated_at: 2023-05-30 23:59:47.882299
   - completion: ''
     message: |-
       We can use the substitution \(x=a\sin\theta\), which gives \(dx=a\cos\theta\,d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Substituting these into the integral, we get
@@ -3640,8 +3640,8 @@ problems:
     notes: ''
     submission_id: 176
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.817488
-    updated_at: 2023-05-30 01:57:07.458991
+    created_at: 2023-05-30 23:59:47.883799
+    updated_at: 2023-05-30 23:59:47.883799
   - completion: ''
     message: |-
       We start by substituting \(x=a\sin\theta\), so that \(dx=a\cos\theta d\theta\) and \(\sqrt{a^2-x^2}=a\cos\theta\). Thus, we have:
@@ -3659,8 +3659,8 @@ problems:
     notes: ''
     submission_id: 177
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.817488
-    updated_at: 2023-05-30 01:57:07.459991
+    created_at: 2023-05-30 23:59:47.885294
+    updated_at: 2023-05-30 23:59:47.885295
   - completion: ''
     message: |-
       We can use the substitution \(x=a\sin(u)\), which implies \(dx=a\cos(u)du\) and \(u=\arcsin(x/a)\). Making this substitution, we get
@@ -3679,8 +3679,8 @@ problems:
     notes: ''
     submission_id: 178
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.818487
-    updated_at: 2023-05-30 01:57:07.462004
+    created_at: 2023-05-30 23:59:47.886793
+    updated_at: 2023-05-30 23:59:47.886794
   - completion: ''
     message: |-
       We can recognize the integrand as the derivative of the inverse sine function with the argument $x/a$. Therefore, we have:
@@ -3696,8 +3696,8 @@ problems:
     notes: ''
     submission_id: 179
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.819487
-    updated_at: 2023-05-30 01:57:07.462992
+    created_at: 2023-05-30 23:59:47.888292
+    updated_at: 2023-05-30 23:59:47.888293
   - completion: ''
     message: |-
       We can evaluate the integral by using trigonometric substitution. Let \(x=a\sin\theta\) and \(dx=a\cos\theta\, d\theta\). Then,
@@ -3715,5 +3715,5 @@ problems:
     notes: ''
     submission_id: 180
     submission_set_id: 1
-    created_at: 2023-05-29 22:17:10.819487
-    updated_at: 2023-05-30 01:57:07.463992
+    created_at: 2023-05-30 23:59:47.889785
+    updated_at: 2023-05-30 23:59:47.889786

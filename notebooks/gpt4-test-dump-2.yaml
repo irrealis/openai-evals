@@ -1,25 +1,61 @@
+submission_model:
+  id: 1
+  name: GPT-4 via ChatGPT-Plus
+example_submission_model:
+  id: 2
+  name: human
+evaluation_model:
+  id: 1
+  name: GPT-4 via ChatGPT-Plus
+example_evaluation_model:
+  id: 2
+  name: human
+problem_set:
+  id: 1
+  name: GPT-4 calculus problem set 230531-1326
+submission_set:
+  id: 1
+  name: GPT-4 calculus submission set 230531-1326
+example_submission_set:
+  id: 2
+  name: GPT-4 calculus example-submission set 230531-1326
+evaluation_set:
+  id: 1
+  name: GPT-4 calculus evaluation set 230531-1326
+example_evaluation_set:
+  id: 2
+  name: GPT-4 calculus example-evaluation set 230531-1326
+models:
+- id: 1
+  name: GPT-4 via ChatGPT-Plus
+- id: 2
+  name: human
+evaluation_sets:
+- id: 1
+  name: GPT-4 calculus evaluation set 230531-1326
 problems:
-- input: |-
+- id: 1
+  input: |-
     If the infinite curve $y=e^{-x}$, $x \ge 0$, is rotated about the $x$-axis, find the area of the resulting surface.
 
     Explain your reasoning. Use LaTeX with delimiters '\(' and '\)' to make mathematical statements. When you are done, repeat your answer by itself on a new line.
   ideal: |-
     The area of a surface of revolution, when you're rotating the curve \(y = f(x)\), \(a \leq x \leq b\), around the x-axis is given by the formula:
-    
+
     \[A = 2\pi \int_{a}^{b} y \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx\]
-    
+
     This equation comes from summing up the surface areas of infinitesimal frustums (which are approximately cylindrical for small enough changes in \(x\)) that make up the surface.
-    
+
     In our case, \(f(x) = e^{-x}\), and we're revolving about the x-axis for \(0 \leq x < \infty\). We need to compute the derivative of \(f(x)\), which is \(f'(x) = -e^{-x}\).
-    
+
     Plugging these into the formula gives:
-    
+
     \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + \left(-e^{-x}\right)^2} dx\]
-    
+
     This integral simplifies to:
-    
+
     \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + e^{-2x}} dx\]
-    
+
     We can compute this using a u-substitution followed by a trigonometric substitution. Let \(u = e^{-x}\). Therefore \(du = -e^{-x} dx\), \(u(0)=1\), and \(\lim_{x \to \infty}u(x) = 0\).
 
     Now our integral is
@@ -39,7 +75,7 @@ problems:
     \[\int \sec^3 \theta d\theta = \sec \theta \tan \theta - \int \sec \theta \tan^2 \theta d\theta\]
 
     Using the identity \(\tan^2 \theta = \sec^2 \theta - 1\), we can write this as
-    
+
     \[\int \sec^3 \theta d\theta = \sec \theta \tan \theta - \int \sec^3 \theta d\theta + \int \sec \theta d\theta\]
 
     We can now move \(\int \sec^3 d\theta\) from the right side to the left and divide by two:
@@ -49,7 +85,7 @@ problems:
     Using \(\int \sec \theta d\theta = \ln |\sec \theta + \tan \theta| + C\) we have:
 
     \[\int \sec^3 \theta d\theta = \frac{1}{2} \left( \sec \theta \tan \theta + \ln |\sec \theta + \tan \theta| + C \right)\]
-    
+
     Our original integral becomes
 
     \[A = \pi \left[  \sec \theta \tan \theta + \ln |\sec \theta + \tan \theta| \right]_{0}^{\pi/4} \]
@@ -75,53 +111,64 @@ problems:
       - 10: All intermediate steps are correct.
       - 5: Some intermediate steps are correct.
       - 0: No intermediate steps are correct.
-  notes: ''
   submissions:
-  - completion: |-
-      The area of a surface of revolution, when you're rotating the curve \(y = f(x)\), \(a \leq x \leq b\), around the x-axis is given by the formula:
-      
-      \[A = 2\pi \int_{a}^{b} y \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx\]
-      
-      This equation comes from summing up the surface areas of infinitesimal frustums (which are approximately cylindrical for small enough changes in \(x\)) that make up the surface.
-      
-      In our case, \(f(x) = e^{-x}\), and we're revolving about the x-axis for \(0 \leq x < \infty\). We need to compute the derivative of \(f(x)\), which is \(f'(x) = -e^{-x}\).
-      
-      Plugging these into the formula gives:
-      
-      \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + \left(-e^{-x}\right)^2} dx\]
-      
-      This integral simplifies to:
-      
-      \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + e^{-2x}} dx\]
-      
-      We can compute this using a trigonometric substitution. Let \(e^{-x} = \sinh{t}\). Therefore, \(e^{-2x} = \sinh^2{t}\), and \(dx = -\coth{t} dt\).
-      
-      Now our integral is:
-      
-      \[A = 2\pi \int_{\infty}^{0} \sinh{t} \sqrt{1 + \sinh^2{t}} (-\coth{t}) dt\]
-      
-      Simplifying \(\sqrt{1 + \sinh^2{t}}\) to \(\cosh{t}\) gives:
-      
-      \[A = -2\pi \int_{\infty}^{0} \sinh{t} \cosh{t} \coth{t} dt\]
-      
-      Using the identity \(\sinh{t}\coth{t} = \cosh{t}\), the integral simplifies to:
-      
-      \[A = -2\pi \int_{\infty}^{0} \cosh^2{t} dt\]
-      
-      We can evaluate this integral using the identity \(\cosh^2{t} = (1/2)(\cosh{2t} + 1)\). The integral of \(\cosh{2t}\) over the entire real line is zero (because it's an even function), so the integral simplifies to:
-      
-      \[A = -\pi \int_{\infty}^{0} dt\]
-      
-      This is a simple integral: the answer is \(\pi t\) evaluated from \(\infty\) to 0, which gives:
-      
-      \[A = \pi \cdot 0 - \pi \cdot \infty = -\infty\]
-      
-      This suggests that the area of the surface is infinite.
-      
-      So the area of the surface generated by revolving \(y=e^{-x}\) around the x-axis is infinite.
+  - id: 1
+    problem_id: 1
+    model_id: 2
+    model_name: human
     is_example: true
+    score: 0.
+    completion: |-
+      The area of a surface of revolution, when you're rotating the curve \(y = f(x)\), \(a \leq x \leq b\), around the x-axis is given by the formula:
+
+      \[A = 2\pi \int_{a}^{b} y \sqrt{1 + \left(\frac{dy}{dx}\right)^2} dx\]
+
+      This equation comes from summing up the surface areas of infinitesimal frustums (which are approximately cylindrical for small enough changes in \(x\)) that make up the surface.
+
+      In our case, \(f(x) = e^{-x}\), and we're revolving about the x-axis for \(0 \leq x < \infty\). We need to compute the derivative of \(f(x)\), which is \(f'(x) = -e^{-x}\).
+
+      Plugging these into the formula gives:
+
+      \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + \left(-e^{-x}\right)^2} dx\]
+
+      This integral simplifies to:
+
+      \[A = 2\pi \int_{0}^{\infty} e^{-x} \sqrt{1 + e^{-2x}} dx\]
+
+      We can compute this using a trigonometric substitution. Let \(e^{-x} = \sinh{t}\). Therefore, \(e^{-2x} = \sinh^2{t}\), and \(dx = -\coth{t} dt\).
+
+      Now our integral is:
+
+      \[A = 2\pi \int_{\infty}^{0} \sinh{t} \sqrt{1 + \sinh^2{t}} (-\coth{t}) dt\]
+
+      Simplifying \(\sqrt{1 + \sinh^2{t}}\) to \(\cosh{t}\) gives:
+
+      \[A = -2\pi \int_{\infty}^{0} \sinh{t} \cosh{t} \coth{t} dt\]
+
+      Using the identity \(\sinh{t}\coth{t} = \cosh{t}\), the integral simplifies to:
+
+      \[A = -2\pi \int_{\infty}^{0} \cosh^2{t} dt\]
+
+      We can evaluate this integral using the identity \(\cosh^2{t} = (1/2)(\cosh{2t} + 1)\). The integral of \(\cosh{2t}\) over the entire real line is zero (because it's an even function), so the integral simplifies to:
+
+      \[A = -\pi \int_{\infty}^{0} dt\]
+
+      This is a simple integral: the answer is \(\pi t\) evaluated from \(\infty\) to 0, which gives:
+
+      \[A = \pi \cdot 0 - \pi \cdot \infty = -\infty\]
+
+      This suggests that the area of the surface is infinite.
+
+      So the area of the surface generated by revolving \(y=e^{-x}\) around the x-axis is infinite.
     evaluations:
-    - completion: |-
+    - id: 1
+      submission_id: 1
+      problem_id: 1
+      model_id: 1
+      model_name: GPT-4 via ChatGPT-Plus
+      is_example: false
+      score: 0.
+      completion: |-
         The final answer provided by the model is correct and matches the expert's answer in its simplest form, so the model earns 40 points for Final Answer Correctness. 
 
         However, the model's explanation is incorrect in citing the power rule of integration to solve this particular integral. This results in a loss of 30 points for Explanation Correctness. 
@@ -131,5 +178,3 @@ problems:
         Finally, the model did not correctly execute each step of the problem-solving process, as one step involved a mathematical mistake and another step relied on an inappropriate rule. This results in a loss of 0 points for Correctness of Intermediate Steps. 
 
         Score: 80
-
-    

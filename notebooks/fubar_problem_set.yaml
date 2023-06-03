@@ -1,13 +1,13 @@
 meta:
-  data_exported_at: 2023-05-30 02:06:03.131651
+  data_exported_at: 2023-05-30 23:59:57.959728
   problems_listed: 18
 problem_sets:
 - name: integration table problem set
   notes: ''
   problem_set_size: 18
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:05.519602
-  updated_at: 2023-05-29 22:17:05.519602
+  created_at: 2023-05-30 23:59:43.620504
+  updated_at: 2023-05-30 23:59:43.620511
 problems:
 - input: |-
     \[
@@ -35,8 +35,8 @@ problems:
   notes: ''
   problem_id: 1
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.478568
-  updated_at: 2023-05-29 22:17:10.478568
+  created_at: 2023-05-30 23:59:47.340411
+  updated_at: 2023-05-30 23:59:47.340418
 - input: |-
     \[
     \int \frac{1}{x} dx
@@ -62,8 +62,8 @@ problems:
   notes: ''
   problem_id: 2
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.497680
-  updated_at: 2023-05-29 22:17:10.497680
+  created_at: 2023-05-30 23:59:47.448605
+  updated_at: 2023-05-30 23:59:47.448610
 - input: |-
     \[
     \int e^{x} dx
@@ -89,8 +89,8 @@ problems:
   notes: ''
   problem_id: 3
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.521966
-  updated_at: 2023-05-29 22:17:10.521966
+  created_at: 2023-05-30 23:59:47.551034
+  updated_at: 2023-05-30 23:59:47.551036
 - input: |-
     \[
     \int b^x dx
@@ -116,8 +116,8 @@ problems:
   notes: ''
   problem_id: 4
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.544063
-  updated_at: 2023-05-29 22:17:10.544063
+  created_at: 2023-05-30 23:59:47.588937
+  updated_at: 2023-05-30 23:59:47.588939
 - input: |-
     \[
     \int \sin x dx
@@ -143,8 +143,8 @@ problems:
   notes: ''
   problem_id: 5
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.572178
-  updated_at: 2023-05-29 22:17:10.572178
+  created_at: 2023-05-30 23:59:47.612590
+  updated_at: 2023-05-30 23:59:47.612592
 - input: |-
     \[
     \int \cos x dx
@@ -170,8 +170,8 @@ problems:
   notes: ''
   problem_id: 6
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.596920
-  updated_at: 2023-05-29 22:17:10.596920
+  created_at: 2023-05-30 23:59:47.632310
+  updated_at: 2023-05-30 23:59:47.632311
 - input: |-
     \[
     \int \sec^2 x dx
@@ -197,8 +197,8 @@ problems:
   notes: ''
   problem_id: 7
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.613434
-  updated_at: 2023-05-29 22:17:10.613434
+  created_at: 2023-05-30 23:59:47.651839
+  updated_at: 2023-05-30 23:59:47.651840
 - input: |-
     \[
     \int \csc^2 x dx
@@ -224,8 +224,8 @@ problems:
   notes: ''
   problem_id: 8
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.630437
-  updated_at: 2023-05-29 22:17:10.630437
+  created_at: 2023-05-30 23:59:47.671228
+  updated_at: 2023-05-30 23:59:47.671229
 - input: |-
     \[
     \int \sec x \tan x dx
@@ -251,8 +251,8 @@ problems:
   notes: ''
   problem_id: 9
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.650212
-  updated_at: 2023-05-29 22:17:10.650212
+  created_at: 2023-05-30 23:59:47.690583
+  updated_at: 2023-05-30 23:59:47.690584
 - input: |-
     \[
     \int \csc x \cot x dx
@@ -278,8 +278,8 @@ problems:
   notes: ''
   problem_id: 10
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.666655
-  updated_at: 2023-05-29 22:17:10.666655
+  created_at: 2023-05-30 23:59:47.711130
+  updated_at: 2023-05-30 23:59:47.711131
 - input: |-
     \[
     \int \sec x dx
@@ -305,8 +305,8 @@ problems:
   notes: ''
   problem_id: 11
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.686004
-  updated_at: 2023-05-29 22:17:10.686004
+  created_at: 2023-05-30 23:59:47.730994
+  updated_at: 2023-05-30 23:59:47.730995
 - input: |-
     \[
     \int \csc x dx
@@ -332,8 +332,8 @@ problems:
   notes: ''
   problem_id: 12
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.701526
-  updated_at: 2023-05-29 22:17:10.701526
+  created_at: 2023-05-30 23:59:47.751448
+  updated_at: 2023-05-30 23:59:47.751449
 - input: |-
     \[
     \int \tan x dx
@@ -359,8 +359,8 @@ problems:
   notes: ''
   problem_id: 13
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.717538
-  updated_at: 2023-05-29 22:17:10.717538
+  created_at: 2023-05-30 23:59:47.771528
+  updated_at: 2023-05-30 23:59:47.771529
 - input: |-
     \[
     \int \cot x dx
@@ -386,8 +386,8 @@ problems:
   notes: ''
   problem_id: 14
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.733217
-  updated_at: 2023-05-29 22:17:10.733217
+  created_at: 2023-05-30 23:59:47.791471
+  updated_at: 2023-05-30 23:59:47.791472
 - input: |-
     \[
     \int \sinh x dx
@@ -413,8 +413,8 @@ problems:
   notes: ''
   problem_id: 15
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.756033
-  updated_at: 2023-05-29 22:17:10.756033
+  created_at: 2023-05-30 23:59:47.811310
+  updated_at: 2023-05-30 23:59:47.811312
 - input: |-
     \[
     \int \cosh x dx
@@ -440,8 +440,8 @@ problems:
   notes: ''
   problem_id: 16
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.779180
-  updated_at: 2023-05-29 22:17:10.779180
+  created_at: 2023-05-30 23:59:47.831214
+  updated_at: 2023-05-30 23:59:47.831215
 - input: |-
     \[
     \int \frac{dx}{x^2+a^2}
@@ -467,8 +467,8 @@ problems:
   notes: ''
   problem_id: 17
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.793272
-  updated_at: 2023-05-29 22:17:10.793272
+  created_at: 2023-05-30 23:59:47.851146
+  updated_at: 2023-05-30 23:59:47.851148
 - input: |-
     \[
     \int \frac{dx}{\sqrt{a^2-x^2}}, \quad a>0
@@ -494,5 +494,5 @@ problems:
   notes: ''
   problem_id: 18
   problem_set_id: 1
-  created_at: 2023-05-29 22:17:10.805448
-  updated_at: 2023-05-29 22:17:10.805448
+  created_at: 2023-05-30 23:59:47.871137
+  updated_at: 2023-05-30 23:59:47.871138
